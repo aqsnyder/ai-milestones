@@ -61,7 +61,7 @@ Every entry where an AI system was measured directly against human experts. Most
 
 <a id="turing-computing-machinery-intelligence"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Turing_Aged_16.jpg?width=640" width="300" alt="Alan Turing at age 16"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg"><img src="assets/img/turing-computing-machinery-intelligence.jpg" width="300" alt="Alan Turing at age 16"></a><br><sub>Possibly Arthur Reginald Chaffin (1893-1954) · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧱 Turing publishes "Computing Machinery and Intelligence"
@@ -125,7 +125,7 @@ Allen Newell, Herbert Simon and Cliff Shaw at RAND built the Logic Theorist, a p
 
 <a id="dartmouth-workshop"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence%2C_by_John_McCarthy_et_al%2C_1955.pdf"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence%2C_by_John_McCarthy_et_al%2C_1955.pdf?width=640" width="300" alt="First page of the 1955 Dartmouth proposal that coined the term artificial intelligence"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence%2C_by_John_McCarthy_et_al%2C_1955.pdf">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence,_by_John_McCarthy_et_al,_1955.pdf"><img src="assets/img/dartmouth-workshop.jpg" width="300" alt="First page of the 1955 Dartmouth proposal that coined the term artificial intelligence"></a><br><sub>John McCarthy et al · Public domain · <a href="https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence,_by_John_McCarthy_et_al,_1955.pdf">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧱 Dartmouth workshop launches "artificial intelligence" as a field
@@ -177,7 +177,7 @@ Arthur Samuel's IBM checkers program improved partly by playing thousands of gam
 
 <a id="eliza-chatbot"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/ELIZA_conversation.png?width=640" width="300" alt="A typed conversation with ELIZA"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png"><img src="assets/img/eliza-chatbot.png" width="300" alt="A typed conversation with ELIZA"></a><br><sub>Unknown authorUnknown author · Public domain · <a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 Weizenbaum's ELIZA becomes the first chatbot
@@ -213,7 +213,7 @@ Terry Winograd built SHRDLU at the MIT AI Lab between 1968 and 1970, running on 
 
 <a id="shakey-the-robot"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/SRI_Shakey_with_callouts.jpg?width=640" width="300" alt="Shakey the robot, with its parts labelled"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg"><img src="assets/img/shakey-the-robot.jpg" width="300" alt="Shakey the robot, with its parts labelled"></a><br><sub>SRI International · <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🤖 SRI's Shakey becomes the first mobile robot to reason about its actions
@@ -261,7 +261,7 @@ The Stanford Cart began in 1960-61 as a remote-driving testbed and was later tak
 
 <a id="bkg-backgammon-villa"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Backgammon_lg.jpg?width=640" width="300" alt="A backgammon board"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg"><img src="assets/img/bkg-backgammon-villa.jpg" width="300" alt="A backgammon board"></a><br><sub>Ptkfgs · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ BKG 9.8 beats backgammon world champion Luigi Villa 7-1
@@ -281,7 +281,7 @@ In July 1979 in Monte Carlo, the day after Luigi Villa won the backgammon world 
 
 <a id="backpropagation-nature-1986"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Geoffrey_Hinton_at_UBC.jpg?width=640" width="300" alt="Geoffrey Hinton"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg"><img src="assets/img/backpropagation-nature-1986.jpg" width="300" alt="Geoffrey Hinton"></a><br><sub>Eviatar Bach · <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧱 Rumelhart, Hinton and Williams popularize backpropagation
@@ -329,7 +329,7 @@ Dean Pomerleau's ALVINN was a three-layer network trained with backpropagation. 
 
 <a id="lecun-convnet-zip-codes"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:MnistExamples.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/MnistExamples.png?width=640" width="300" alt="Sample handwritten digits from the MNIST dataset"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:MnistExamples.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:MnistExamples.png"><img src="assets/img/lecun-convnet-zip-codes.png" width="300" alt="Sample handwritten digits from the MNIST dataset"></a><br><sub>Josef Steppan · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:MnistExamples.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 👁️ LeCun's convolutional network reads handwritten ZIP codes
@@ -349,7 +349,7 @@ At AT&T Bell Labs, Yann LeCun and colleagues trained a convolutional neural netw
 
 <a id="watson-jeopardy"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/IBMWatson.jpg?width=640" width="300" alt="IBM Watson"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg"><img src="assets/img/watson-jeopardy.jpg" width="300" alt="IBM Watson"></a><br><sub>Raysonho @ Open Grid Scheduler / Grid Engine · <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 IBM Watson beats Jeopardy! champions Ken Jennings and Brad Rutter
@@ -381,7 +381,7 @@ Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton of the University of Toronto
 
 <a id="cepheus-limit-holdem-solved"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Texas_Hold%27em_Poker_Table_with_Blinds.svg?width=640" width="300" alt="Diagram of a Texas hold&#x27;em poker table"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg"><img src="assets/img/cepheus-limit-holdem-solved.png" width="300" alt="Diagram of a Texas hold&#x27;em poker table"></a><br><sub>Original: Drm0hr Remake: Hazmat2 · <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Cepheus essentially solves heads-up limit Texas hold'em poker
@@ -413,7 +413,7 @@ Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun of Microsoft Research repor
 
 <a id="dqn-atari"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Atari-2600-Wood-4Sw-Set.jpg?width=640" width="300" alt="An Atari 2600 console"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg"><img src="assets/img/dqn-atari.jpg" width="300" alt="An Atari 2600 console"></a><br><sub>Evan-Amos · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ DeepMind's DQN learns to play dozens of Atari games at human level
@@ -429,7 +429,7 @@ DeepMind's deep Q-network (DQN) learned to play 49 classic Atari 2600 games usin
 
 <a id="alphago-lee-sedol"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_%28cropped%29.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lee_Se-Dol_-_2016_%28cropped%29.jpg?width=640" width="300" alt="Portrait of Go player Lee Sedol in 2016"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_%28cropped%29.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg"><img src="assets/img/alphago-lee-sedol.jpg" width="300" alt="Portrait of Go player Lee Sedol in 2016"></a><br><sub>LG Electronics · <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ AlphaGo defeats Go legend Lee Sedol 4-1 in Seoul
@@ -509,7 +509,7 @@ In the second and final Denou-sen, a human-versus-computer series run by DWANGO'
 
 <a id="alphago-ke-jie"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Ke_Jie_%28%E6%9F%AF%E6%B4%81%29_2019_portrait.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ke_Jie_%28%E6%9F%AF%E6%B4%81%29_2019_portrait.jpg?width=640" width="300" alt="Go player Ke Jie"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Ke_Jie_%28%E6%9F%AF%E6%B4%81%29_2019_portrait.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Ke_Jie_(%E6%9F%AF%E6%B4%81)_2019_portrait.jpg"><img src="assets/img/alphago-ke-jie.jpg" width="300" alt="Go player Ke Jie"></a><br><sub>中国新闻网 · <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Ke_Jie_(%E6%9F%AF%E6%B4%81)_2019_portrait.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ AlphaGo Master sweeps world No. 1 Ke Jie 3-0
@@ -525,7 +525,7 @@ At the Future of Go Summit in Wuzhen, China, an upgraded AlphaGo ("Master") beat
 
 <a id="transformer-attention-is-all-you-need"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Transformer%2C_full_architecture.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Transformer%2C_full_architecture.png?width=640" width="300" alt="Diagram of the Transformer architecture"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Transformer%2C_full_architecture.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png"><img src="assets/img/transformer-attention-is-all-you-need.png" width="300" alt="Diagram of the Transformer architecture"></a><br><sub>dvgodoy · <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧱 "Attention Is All You Need" introduces the Transformer
@@ -541,7 +541,7 @@ Eight Google researchers proposed the Transformer, a sequence-to-sequence model 
 
 <a id="alphago-zero"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:FloorGoban.JPG"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/FloorGoban.JPG?width=640" width="300" alt="A Go board with stones"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:FloorGoban.JPG">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:FloorGoban.JPG"><img src="assets/img/alphago-zero.jpg" width="300" alt="A Go board with stones"></a><br><sub>Goban1 · Public domain · <a href="https://commons.wikimedia.org/wiki/File:FloorGoban.JPG">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ AlphaGo Zero masters Go from scratch with no human data
@@ -605,7 +605,7 @@ DeepMind revealed that in recorded matches in December 2018, a preliminary versi
 
 <a id="openai-five-beats-og"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_International_Dota_2_video_game_tournament.jpg?width=640" width="300" alt="The International Dota 2 tournament"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg"><img src="assets/img/openai-five-beats-og.jpg" width="300" alt="The International Dota 2 tournament"></a><br><sub>YJ · <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ OpenAI Five defeats Dota 2 world champions OG
@@ -621,7 +621,7 @@ At a live event in San Francisco, OpenAI's five-agent team beat OG, the reigning
 
 <a id="pluribus-six-player-poker"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Poker-Texas-Holdem-multiplayer.jpg?width=640" width="300" alt="A multiplayer Texas hold&#x27;em poker game"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg"><img src="assets/img/pluribus-six-player-poker.jpg" width="300" alt="A multiplayer Texas hold&#x27;em poker game"></a><br><sub>Nyks at German Wikipedia · <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Pluribus beats elite pros at six-player no-limit Texas hold'em
@@ -673,7 +673,7 @@ DeepMind's Agent57 became the first deep reinforcement learning agent to score a
 
 <a id="gpt-3"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Full_GPT_architecture.png?width=640" width="300" alt="Diagram of the GPT architecture"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png"><img src="assets/img/gpt-3.png" width="300" alt="Diagram of the GPT architecture"></a><br><sub>Marxav · <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a> · <a href="https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 GPT-3 shows that sheer scale unlocks few-shot learning
@@ -689,7 +689,7 @@ OpenAI described GPT-3, a 175-billion-parameter language model about ten times l
 
 <a id="alphadogfight-trials"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/F-16C_Fighting_Falcon.JPEG?width=640" width="300" alt="A US Air Force F-16 Fighting Falcon"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG"><img src="assets/img/alphadogfight-trials.jpeg" width="300" alt="A US Air Force F-16 Fighting Falcon"></a><br><sub>SMSGT JOHN P. ROHRER, USAF · Public domain · <a href="https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🤖 AI pilot beats a human F-16 pilot 5-0 in DARPA's AlphaDogfight Trials
@@ -705,7 +705,7 @@ In the final of DARPA's AlphaDogfight Trials, an AI agent from Heron Systems, a 
 
 <a id="waymo-driverless-phoenix"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos%2C_2017.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waymo_Chrysler_Pacifica_in_Los_Altos%2C_2017.jpg?width=640" width="300" alt="A Waymo self-driving Chrysler Pacifica minivan"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos%2C_2017.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos,_2017.jpg"><img src="assets/img/waymo-driverless-phoenix.jpg" width="300" alt="A Waymo self-driving Chrysler Pacifica minivan"></a><br><sub>Dllu · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos,_2017.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🤖 Waymo opens fully driverless ride-hailing to the public in Phoenix
@@ -721,7 +721,7 @@ Waymo began offering rides with no safety driver on board to its Waymo One custo
 
 <a id="alphafold2-casp14"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/AlphaFold_2.png?width=640" width="300" alt="AlphaFold 2"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png"><img src="assets/img/alphafold2-casp14.png" width="300" alt="AlphaFold 2"></a><br><sub>John Jumper et al · <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🔬 AlphaFold 2 solves protein structure prediction at CASP14
@@ -753,7 +753,7 @@ DeepMind's MuZero learns its own internal model of a game, predicting only what 
 
 <a id="ai-guides-mathematical-discovery"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Trefoil_Knot.png?width=640" width="300" alt="A trefoil knot"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png"><img src="assets/img/ai-guides-mathematical-discovery.png" width="300" alt="A trefoil knot"></a><br><sub>Jim.belk · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧮 AI guides mathematicians to new results in knot theory and representation theory
@@ -817,7 +817,7 @@ OpenAI announced DALL-E 2, which generates and edits realistic images from text 
 
 <a id="alphatensor-matrix-multiplication"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matrix_multiplication_diagram_2.svg?width=640" width="300" alt="Diagram of matrix multiplication"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg"><img src="assets/img/alphatensor-matrix-multiplication.png" width="300" alt="Diagram of matrix multiplication"></a><br><sub>Lakeworks · <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧮 AlphaTensor discovers faster matrix multiplication algorithms
@@ -993,7 +993,7 @@ OpenAI previewed o1, a model trained with reinforcement learning to produce a lo
 
 <a id="nobel-physics-2024-hopfield-hinton"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Geoffrey_Hinton_in_2026.jpg?width=640" width="300" alt="Geoffrey Hinton"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"><img src="assets/img/nobel-physics-2024-hopfield-hinton.jpg" width="300" alt="Geoffrey Hinton"></a><br><sub>Cmichel67 · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🔬 Nobel Prize in Physics honors Hopfield and Hinton for neural networks
@@ -1009,7 +1009,7 @@ The Royal Swedish Academy of Sciences awarded the 2024 Nobel Prize in Physics jo
 
 <a id="nobel-chemistry-2024-alphafold"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Demis_Hassabis_Royal_Society.jpg?width=640" width="300" alt="Demis Hassabis"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg"><img src="assets/img/nobel-chemistry-2024-alphafold.jpg" width="300" alt="Demis Hassabis"></a><br><sub>Duncan.Hull · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🔬 Nobel Prize in Chemistry honors AlphaFold's Hassabis and Jumper, with Baker
@@ -1041,7 +1041,7 @@ On 20 December 2024 the ARC Prize Foundation verified that a pre-release OpenAI 
 
 <a id="gpt-4-5-turing-test"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg?width=640" width="300" alt="Alan Turing at Princeton in 1936"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg"><img src="assets/img/gpt-4-5-turing-test.jpg" width="300" alt="Alan Turing at Princeton in 1936"></a><br><sub>Unknown photographer · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 GPT-4.5 judged human more often than real humans in a Turing test
@@ -1139,7 +1139,7 @@ At the 2025 ICPC World Finals in Baku, Azerbaijan, AI systems tackled the same 1
 
 <a id="erdos-problem-124-aristotle"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Erdos_budapest_fall_1992.jpg?width=640" width="300" alt="Paul Erdős in Budapest, 1992"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg"><img src="assets/img/erdos-problem-124-aristotle.jpg" width="300" alt="Paul Erdős in Budapest, 1992"></a><br><sub>Kmhkmh · <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧮 Harmonic's Aristotle autonomously proves a version of Erdős problem #124
@@ -1187,7 +1187,7 @@ At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal h
 
 <a id="openai-unit-distance-disproof"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Moser_spindle.svg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Moser_spindle.svg?width=640" width="300" alt="The Moser spindle, a unit distance graph"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Moser_spindle.svg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Moser_spindle.svg"><img src="assets/img/openai-unit-distance-disproof.png" width="300" alt="The Moser spindle, a unit distance graph"></a><br><sub>Koko90 · <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Moser_spindle.svg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧮 OpenAI model disproves Erdős's 80-year-old unit distance conjecture

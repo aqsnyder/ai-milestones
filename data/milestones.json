@@ -26,7 +26,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Alan Turing Aged 16.jpg",
+      "path": "assets/img/turing-computing-machinery-intelligence.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg",
+      "artist": "Possibly Arthur Reginald Chaffin (1893-1954)",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "strachey-draughts-program",
@@ -139,7 +147,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, by John McCarthy et al, 1955.pdf",
+      "path": "assets/img/dartmouth-workshop.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence,_by_John_McCarthy_et_al,_1955.pdf",
+      "artist": "John McCarthy et al",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "rosenblatt-perceptron",
@@ -248,7 +264,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "ELIZA conversation.png",
+      "path": "assets/img/eliza-chatbot.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png",
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "shrdlu-blocks-world",
@@ -315,7 +339,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "SRI Shakey with callouts.jpg",
+      "path": "assets/img/shakey-the-robot.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg",
+      "artist": "SRI International",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "mycin-meningitis-evaluation",
@@ -416,7 +448,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Backgammon lg.jpg",
+      "path": "assets/img/bkg-backgammon-villa.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg",
+      "artist": "Ptkfgs",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "backpropagation-nature-1986",
@@ -451,7 +491,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Geoffrey Hinton at UBC.jpg",
+      "path": "assets/img/backpropagation-nature-1986.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg",
+      "artist": "Eviatar Bach",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "deep-thought-beats-grandmaster",
@@ -551,7 +599,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "MnistExamples.png",
+      "path": "assets/img/lecun-convnet-zip-codes.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:MnistExamples.png",
+      "artist": "Josef Steppan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "watson-jeopardy",
@@ -587,7 +643,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "IBMWatson.jpg",
+      "path": "assets/img/watson-jeopardy.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:IBMWatson.jpg",
+      "artist": "Raysonho @ Open Grid Scheduler / Grid Engine",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alexnet-imagenet-2012",
@@ -654,7 +718,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Texas Hold'em Poker Table with Blinds.svg",
+      "path": "assets/img/cepheus-limit-holdem-solved.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg",
+      "artist": "Original: Drm0hr Remake: Hazmat2",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "he-prelu-surpasses-human-imagenet",
@@ -721,7 +793,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Atari-2600-Wood-4Sw-Set.jpg",
+      "path": "assets/img/dqn-atari.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg",
+      "artist": "Evan-Amos",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphago-lee-sedol",
@@ -757,7 +837,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Lee Se-Dol - 2016 (cropped).jpg",
+      "path": "assets/img/alphago-lee-sedol.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg",
+      "artist": "LG Electronics",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "boolean-pythagorean-triples",
@@ -947,7 +1035,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Ke Jie (柯洁) 2019 portrait.jpg",
+      "path": "assets/img/alphago-ke-jie.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ke_Jie_(%E6%9F%AF%E6%B4%81)_2019_portrait.jpg",
+      "artist": "中国新闻网",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "transformer-attention-is-all-you-need",
@@ -976,7 +1072,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Transformer, full architecture.png",
+      "path": "assets/img/transformer-attention-is-all-you-need.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png",
+      "artist": "dvgodoy",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphago-zero",
@@ -1011,7 +1115,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "FloorGoban.JPG",
+      "path": "assets/img/alphago-zero.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:FloorGoban.JPG",
+      "artist": "Goban1",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphazero-chess-shogi-go",
@@ -1144,7 +1256,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "The International Dota 2 video game tournament.jpg",
+      "path": "assets/img/openai-five-beats-og.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg",
+      "artist": "YJ",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "pluribus-six-player-poker",
@@ -1180,7 +1300,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Poker-Texas-Holdem-multiplayer.jpg",
+      "path": "assets/img/pluribus-six-player-poker.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg",
+      "artist": "Nyks at German Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphastar-grandmaster",
@@ -1268,7 +1396,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Full GPT architecture.png",
+      "path": "assets/img/gpt-3.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png",
+      "artist": "Marxav",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphadogfight-trials",
@@ -1298,7 +1434,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "F-16C Fighting Falcon.JPEG",
+      "path": "assets/img/alphadogfight-trials.jpeg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG",
+      "artist": "SMSGT JOHN P. ROHRER, USAF",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "waymo-driverless-phoenix",
@@ -1327,7 +1471,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Waymo Chrysler Pacifica in Los Altos, 2017.jpg",
+      "path": "assets/img/waymo-driverless-phoenix.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos,_2017.jpg",
+      "artist": "Dllu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphafold2-casp14",
@@ -1362,7 +1514,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "AlphaFold 2.png",
+      "path": "assets/img/alphafold2-casp14.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:AlphaFold_2.png",
+      "artist": "John Jumper et al",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "muzero",
@@ -1429,7 +1589,15 @@
         "kind": "primary"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Blue Trefoil Knot.png",
+      "path": "assets/img/ai-guides-mathematical-discovery.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png",
+      "artist": "Jim.belk",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphacode-competitive-programming",
@@ -1568,7 +1736,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Matrix multiplication diagram 2.svg",
+      "path": "assets/img/alphatensor-matrix-multiplication.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg",
+      "artist": "Lakeworks",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "cicero-diplomacy",
@@ -1914,7 +2090,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Geoffrey Hinton in 2026.jpg",
+      "path": "assets/img/nobel-physics-2024-hopfield-hinton.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg",
+      "artist": "Cmichel67",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "nobel-chemistry-2024-alphafold",
@@ -1949,7 +2133,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Demis Hassabis Royal Society.jpg",
+      "path": "assets/img/nobel-chemistry-2024-alphafold.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg",
+      "artist": "Duncan.Hull",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "openai-o3-arc-agi",
@@ -2005,7 +2197,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Alan Turing (1912-1954) in 1936 at Princeton University.jpg",
+      "path": "assets/img/gpt-4-5-turing-test.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg",
+      "artist": "Unknown photographer",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "alphaevolve-matrix-multiplication",
@@ -2223,7 +2423,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Erdos budapest fall 1992.jpg",
+      "path": "assets/img/erdos-problem-124-aristotle.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg",
+      "artist": "Kmhkmh",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "erdos-728-gpt52-aristotle",
@@ -2346,7 +2554,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Moser spindle.svg",
+      "path": "assets/img/openai-unit-distance-disproof.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Moser_spindle.svg",
+      "artist": "Koko90",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "imo-2026-ai-perfect-score",
