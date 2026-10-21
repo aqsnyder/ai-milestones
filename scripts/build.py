@@ -344,7 +344,7 @@ def render_readme(items: list[dict], credits: dict, meta: dict) -> str:
     out.append("")
     out.append("## Contents")
     out.append("")
-    out.append("- [Humans vs. machines](#humans-vs-machines) — every head-to-head where AI beat top human players")
+    out.append("- [Humans vs. machines](#humans-vs-machines) — every contest that pitted an AI directly against human experts")
     for d in decades:
         out.append(f"- [{d}](#{slug(d)}) ({len(decades[d])})")
     out.append("- [How this repo works](#how-this-repo-works)")
@@ -355,6 +355,9 @@ def render_readme(items: list[dict], credits: dict, meta: dict) -> str:
     vs = [m for m in items if m.get("opponent")]
     if vs:
         out.append("## Humans vs. machines")
+        out.append("")
+        out.append("Every entry where an AI system was measured directly against human experts. "
+                   "Most are AI wins; a few are draws, narrow losses or simulated contests — each entry says which.")
         out.append("")
         out.append("| Year | Arena | AI system | Human opponent(s) |")
         out.append("|---|---|---|---|")

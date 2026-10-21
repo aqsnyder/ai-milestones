@@ -1,0 +1,2531 @@
+[
+  {
+    "id": "turing-computing-machinery-intelligence",
+    "date": "1950-10",
+    "title": "Turing publishes \"Computing Machinery and Intelligence\"",
+    "category": "foundations",
+    "field": "Philosophy of AI",
+    "system": "Alan Turing (University of Manchester)",
+    "summary": "In the October 1950 issue of the journal Mind (vol. 59, no. 236, pp. 433-460), Alan Turing proposed swapping the vague question \"Can machines think?\" for a concrete test, the \"imitation game\", in which an interrogator tries to tell a machine from a human over text. The paper also answers a list of objections to machine intelligence and argues that a learning \"child machine\" that is then educated may be the most practical route there.",
+    "significance": "It gave the field its first operational benchmark (the Turing test) and framed the research agenda years before the term \"artificial intelligence\" existed.",
+    "image": {
+      "file": "Alan Turing Aged 16.jpg",
+      "alt": "Alan Turing at age 16"
+    },
+    "sources": [
+      {
+        "title": "I.—Computing Machinery and Intelligence",
+        "publisher": "Mind (Oxford University Press)",
+        "url": "https://doi.org/10.1093/mind/LIX.236.433",
+        "kind": "paper"
+      },
+      {
+        "title": "Computing Machinery and Intelligence",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "strachey-draughts-program",
+    "date": "1952",
+    "title": "Strachey's draughts program plays a full game on the Ferranti Mark 1",
+    "category": "games",
+    "field": "Draughts (checkers)",
+    "system": "Draughts program by Christopher Strachey (Ferranti Mark 1, University of Manchester)",
+    "summary": "Christopher Strachey wrote a draughts program in May 1951 for the NPL's Pilot ACE. It failed when first run there on 30 July 1951, so he rewrote it for the larger-memory Manchester machine. By summer 1952 it could play a complete game against a human at a reasonable speed. It is generally counted among the first game-playing programs. Dietrich Prinz's Ferranti Mark 1 chess program, which first ran in November 1951, only solved mate-in-two problems.",
+    "significance": "One of the earliest programs to play a whole board game, and the starting point for Arthur Samuel's checkers work at IBM.",
+    "image": null,
+    "sources": [
+      {
+        "title": "What is Artificial Intelligence? (AlanTuring.net reference articles)",
+        "publisher": "AlanTuring.net (Turing Archive for the History of Computing, B. J. Copeland)",
+        "url": "https://alanturing.net/turing_archive/pages/Reference%20Articles/what_is_AI/What%20is%20AI04.html",
+        "kind": "reference"
+      },
+      {
+        "title": "Christopher Strachey",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christopher_Strachey",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "georgetown-ibm-machine-translation",
+    "date": "1954-01-07",
+    "title": "Georgetown-IBM experiment gives first public machine-translation demo",
+    "category": "language",
+    "field": "Machine translation",
+    "system": "Georgetown-IBM system (Georgetown University: Leon Dostert, Paul Garvin; IBM 701)",
+    "summary": "At IBM's New York headquarters on 7 January 1954, Georgetown University and IBM had an IBM 701 translate more than sixty Russian sentences into English (Hutchins counts 61). The system used a vocabulary of about 250 words and stems and just six syntax rules. The event made front-page news, and organizers and press forecast that practical machine translation was three to five years away.",
+    "significance": "It was the first public demonstration of machine translation, and it set off both MT funding and the field's first hype cycle. The ALPAC report cut that funding in 1966.",
+    "image": null,
+    "sources": [
+      {
+        "title": "The first public demonstration of machine translation: the Georgetown-IBM system, 7th January 1954",
+        "publisher": "John Hutchins (2005/2006)",
+        "url": "http://www.hutchinsweb.me.uk/GU-IBM-2005.pdf",
+        "kind": "paper"
+      },
+      {
+        "title": "Georgetown–IBM experiment",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Georgetown%E2%80%93IBM_experiment",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "logic-theorist",
+    "date": "1956-06-15",
+    "title": "Logic Theorist proves theorems from Principia Mathematica",
+    "category": "math",
+    "field": "Theorem proving",
+    "system": "Logic Theorist (Allen Newell, Herbert A. Simon, J. C. Shaw; RAND Corporation)",
+    "summary": "Allen Newell, Herbert Simon and Cliff Shaw at RAND built the Logic Theorist, a program that searches for proofs in propositional logic using heuristics rather than brute force. It was first hand-simulated on index cards in January 1956. It went on to prove 38 of the first 52 theorems in Chapter 2 of Whitehead and Russell's Principia Mathematica, and for theorem 2.85 it found a proof shorter than the one in the book.",
+    "significance": "Often called the first artificial intelligence program, it showed a machine doing work that had been seen as uniquely human: discovering mathematical proofs.",
+    "image": null,
+    "sources": [
+      {
+        "title": "The Logic Theory Machine: A Complex Information Processing System (RAND P-868)",
+        "publisher": "RAND Corporation",
+        "url": "https://www.rand.org/pubs/papers/P868.html",
+        "kind": "primary"
+      },
+      {
+        "title": "The logic theory machine–A complex information processing system (IRE Transactions on Information Theory, IT-2(3), 1956)",
+        "publisher": "IEEE Xplore",
+        "url": "https://ieeexplore.ieee.org/document/1056797",
+        "kind": "paper"
+      },
+      {
+        "title": "Logic Theorist",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Logic_Theorist",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "dartmouth-workshop",
+    "date": "1956-06-18",
+    "title": "Dartmouth workshop launches \"artificial intelligence\" as a field",
+    "category": "foundations",
+    "field": "AI research",
+    "system": "Dartmouth Summer Research Project on Artificial Intelligence (McCarthy, Minsky, Rochester, Shannon)",
+    "summary": "John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon put the phrase \"artificial intelligence\" into a funding proposal dated 31 August 1955, for a two-month study built on the conjecture that every aspect of learning and intelligence could in principle be described precisely enough for a machine to simulate. The resulting summer project ran at Dartmouth College in Hanover, New Hampshire, roughly from 18 June to 17 August 1956.",
+    "significance": "It named the field and brought together the researchers who led it for the next two decades.",
+    "image": {
+      "file": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, by John McCarthy et al, 1955.pdf",
+      "alt": "First page of the 1955 Dartmouth proposal that coined the term artificial intelligence"
+    },
+    "sources": [
+      {
+        "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, August 31, 1955 (AI Magazine 27(4), 2006 reprint)",
+        "publisher": "AAAI / AI Magazine",
+        "url": "https://ojs.aaai.org/index.php/aimagazine/article/view/1904",
+        "kind": "primary"
+      },
+      {
+        "title": "Dartmouth workshop",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "rosenblatt-perceptron",
+    "date": "1958-07",
+    "title": "Rosenblatt's perceptron learns to recognize patterns",
+    "category": "foundations",
+    "field": "Neural networks",
+    "system": "Perceptron / Mark I Perceptron (Frank Rosenblatt, Cornell Aeronautical Laboratory; funded by ONR)",
+    "summary": "In July 1958 the U.S. Office of Naval Research unveiled Frank Rosenblatt's perceptron. A simulation running on an IBM 704 at the Cornell Aeronautical Laboratory taught itself, after about 50 trials, to tell punch cards marked on the left from cards marked on the right. The theory appeared in Psychological Review that year. The custom Mark I Perceptron hardware followed: a 20x20 grid of 400 photosensors wired at random to 512 association units, with learned weights stored in motor-driven potentiometers.",
+    "significance": "It was the first machine to learn a classification from examples, and it is the direct ancestor of today's neural networks.",
+    "image": {
+      "file": "Mark I perceptron.jpeg",
+      "alt": "The Mark I Perceptron machine"
+    },
+    "sources": [
+      {
+        "title": "Professor's perceptron paved the way for AI – 60 years too soon",
+        "publisher": "Cornell Chronicle",
+        "url": "https://news.cornell.edu/node/313946",
+        "kind": "news"
+      },
+      {
+        "title": "Mark I Perceptron Operators' Manual (Project PARA), Report VG-1196-G-5, 15 Feb 1960",
+        "publisher": "Cornell Aeronautical Laboratory (via DTIC)",
+        "url": "https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf",
+        "kind": "primary"
+      },
+      {
+        "title": "The perceptron: a probabilistic model for information storage and organization in the brain",
+        "publisher": "Psychological Review (PubMed record)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13602029/",
+        "kind": "paper"
+      },
+      {
+        "title": "Perceptron",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Perceptron",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "samuel-checkers-nealey",
+    "date": "1962",
+    "title": "Samuel's self-taught checkers program beats Robert Nealey",
+    "category": "games",
+    "field": "Checkers",
+    "system": "Samuel Checkers (Arthur L. Samuel, IBM)",
+    "opponent": "Robert Nealey, self-described checkers master",
+    "summary": "Arthur Samuel's IBM checkers program improved partly by playing thousands of games against itself and learning from positions it had seen. In 1962 it won a single game against Robert Nealey, whom IBM billed as a former Connecticut champion and one of the nation's top players. Samuel's 1959 IBM Journal paper described the learning methods behind it.",
+    "significance": "It was the first widely publicized win by a machine-learning program over a strong human player, which made \"a computer that learns\" a public idea.",
+    "image": null,
+    "sources": [
+      {
+        "title": "The games that helped AI evolve",
+        "publisher": "IBM History",
+        "url": "https://www.ibm.com/history/early-games",
+        "kind": "primary"
+      },
+      {
+        "title": "Arthur Samuel's Legacy",
+        "publisher": "Jonathan Schaeffer, University of Alberta (Chinook project)",
+        "url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
+        "kind": "reference"
+      },
+      {
+        "title": "Some Studies in Machine Learning Using the Game of Checkers (IBM J. Res. Dev. 3(3), 1959)",
+        "publisher": "IBM Journal of Research and Development",
+        "url": "https://doi.org/10.1147/rd.33.0210",
+        "kind": "paper"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "eliza-chatbot",
+    "date": "1966-01",
+    "title": "Weizenbaum's ELIZA becomes the first chatbot",
+    "category": "language",
+    "field": "Conversational agents",
+    "system": "ELIZA (Joseph Weizenbaum, MIT)",
+    "summary": "Joseph Weizenbaum at MIT wrote ELIZA in MAD-SLIP for the CTSS time-sharing system on an IBM 7094. It matched keywords in typed input and reassembled them into replies according to a script. Its best-known script, DOCTOR, imitated a Rogerian psychotherapist by reflecting the user's words back as questions. Weizenbaum described it in Communications of the ACM in January 1966.",
+    "significance": "The first program people could hold a free-form text conversation with. Its users readily credited it with understanding, which gave its name to the \"ELIZA effect\".",
+    "image": {
+      "file": "ELIZA conversation.png",
+      "alt": "A typed conversation with ELIZA"
+    },
+    "sources": [
+      {
+        "title": "ELIZA—a computer program for the study of natural language communication between man and machine (CACM 9(1):36-45)",
+        "publisher": "Communications of the ACM",
+        "url": "https://doi.org/10.1145/365153.365168",
+        "kind": "paper"
+      },
+      {
+        "title": "ELIZA Reanimated: The world's first chatbot restored on the world's first time sharing system",
+        "publisher": "arXiv (Lane, Hay, Schwarz, Berry, Shrager, 2025)",
+        "url": "https://arxiv.org/abs/2501.06707",
+        "kind": "paper"
+      },
+      {
+        "title": "ELIZA",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ELIZA",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "shrdlu-blocks-world",
+    "date": "1971-02",
+    "title": "SHRDLU converses in English about a simulated blocks world",
+    "category": "language",
+    "field": "Natural language understanding",
+    "system": "SHRDLU (Terry Winograd, MIT AI Laboratory)",
+    "summary": "Terry Winograd built SHRDLU at the MIT AI Lab between 1968 and 1970, running on a PDP-6 with a graphics display of a small world of blocks, pyramids and a box. Users typed English commands and questions. The program moved objects, answered questions about the scene and its own actions, said when it didn't know a word, and could learn new terms such as \"steeple\" from a definition. It was published as MIT AI Technical Report 235 and in 1972 as the book \"Understanding Natural Language\".",
+    "significance": "It was the most convincing language-understanding demonstration of its era, tying parsing, meaning and action together, though only inside a tiny closed world.",
+    "image": null,
+    "sources": [
+      {
+        "title": "SHRDLU",
+        "publisher": "Terry Winograd, Stanford HCI Group",
+        "url": "https://hci.stanford.edu/winograd/shrdlu/",
+        "kind": "primary"
+      },
+      {
+        "title": "SHRDLU",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SHRDLU",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "shakey-the-robot",
+    "date": "1972",
+    "title": "SRI's Shakey becomes the first mobile robot to reason about its actions",
+    "category": "robotics",
+    "field": "Mobile robotics / planning",
+    "system": "Shakey (SRI Artificial Intelligence Center: Charles Rosen, Nils Nilsson, Peter Hart, Bertram Raphael et al.)",
+    "summary": "From 1966 to 1972, SRI's Artificial Intelligence Center built Shakey, a wheeled robot with a TV camera and touch sensors, with funding from DARPA. A large remote computer handled its processing over a radio link. Given typed English commands, it could perceive its rooms, plan a route around obstacles and push blocks into place. The project produced the A* search algorithm (1968), a practical Hough transform for line detection (1972) and the STRIPS planner.",
+    "significance": "It was the first robot to combine perception, planning and action in one physical system, and its algorithms are still used in navigation, games and vision today.",
+    "image": {
+      "file": "SRI Shakey with callouts.jpg",
+      "alt": "Shakey the robot, with its parts labelled"
+    },
+    "sources": [
+      {
+        "title": "Shakey the Robot",
+        "publisher": "SRI International",
+        "url": "https://sri.com/hoi/shakey-the-robot",
+        "kind": "primary"
+      },
+      {
+        "title": "Shakey (Revolution: Artificial Intelligence & Robotics)",
+        "publisher": "Computer History Museum",
+        "url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+        "kind": "reference"
+      },
+      {
+        "title": "Milestones:SHAKEY: The World's First Mobile Intelligent Robot, 1972",
+        "publisher": "IEEE / Engineering and Technology History Wiki",
+        "url": "https://ethw.org/Milestones:SHAKEY:_The_World’s_First_Mobile_Intelligent_Robot,_1972",
+        "kind": "reference"
+      },
+      {
+        "title": "Shakey the robot",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "mycin-meningitis-evaluation",
+    "date": "1979",
+    "title": "MYCIN out-prescribes Stanford experts in a blinded meningitis test",
+    "category": "science",
+    "field": "Medical diagnosis (expert systems)",
+    "system": "MYCIN (Edward Shortliffe, Bruce Buchanan, Stanley Cohen et al., Stanford University)",
+    "opponent": "Five Stanford faculty, an infectious-disease fellow, a resident and a medical student (plus the actual therapy given)",
+    "summary": "MYCIN, built at Stanford in the 1970s by Edward Shortliffe with Bruce Buchanan and Stanley Cohen, chose antibiotics for serious infections using about 600 if-then rules and backward-chaining inference. In a study published in JAMA in 1979, it prescribed for 10 difficult meningitis cases alongside five Stanford faculty, an infectious-disease fellow, a resident and a student. Eight outside infectious-disease specialists graded every prescription without knowing its source, and rated 65% of MYCIN's acceptable, against 42.5-62.5% for the faculty.",
+    "significance": "In a landmark blinded comparison, a rule-based program performed as well as or better than medical specialists, the high point of the expert-system approach that DENDRAL had started in the 1960s.",
+    "image": null,
+    "sources": [
+      {
+        "title": "An Evaluation of MYCIN's Advice (Ch. 31 of Buchanan & Shortliffe, Rule-Based Expert Systems, 1984; edited from JAMA 242:1279-1282, 1979)",
+        "publisher": "Columbia DBMI (book chapter hosted by E. H. Shortliffe)",
+        "url": "https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/Chapter-31.pdf",
+        "kind": "paper"
+      },
+      {
+        "title": "Yu et al., MYCIN meningitis therapy evaluation, JAMA 242:1279-1282 (1979)",
+        "publisher": "JAMA",
+        "url": "https://doi.org/10.1001/jama.1979.03300120033020",
+        "kind": "paper"
+      },
+      {
+        "title": "Mycin",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mycin",
+        "kind": "reference"
+      },
+      {
+        "title": "Dendral",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dendral",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "stanford-cart-chair-room",
+    "date": "1979",
+    "title": "Stanford Cart crosses a chair-filled room on its own",
+    "category": "robotics",
+    "field": "Robot navigation / stereo vision",
+    "system": "Stanford Cart (Hans Moravec, Stanford Artificial Intelligence Laboratory)",
+    "summary": "The Stanford Cart began in 1960-61 as a remote-driving testbed and was later taken over by the Stanford AI Lab. Hans Moravec added a sliding camera that took several views for stereo vision. In 1979 the cart crossed a room cluttered with chairs with no human help, taking about five hours: it moved roughly a meter at a time and then stopped for 10-15 minutes to process images and replan.",
+    "significance": "It was an early demonstration of a robot navigating unknown clutter using only computer vision, and it formed the basis of Moravec's 1980 PhD thesis.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Stanford Cart",
+        "publisher": "Les Earnest, Stanford AI Lab history pages",
+        "url": "https://web.stanford.edu/~learnest/sail/oldcart.html",
+        "kind": "primary"
+      },
+      {
+        "title": "Hans Moravec",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hans_Moravec",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "bkg-backgammon-villa",
+    "date": "1979-07",
+    "title": "BKG 9.8 beats backgammon world champion Luigi Villa 7-1",
+    "category": "games",
+    "field": "Backgammon",
+    "system": "BKG 9.8 (Hans Berliner, Carnegie Mellon University)",
+    "opponent": "Luigi Villa, newly crowned backgammon world champion",
+    "summary": "In July 1979 in Monte Carlo, the day after Luigi Villa won the backgammon world championship, Hans Berliner's program BKG 9.8 played him a $5,000 winner-take-all match to 7 points and won 7-1. The program evaluated positions with smoothly varying weighted features instead of rigid rules. Berliner later admitted that it had the better of the dice and that Villa played better.",
+    "significance": "Its creator described it as the first time a computer program beat a reigning world champion at any board or card game.",
+    "image": {
+      "file": "Backgammon lg.jpg",
+      "alt": "A backgammon board"
+    },
+    "sources": [
+      {
+        "title": "Computer Backgammon (Scientific American 242(6), June 1980, pp. 64-72; reproduced)",
+        "publisher": "Hans Berliner / bkgm.com",
+        "url": "https://bkgm.com/articles/Berliner/ComputerBackgammon/",
+        "kind": "primary"
+      },
+      {
+        "title": "BKG 9.8 (Hans Berliner)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BKG_9.8",
+        "kind": "reference"
+      },
+      {
+        "title": "Luigi Villa",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luigi_Villa",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "backpropagation-nature-1986",
+    "date": "1986-10",
+    "title": "Rumelhart, Hinton and Williams popularize backpropagation",
+    "category": "foundations",
+    "field": "Neural networks",
+    "system": "Backpropagation (David Rumelhart, Geoffrey Hinton, Ronald Williams)",
+    "summary": "In \"Learning representations by back-propagating errors\" (Nature 323:533-536, 1986), David Rumelhart, Geoffrey Hinton and Ronald Williams showed that passing error gradients backward through a multilayer network lets its hidden units learn useful internal features on their own. Their experiments got past the single-layer limits that had stalled perceptron research.",
+    "significance": "It made gradient-trained multilayer networks practical and popular, and it underlies essentially all of modern deep learning.",
+    "image": {
+      "file": "Geoffrey Hinton at UBC.jpg",
+      "alt": "Geoffrey Hinton"
+    },
+    "sources": [
+      {
+        "title": "Learning representations by back-propagating errors (Nature 323(6088):533-536)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/323533a0",
+        "kind": "paper"
+      },
+      {
+        "title": "1986Natur.323..533R",
+        "publisher": "NASA ADS",
+        "url": "https://ui.adsabs.harvard.edu/abs/1986Natur.323..533R",
+        "kind": "reference"
+      },
+      {
+        "title": "Backpropagation",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Backpropagation",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "deep-thought-beats-grandmaster",
+    "date": "1988",
+    "title": "Deep Thought becomes first computer to beat a grandmaster in a tournament game",
+    "category": "games",
+    "field": "Chess",
+    "system": "Deep Thought (Feng-hsiung Hsu, Thomas Anantharaman, Murray Campbell, Andreas Nowatzyk, Mike Browne; Carnegie Mellon University)",
+    "opponent": "Bent Larsen, chess grandmaster and former world-championship candidate",
+    "summary": "At the 1988 Software Toolworks Championship in Los Angeles, Carnegie Mellon's Deep Thought defeated grandmaster Bent Larsen, a former world-title contender, in a regular tournament game. It tied for first with GM Tony Miles at 6.5/8. The result lifted its USCF rating to 2551 and qualified it for the $10,000 Fredkin Intermediate Prize, the first 2500-level performance by a computer over 25 straight games against humans.",
+    "significance": "It was the first time a machine beat a grandmaster under normal tournament conditions, and the team went on to IBM to build Deep Blue.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Deep Thought Wins Fredkin Intermediate Prize (AI Magazine 10(2), Summer 1989)",
+        "publisher": "Hans Berliner / AAAI AI Magazine",
+        "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/download/753/671/0",
+        "kind": "paper"
+      },
+      {
+        "title": "Deep Thought (chess computer)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Deep_Thought_(chess_computer)",
+        "kind": "reference"
+      },
+      {
+        "title": "Bent Larsen",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bent_Larsen",
+        "kind": "reference"
+      },
+      {
+        "title": "Deep Thought",
+        "publisher": "Chessprogramming wiki",
+        "url": "https://www.chessprogramming.org/Deep_Thought",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alvinn-navlab",
+    "date": "1989",
+    "title": "ALVINN neural network learns to steer CMU's Navlab van",
+    "category": "robotics",
+    "field": "Autonomous driving",
+    "system": "ALVINN on Navlab 1 (Dean Pomerleau, Carnegie Mellon University Robotics Institute)",
+    "summary": "Dean Pomerleau's ALVINN was a three-layer network trained with backpropagation. It took a 30x32 camera image plus a laser rangefinder input, mapped them through 29 hidden units, and output one of 45 steering directions. It was trained first on simulated road images. On Carnegie Mellon's Navlab 1 van it followed a wooded path, and it set a speed record of 1.3 m/s in March 1989. By June 1989 it could learn to follow a road from about ten minutes of watching a human drive.",
+    "significance": "It was one of the first vehicles steered by a neural network that learned to drive from examples, an early form of the end-to-end approach used in self-driving research today.",
+    "image": null,
+    "sources": [
+      {
+        "title": "ALVINN: An Autonomous Land Vehicle in a Neural Network (NIPS 1, 1988)",
+        "publisher": "Advances in Neural Information Processing Systems",
+        "url": "https://proceedings.neurips.cc/paper/1988/hash/812b4ba287f5ee0bc9d43bbf5bbe87fb-Abstract.html",
+        "kind": "paper"
+      },
+      {
+        "title": "Navlab",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Navlab",
+        "kind": "reference"
+      },
+      {
+        "title": "Look, Ma, No Hands! (1995 Navlab 5 cross-country trip retrospective)",
+        "publisher": "Carnegie Mellon University",
+        "url": "https://www.cmu.edu/news/stories/archives/2015/july/look-ma-no-hands.html",
+        "kind": "primary"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "lecun-convnet-zip-codes",
+    "date": "1989-12",
+    "title": "LeCun's convolutional network reads handwritten ZIP codes",
+    "category": "perception",
+    "field": "Handwriting recognition",
+    "system": "Convolutional network, later named LeNet (Yann LeCun, Bernhard Boser, John Denker, Donnie Henderson, Richard Howard, Wayne Hubbard, Lawrence Jackel; AT&T Bell Labs)",
+    "summary": "At AT&T Bell Labs, Yann LeCun and colleagues trained a convolutional neural network end to end with backpropagation, learning shared-weight feature detectors directly from pixels. The data were 9,298 handwritten digit images (16x16) cut from ZIP codes on mail passing through the Buffalo, NY post office, split 7,291 for training and 2,007 for testing. They published the work in Neural Computation (vol. 1, no. 4) in December 1989. Humans averaged about 2.5% error on the same test set.",
+    "significance": "It set out the convolutional-network design behind modern computer vision, and its descendants were reading about 10% of U.S. checks by around 2001.",
+    "image": {
+      "file": "MnistExamples.png",
+      "alt": "Sample handwritten digits from the MNIST dataset"
+    },
+    "sources": [
+      {
+        "title": "Backpropagation Applied to Handwritten Zip Code Recognition (Neural Computation 1(4):541-551)",
+        "publisher": "Neural Computation (MIT Press)",
+        "url": "https://doi.org/10.1162/neco.1989.1.4.541",
+        "kind": "paper"
+      },
+      {
+        "title": "LeNet",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LeNet",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "watson-jeopardy",
+    "date": "2011-02-16",
+    "title": "IBM Watson beats Jeopardy! champions Ken Jennings and Brad Rutter",
+    "category": "language",
+    "field": "Question answering (Jeopardy!)",
+    "system": "Watson / DeepQA (IBM Research, team led by David Ferrucci)",
+    "opponent": "Ken Jennings and Brad Rutter, Jeopardy!'s two most successful champions",
+    "summary": "IBM's question-answering system Watson played two games of Jeopardy!, broadcast over three episodes from 14 to 16 February 2011 and taped that January, against the show's two most successful champions, Ken Jennings and Brad Rutter. Watson won with $77,147 to Jennings's $24,000 and Rutter's $21,600, and IBM gave the $1 million first prize to charity. It ran IBM's DeepQA software on about 90 servers (2,880 processor cores) and had no internet connection during play.",
+    "significance": "The first time a computer beat the best human players at open-domain, natural-language trivia on live national television.",
+    "image": {
+      "file": "IBMWatson.jpg",
+      "alt": "IBM Watson"
+    },
+    "sources": [
+      {
+        "title": "Watson, 'Jeopardy!' champion",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/history/watson-jeopardy",
+        "kind": "primary"
+      },
+      {
+        "title": "The Final Night Of IBM's Jeopardy Challenge: How Did Watson Do?",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2011/02/16/the-final-night-of-ibms-jeopardy-challenge-how-did-watson-do",
+        "kind": "news"
+      },
+      {
+        "title": "IBM Watson",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IBM_Watson",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alexnet-imagenet-2012",
+    "date": "2012-10-13",
+    "title": "AlexNet wins ImageNet challenge by a huge margin, igniting deep learning",
+    "category": "perception",
+    "field": "Image classification",
+    "system": "AlexNet / SuperVision (Krizhevsky, Sutskever, Hinton; University of Toronto)",
+    "summary": "Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton of the University of Toronto entered a deep convolutional neural network, trained on two NVIDIA GTX 580 GPUs, in the 2012 ImageNet Large Scale Visual Recognition Challenge as team \"SuperVision\". On the 1,000-category classification task its top-5 error was 15.3%, against 26.2% for the next-best team (ISI). The result was presented at the ECCV 2012 workshop in Florence, and the method was published at NIPS 2012.",
+    "significance": "The roughly 11-point winning margin persuaded the computer-vision field to adopt deep neural networks trained on GPUs, setting off the modern deep-learning boom.",
+    "image": null,
+    "sources": [
+      {
+        "title": "ImageNet Large Scale Visual Recognition Competition 2012 (ILSVRC2012) - Results",
+        "publisher": "ImageNet / Stanford Vision Lab",
+        "url": "https://www.image-net.org/challenges/LSVRC/2012/results",
+        "kind": "primary"
+      },
+      {
+        "title": "ImageNet Classification with Deep Convolutional Neural Networks (NIPS 2012)",
+        "publisher": "Advances in Neural Information Processing Systems 25",
+        "url": "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+        "kind": "paper"
+      },
+      {
+        "title": "AlexNet",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlexNet",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "cepheus-limit-holdem-solved",
+    "date": "2015-01-08",
+    "title": "Cepheus essentially solves heads-up limit Texas hold'em poker",
+    "category": "games",
+    "field": "Poker (heads-up limit hold'em)",
+    "system": "Cepheus (Computer Poker Research Group, University of Alberta)",
+    "summary": "Michael Bowling, Neil Burch, Michael Johanson and Oskari Tammelin of the University of Alberta's Computer Poker Research Group reported in Science that their program Cepheus plays heads-up limit Texas hold'em so close to optimally that the game is \"essentially weakly solved\". The strategy comes from a new algorithm, CFR+, and the best possible counter-strategy would win only about 0.001 big blinds per game against it. The computation used roughly 4,000 CPUs for about two months.",
+    "significance": "The first time a poker game that people play competitively, a game with hidden information and bluffing, was essentially solved by a computer.",
+    "image": {
+      "file": "Texas Hold'em Poker Table with Blinds.svg",
+      "alt": "Diagram of a Texas hold'em poker table"
+    },
+    "sources": [
+      {
+        "title": "Heads-up Limit Hold'em Poker is Solved (Science 347(6218):145-149)",
+        "publisher": "University of Alberta (Bowling et al., Science)",
+        "url": "https://webdocs.cs.ualberta.ca/~bowling/publications/b2hd-15science.html",
+        "kind": "paper"
+      },
+      {
+        "title": "How a computer program took the gambling out of poker",
+        "publisher": "The Christian Science Monitor",
+        "url": "https://csmonitor.com/Science/2015/0108/How-a-computer-program-took-the-gambling-out-of-poker",
+        "kind": "news"
+      },
+      {
+        "title": "Cepheus (poker bot)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cepheus_(poker_bot)",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "he-prelu-surpasses-human-imagenet",
+    "date": "2015-02-06",
+    "title": "Microsoft network edges past reported human error rate on ImageNet",
+    "category": "perception",
+    "field": "Image classification",
+    "system": "PReLU-net (Microsoft Research)",
+    "summary": "Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun of Microsoft Research reported a top-5 error of 4.94% on the ImageNet 2012 classification benchmark. They used deep networks with a new learnable activation function (PReLU) and a better weight-initialization scheme. That beat the 5.1% previously measured for a trained human annotator and the 6.66% of GoogLeNet, the 2014 challenge winner.",
+    "significance": "The first published claim that a machine beat measured human accuracy at large-scale, 1,000-category image recognition.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "publisher": "arXiv (He, Zhang, Ren, Sun)",
+        "url": "https://www.arxiv.org/abs/1502.01852",
+        "kind": "paper"
+      },
+      {
+        "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "publisher": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/publication/delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification/",
+        "kind": "primary"
+      },
+      {
+        "title": "ImageNet",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ImageNet",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "dqn-atari",
+    "date": "2015-02-25",
+    "title": "DeepMind's DQN learns to play dozens of Atari games at human level",
+    "category": "games",
+    "field": "Atari 2600 video games",
+    "system": "Deep Q-Network, DQN (Google DeepMind; Mnih, Kavukcuoglu, Silver, Hassabis et al.)",
+    "summary": "DeepMind's deep Q-network (DQN) learned to play 49 classic Atari 2600 games using only the screen pixels and the score as input, with the same network architecture and settings for every game. In the Nature paper it outperformed earlier learning methods on 43 games. On 29 of them it scored more than 75% of what a professional human games tester achieved.",
+    "significance": "Showed that a single deep reinforcement-learning agent could learn many different tasks from raw pixels to roughly human level, launching the deep-RL era that led to AlphaGo.",
+    "image": {
+      "file": "Atari-2600-Wood-4Sw-Set.jpg",
+      "alt": "An Atari 2600 console"
+    },
+    "sources": [
+      {
+        "title": "Human-level control through deep reinforcement learning (Nature 518, 529-533)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/nature14236",
+        "kind": "paper"
+      },
+      {
+        "title": "From Pixels to Actions: Human-level control through Deep Reinforcement Learning",
+        "publisher": "Google Research Blog",
+        "url": "https://research.google/blog/from-pixels-to-actions-human-level-control-through-deep-reinforcement-learning/",
+        "kind": "primary"
+      },
+      {
+        "title": "Google AI Learns Classic Arcade Games From Scratch, Would Probably Beat You at Them",
+        "publisher": "IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/google-ai-learns-classic-arcade-games-from-scratch-would-probably-beat-you-at-them",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphago-lee-sedol",
+    "date": "2016-03-15",
+    "title": "AlphaGo defeats Go legend Lee Sedol 4-1 in Seoul",
+    "category": "games",
+    "field": "Go",
+    "system": "AlphaGo (Google DeepMind)",
+    "opponent": "Lee Sedol, 9-dan professional and 18-time world title winner",
+    "summary": "In the five-game DeepMind Challenge Match at the Four Seasons Hotel in Seoul, held from 9 to 15 March 2016, AlphaGo beat Lee Sedol 4-1. Lee was a 9-dan professional with 18 world titles. AlphaGo's unconventional move 37 in game 2 became famous, and Lee's only win came in game 4 with his own celebrated move 78. AlphaGo combined deep policy and value networks with Monte Carlo tree search. The approach was described in Nature in January 2016, when DeepMind also revealed that AlphaGo had beaten European champion Fan Hui 5-0 in October 2015.",
+    "significance": "Go, with its vast number of possible positions, had long been the grand challenge of board-game AI, and this was the first time a program beat a world-class professional in a full match.",
+    "image": {
+      "file": "Lee Se-Dol - 2016 (cropped).jpg",
+      "alt": "Portrait of Go player Lee Sedol in 2016"
+    },
+    "sources": [
+      {
+        "title": "What we learned in Seoul with AlphaGo",
+        "publisher": "Google (Demis Hassabis, DeepMind)",
+        "url": "https://blog.google/technology/ai/what-we-learned-in-seoul-with-alphago/",
+        "kind": "primary"
+      },
+      {
+        "title": "Mastering the game of Go with deep neural networks and tree search (Nature 529, 484-489)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/nature16961",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaGo versus Lee Sedol",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "boolean-pythagorean-triples",
+    "date": "2016-05-03",
+    "title": "SAT solver settles the Boolean Pythagorean triples problem with a 200 TB proof",
+    "category": "math",
+    "field": "Ramsey theory / automated reasoning",
+    "system": "Cube-and-conquer SAT solving (Heule, Kullmann, Marek; UT Austin and Swansea)",
+    "summary": "Marijn Heule, Oliver Kullmann and Victor Marek used a SAT solver to answer a decades-old question of Ronald Graham's. The integers 1 to 7,824 can be split into two colors without any single-colored Pythagorean triple (a² + b² = c²), but 1 to 7,825 cannot. Their \"cube-and-conquer\" method ran for about two days on an 800-core cluster (the Stampede supercomputer). It produced a machine-checkable proof of almost 200 terabytes, which they compressed into a 68 GB certificate.",
+    "significance": "At the time it was the largest mathematical proof ever produced, and it showed automated reasoning settling an open problem that human mathematicians had not cracked.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Solving and Verifying the boolean Pythagorean Triples problem via Cube-and-Conquer",
+        "publisher": "arXiv (SAT 2016)",
+        "url": "https://arxiv.org/abs/1605.00723",
+        "kind": "paper"
+      },
+      {
+        "title": "Boolean Pythagorean triples problem",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem",
+        "kind": "reference"
+      },
+      {
+        "title": "Two-hundred-terabyte maths proof is largest ever",
+        "publisher": "Nature News",
+        "url": "https://doi.org/10.1038/nature.2016.19990",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "microsoft-speech-human-parity",
+    "date": "2016-10-18",
+    "title": "Microsoft claims human parity in conversational speech recognition",
+    "category": "perception",
+    "field": "Speech recognition",
+    "system": "Microsoft conversational speech recognition system (Microsoft AI and Research)",
+    "summary": "A Microsoft Artificial Intelligence and Research team (Wayne Xiong, Jasha Droppo, Xuedong Huang, Frank Seide, Mike Seltzer, Andreas Stolcke, Dong Yu, Geoffrey Zweig) reported a 5.9% word error rate on the Switchboard portion of the NIST 2000 telephone-conversation benchmark. That matched the 5.9% they measured for professional transcribers. The system combined several convolutional and LSTM acoustic models with recurrent neural-network language models. The current arXiv abstract gives 5.8% on Switchboard and 11.0% on CallHome, against 5.9% and 11.3% for humans.",
+    "significance": "The first claim that a machine matched professional human transcribers on a standard benchmark of spontaneous conversational speech.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Historic milestone: Microsoft researchers achieve human parity in conversational speech recognition",
+        "publisher": "Microsoft",
+        "url": "https://blogs.microsoft.com/blog/2016/10/18/historic-milestone-microsoft-researchers-achieve-human-parity-conversational-speech-recognition/",
+        "kind": "primary"
+      },
+      {
+        "title": "Achieving Human Parity in Conversational Speech Recognition",
+        "publisher": "arXiv (Xiong et al.)",
+        "url": "https://arxiv.org/abs/1610.05256",
+        "kind": "paper"
+      },
+      {
+        "title": "Microsoft claims its new speech recognition system on par with human capabilities",
+        "publisher": "Tech Xplore",
+        "url": "https://techxplore.com/news/2016-10-microsoft-speech-recognition-par-human.amp",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "libratus-no-limit-holdem",
+    "date": "2017-01-30",
+    "title": "Libratus beats top professionals at heads-up no-limit Texas hold'em",
+    "category": "games",
+    "field": "Poker (heads-up no-limit hold'em)",
+    "system": "Libratus (Carnegie Mellon University; Tuomas Sandholm and Noam Brown)",
+    "opponent": "Jason Les, Dong Kim, Daniel McAulay and Jimmy Chou, top heads-up no-limit professionals",
+    "summary": "In the 20-day \"Brains Vs. Artificial Intelligence: Upping the Ante\" event at Rivers Casino in Pittsburgh, Carnegie Mellon's Libratus played 120,000 hands of heads-up no-limit Texas hold'em against four specialist pros: Jason Les, Dong Kim, Daniel McAulay and Jimmy Chou. Libratus was built by Tuomas Sandholm and Ph.D. student Noam Brown and ran on the Pittsburgh Supercomputing Center's Bridges machine. It finished $1,766,250 ahead in chips, about 14.7 big blinds per 100 hands, a margin its makers called statistically significant. Separately, DeepStack (University of Alberta with Charles University and Czech Technical University) beat professionals over 44,000 hands in late 2016, reported in Science in March 2017.",
+    "significance": "The first time an AI decisively beat top human professionals at no-limit hold'em, a hidden-information game of bluffing long considered out of reach.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Carnegie Mellon Artificial Intelligence Beats Top Poker Pros",
+        "publisher": "Carnegie Mellon University",
+        "url": "https://www.cmu.edu/news/stories/archives/2017/january/AI-beats-poker-pros.html",
+        "kind": "primary"
+      },
+      {
+        "title": "Superhuman AI for heads-up no-limit poker: Libratus beats top professionals (Science 359(6374))",
+        "publisher": "Science (via NSF Public Access Repository)",
+        "url": "https://par.nsf.gov/biblio/10077416",
+        "kind": "paper"
+      },
+      {
+        "title": "How an AI took down four world-class poker pros",
+        "publisher": "Engadget",
+        "url": "https://www.engadget.com/2017-02-10-libratus-ai-poker-winner.html",
+        "kind": "news"
+      },
+      {
+        "title": "DeepStack: Expert-Level Artificial Intelligence in Heads-Up No-Limit Poker",
+        "publisher": "arXiv (Moravčík et al.; Science 2017)",
+        "url": "https://arxiv.org/abs/1701.01724v3",
+        "kind": "paper"
+      },
+      {
+        "title": "Libratus",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Libratus",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "ponanza-beats-meijin",
+    "date": "2017-05-20",
+    "title": "Shogi program Ponanza defeats reigning Meijin Amahiko Sato",
+    "category": "games",
+    "field": "Shogi",
+    "system": "Ponanza (Issei Yamamoto and Hiroshi Shimozumi)",
+    "opponent": "Amahiko Sato, reigning Meijin",
+    "summary": "In the second and final Denou-sen, a human-versus-computer series run by DWANGO's niconico, the program Ponanza played the reigning Meijin, Amahiko Sato, in a two-game match: game 1 on 1 April 2017 at Nikko Toshogu and game 2 on 20 May 2017 at Himeji Castle. Ponanza won both games, and the organizers ended the series with that match.",
+    "significance": "A program beat the reigning Meijin, holder of shogi's most prestigious title, ending high-profile human-versus-computer title matches in Japan's national board game.",
+    "image": null,
+    "sources": [
+      {
+        "title": "第2期 電王戦 第1局 (2nd Denou-sen, Game 1)",
+        "publisher": "niconico / DWANGO (official)",
+        "url": "https://denou.jp/2017/kifu/20170401.html",
+        "kind": "primary"
+      },
+      {
+        "title": "第2期 電王戦 第2局 (2nd Denou-sen, Game 2)",
+        "publisher": "niconico / DWANGO (official)",
+        "url": "https://denou.jp/2017/kifu/20170520.html",
+        "kind": "primary"
+      },
+      {
+        "title": "Computer shogi",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Computer_shogi",
+        "kind": "reference"
+      },
+      {
+        "title": "Amahiko Satō",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amahiko_Sat%C5%8D",
+        "kind": "reference"
+      },
+      {
+        "title": "Satō Meijin loses twice in a row to Ponanza (in Japanese)",
+        "publisher": "Sankei Shimbun",
+        "url": "https://www.sankei.com/west/news/170520/wst1705200079-n1.html",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphago-ke-jie",
+    "date": "2017-05-27",
+    "title": "AlphaGo Master sweeps world No. 1 Ke Jie 3-0",
+    "category": "games",
+    "field": "Go",
+    "system": "AlphaGo Master (Google DeepMind)",
+    "opponent": "Ke Jie, world No. 1 ranked Go player",
+    "summary": "At the Future of Go Summit in Wuzhen, China, an upgraded AlphaGo (\"Master\") beat Ke Jie, then ranked number one in the world, in all three games on 23, 25 and 27 May 2017. The first game was won by just half a point. The same version had already gone 60-0 against top professionals in fast online games under the accounts \"Magister\" and \"Master\" around New Year 2017. After the summit DeepMind retired AlphaGo from competitive play, and the Chinese Weiqi Association awarded it an honorary professional 9-dan rank.",
+    "significance": "Beating the world's top-ranked player removed any remaining doubt that machines had overtaken humans at Go.",
+    "image": {
+      "file": "Ke Jie (柯洁) 2019 portrait.jpg",
+      "alt": "Go player Ke Jie"
+    },
+    "sources": [
+      {
+        "title": "AlphaGo's next move",
+        "publisher": "Google / DeepMind (Demis Hassabis and David Silver)",
+        "url": "https://blog.google/around-the-globe/google-asia/alphagos-next-move",
+        "kind": "primary"
+      },
+      {
+        "title": "Glorious still is Ke Jie despite 0-3 loss to AlphaGo",
+        "publisher": "CGTN",
+        "url": "https://news.cgtn.com/news/3d49544f7a41444e/share_p.html",
+        "kind": "news"
+      },
+      {
+        "title": "AlphaGo versus Ke Jie",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Ke_Jie",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "transformer-attention-is-all-you-need",
+    "date": "2017-06-12",
+    "title": "\"Attention Is All You Need\" introduces the Transformer",
+    "category": "foundations",
+    "field": "Neural network architecture / NLP",
+    "system": "Transformer (Vaswani et al., Google)",
+    "summary": "Eight Google researchers proposed the Transformer, a sequence-to-sequence model built entirely from attention mechanisms, with no recurrence or convolution. The authors were Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser and Illia Polosukhin. The model set machine-translation records on WMT 2014 (28.4 BLEU English-German, 41.8 BLEU English-French) and trained much faster than earlier models; the English-French model took 3.5 days on eight GPUs. The paper was posted to arXiv on 12 June 2017 and presented at NIPS 2017.",
+    "significance": "The Transformer became the architecture behind BERT, GPT and nearly every later large language model, making this the foundational paper of the LLM era.",
+    "image": {
+      "file": "Transformer, full architecture.png",
+      "alt": "Diagram of the Transformer architecture"
+    },
+    "sources": [
+      {
+        "title": "Attention Is All You Need",
+        "publisher": "arXiv (Vaswani et al.; NIPS 2017)",
+        "url": "https://arxiv.org/abs/1706.03762",
+        "kind": "paper"
+      },
+      {
+        "title": "Attention Is All You Need",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphago-zero",
+    "date": "2017-10-18",
+    "title": "AlphaGo Zero masters Go from scratch with no human data",
+    "category": "games",
+    "field": "Go",
+    "system": "AlphaGo Zero (Google DeepMind)",
+    "summary": "DeepMind's AlphaGo Zero learned Go entirely by playing against itself. It started from random moves, knew only the rules and saw no human game records. After three days of self-play it beat the version that defeated Lee Sedol by 100 games to 0, and after 40 days it surpassed AlphaGo Master, the version that beat Ke Jie. It used one combined neural network, no rollouts and just 4 TPUs.",
+    "significance": "Showed that superhuman skill in a famously hard domain could be reached with no human knowledge beyond the rules.",
+    "image": {
+      "file": "FloorGoban.JPG",
+      "alt": "A Go board with stones"
+    },
+    "sources": [
+      {
+        "title": "AlphaGo Zero: Starting from scratch",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/alphago-zero-starting-from-scratch/",
+        "kind": "primary"
+      },
+      {
+        "title": "Mastering the game of Go without human knowledge (Nature 550, 354-359)",
+        "publisher": "Nature (record via UCL Discovery)",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10045895/",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaGo",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaGo",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphazero-chess-shogi-go",
+    "date": "2017-12-05",
+    "title": "AlphaZero teaches itself chess, shogi and Go and beats the top programs",
+    "category": "games",
+    "field": "Chess, shogi and Go",
+    "system": "AlphaZero (Google DeepMind)",
+    "summary": "DeepMind's AlphaZero generalized the AlphaGo Zero method: one algorithm, given only the rules, learned chess, shogi and Go through self-play. The December 2017 preprint reports it surpassed Stockfish in chess after about four hours of training and beat Stockfish 8 by 28 wins, 72 draws and no losses over 100 games. It also beat the shogi champion program Elmo (90 wins, 8 losses, 2 draws) and a 3-day AlphaGo Zero (60-40). A peer-reviewed version in Science (7 December 2018) reported a 1,000-game chess match against Stockfish at long time controls that ended with 155 wins, 6 losses and 839 draws.",
+    "significance": "A single general-purpose self-learning algorithm became the strongest player of three different classic games, beating decades of hand-tuned engines.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+        "publisher": "arXiv (Silver et al.)",
+        "url": "https://arxiv.org/abs/1712.01815v1",
+        "kind": "paper"
+      },
+      {
+        "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play (Science 362(6419):1140-1144)",
+        "publisher": "Science (record via UCL Discovery)",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10069050/",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaZero",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaZero",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "bert-pretrained-transformers",
+    "date": "2018-10-11",
+    "title": "Google's BERT makes pretrain-then-fine-tune the standard recipe for NLP",
+    "category": "language",
+    "field": "Natural language understanding",
+    "system": "BERT (Google AI Language)",
+    "summary": "Google AI researchers (Devlin, Chang, Lee and Toutanova) released BERT, a Transformer pretrained on unlabeled text by predicting masked-out words using context on both sides, then fine-tuned for individual tasks. It set new records on 11 benchmarks, including a GLUE score of 80.5 (+7.7 points) and 93.2 F1 on the SQuAD v1.1 reading-comprehension test. Google began using BERT in Search for US English queries in October 2019.",
+    "significance": "BERT showed that a single large pretrained language model could be adapted to almost any language task, which set off the pretrained-model era that led to GPT-3 and ChatGPT.",
+    "image": null,
+    "sources": [
+      {
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "publisher": "arXiv (Devlin et al.)",
+        "url": "https://arxiv.org/abs/1810.04805",
+        "kind": "paper"
+      },
+      {
+        "title": "BERT (language model)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BERT_(language_model)",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphastar-beats-starcraft-pros",
+    "date": "2019-01-24",
+    "title": "DeepMind's AlphaStar beats StarCraft II pros TLO and MaNa 10-1",
+    "category": "games",
+    "field": "StarCraft II",
+    "system": "AlphaStar (DeepMind)",
+    "opponent": "Dario \"TLO\" Wünsch and Grzegorz \"MaNa\" Komincz, Team Liquid professionals",
+    "summary": "DeepMind revealed that in recorded matches in December 2018, a preliminary version of AlphaStar won 5-0 against Dario \"TLO\" Wünsch and 5-0 against Grzegorz \"MaNa\" Komincz, both of Team Liquid, in Protoss-vs-Protoss games on a single map. In a live exhibition on 24 January 2019, MaNa beat a new AlphaStar version that was restricted to a human-like camera view, giving AlphaStar its first loss to a pro.",
+    "significance": "This was the first time an AI defeated top professional players at StarCraft II, a real-time strategy game with hidden information and a huge action space.",
+    "image": null,
+    "sources": [
+      {
+        "title": "DeepMind AI AlphaStar goes 10-1 against top 'StarCraft II' pros",
+        "publisher": "Engadget",
+        "url": "https://www.engadget.com/2019/01/24/deepmind-ai-starcraft-ii-demonstration-tlo-mana/",
+        "kind": "news"
+      },
+      {
+        "title": "DeepMind's new AI just beat top human pro gamers at StarCraft II for the first time",
+        "publisher": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2019/01/25/137714/deepminds-new-ai-just-beat-top-human-pro-gamers-at-starcraft-ii-for-the-first/",
+        "kind": "news"
+      },
+      {
+        "title": "AlphaStar (software)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaStar_(software)",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-five-beats-og",
+    "date": "2019-04-13",
+    "title": "OpenAI Five defeats Dota 2 world champions OG",
+    "category": "games",
+    "field": "Dota 2",
+    "system": "OpenAI Five (OpenAI)",
+    "opponent": "OG, reigning The International 2018 Dota 2 world champions",
+    "summary": "At a live event in San Francisco, OpenAI's five-agent team beat OG, the reigning champions of The International 2018, 2-0 in a best-of-three series of 5v5 Dota 2. The bots trained by self-play reinforcement learning for about 10 months. In a public online \"Arena\" held days later, they won 99.4% of 42,729 games against all comers.",
+    "significance": "This was the first time an AI beat the reigning world champions of a major esport, in a long-horizon team game played with hidden information.",
+    "image": {
+      "file": "The International Dota 2 video game tournament.jpg",
+      "alt": "The International Dota 2 tournament"
+    },
+    "sources": [
+      {
+        "title": "OpenAI Five defeats Dota 2 world champions",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions",
+        "kind": "primary"
+      },
+      {
+        "title": "Dota 2 with Large Scale Deep Reinforcement Learning",
+        "publisher": "arXiv (OpenAI et al.)",
+        "url": "https://arxiv.org/abs/1912.06680",
+        "kind": "paper"
+      },
+      {
+        "title": "OpenAI Five",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI_Five",
+        "kind": "reference"
+      },
+      {
+        "title": "AI defeated a top-tier 'Dota 2' esports team",
+        "publisher": "Engadget",
+        "url": "https://www.engadget.com/2019/04/14/openai-ai-defeats-dota-2-esports-team/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "pluribus-six-player-poker",
+    "date": "2019-07-11",
+    "title": "Pluribus beats elite pros at six-player no-limit Texas hold'em",
+    "category": "games",
+    "field": "Poker",
+    "system": "Pluribus (Carnegie Mellon University and Facebook AI)",
+    "opponent": "Elite professional poker players, including Chris Ferguson and Darren Elias",
+    "summary": "Noam Brown and Tuomas Sandholm of Carnegie Mellon and Facebook AI built Pluribus, which played 10,000 hands of six-player no-limit hold'em against elite professionals over 12 days. It won an average of 48 milli-big-blinds per game in the one-AI, five-human format, and also beat Chris Ferguson and Darren Elias, each playing alongside five copies of the bot. Its blueprint strategy cost about 12,400 CPU core-hours to compute, on a single 64-core server.",
+    "significance": "This was the first time an AI beat top humans at a multiplayer poker game (more than two players), where game-theoretic guarantees from two-player games no longer apply.",
+    "image": {
+      "file": "Poker-Texas-Holdem-multiplayer.jpg",
+      "alt": "A multiplayer Texas hold'em poker game"
+    },
+    "sources": [
+      {
+        "title": "Superhuman AI for multiplayer poker (Science, doi:10.1126/science.aay2400; accepted manuscript)",
+        "publisher": "Science / NSF Public Access Repository",
+        "url": "https://par.nsf.gov/servlets/purl/10119653",
+        "kind": "paper"
+      },
+      {
+        "title": "Pluribus (poker bot)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pluribus_(poker_bot)",
+        "kind": "reference"
+      },
+      {
+        "title": "AI program beats pros in six-player poker -- a first",
+        "publisher": "Inquirer Technology (AFP)",
+        "url": "https://technology.inquirer.net/88895/ai-program-beats-pros-in-six-player-poker-a-first",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphastar-grandmaster",
+    "date": "2019-10-30",
+    "title": "AlphaStar reaches Grandmaster level in StarCraft II on Battle.net",
+    "category": "games",
+    "field": "StarCraft II",
+    "system": "AlphaStar Final (DeepMind)",
+    "opponent": "Ranked human players on the European Battle.net ladder",
+    "summary": "DeepMind reported in Nature that AlphaStar reached Grandmaster rank with all three races (Protoss, Terran and Zerg) while playing anonymously on Blizzard's public Battle.net ladder, ranking above 99.8% of active players. Unlike the January demo, this version saw the game through a camera view like a human's and was capped at 22 actions per 5 seconds, limits approved by a professional player.",
+    "significance": "An AI reached the top human league of a major esport under human-like constraints, playing the full game against the general competitive population rather than in staged matches.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/",
+        "kind": "primary"
+      },
+      {
+        "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning (Vinyals et al., Nature 575, 350-354)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/s41586-019-1724-z",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaStar (software)",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaStar_(software)",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "agent57-atari",
+    "date": "2020-03-31",
+    "title": "Agent57 beats the human benchmark on all 57 Atari games",
+    "category": "games",
+    "field": "Atari 2600",
+    "system": "Agent57 (DeepMind)",
+    "summary": "DeepMind's Agent57 became the first deep reinforcement learning agent to score above the standard human baseline on every game in the 57-game Atari benchmark. That included Montezuma's Revenge, Pitfall, Solaris and Skiing, which had defeated earlier agents. It combines a curiosity-driven exploration method with a meta-controller that decides how much to explore versus exploit.",
+    "significance": "This closed out the Atari benchmark that DQN made famous in 2013-2015, with superhuman scores on the whole suite, including the hardest exploration games.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Agent57: Outperforming the human Atari benchmark",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/agent57-outperforming-the-human-atari-benchmark/",
+        "kind": "primary"
+      },
+      {
+        "title": "Agent57: Outperforming the Atari Human Benchmark (Badia et al.)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2003.13350",
+        "kind": "paper"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "gpt-3",
+    "date": "2020-05-28",
+    "title": "GPT-3 shows that sheer scale unlocks few-shot learning",
+    "category": "language",
+    "field": "Large language models",
+    "system": "GPT-3 (OpenAI)",
+    "summary": "OpenAI described GPT-3, a 175-billion-parameter language model about ten times larger than any previous dense model. It could translate, answer questions and do simple reasoning tasks from just a few examples in its prompt, without any fine-tuning. OpenAI offered it through an API from June 2020, and Microsoft licensed the underlying model exclusively that September.",
+    "significance": "GPT-3 showed that scaling language models produces broad new abilities, which made prompt-based \"in-context learning\" a new way of using AI.",
+    "image": {
+      "file": "Full GPT architecture.png",
+      "alt": "Diagram of the GPT architecture"
+    },
+    "sources": [
+      {
+        "title": "Language Models are Few-Shot Learners (Brown et al.)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2005.14165v2",
+        "kind": "paper"
+      },
+      {
+        "title": "GPT-3",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/GPT-3",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphadogfight-trials",
+    "date": "2020-08-20",
+    "title": "AI pilot beats a human F-16 pilot 5-0 in DARPA's AlphaDogfight Trials",
+    "category": "robotics",
+    "field": "Air combat (simulation)",
+    "system": "Heron Systems AI agent (DARPA Air Combat Evolution program)",
+    "opponent": "Experienced USAF F-16 pilot \"Banger\", trained at the USAF Weapons School",
+    "summary": "In the final of DARPA's AlphaDogfight Trials, an AI agent from Heron Systems, a small Maryland company, swept an experienced US Air Force F-16 pilot (callsign \"Banger\") 5-0 in simulated within-visual-range dogfights, with both sides flying virtual F-16s. Heron had first beaten seven other teams' agents, including Lockheed Martin's in the final bracket, to win the right to face the human.",
+    "significance": "It was a high-profile demonstration that a reinforcement-learning agent could outfly a trained fighter pilot in a close-range dogfight, at least in simulation.",
+    "image": {
+      "file": "F-16C Fighting Falcon.JPEG",
+      "alt": "A US Air Force F-16 Fighting Falcon"
+    },
+    "sources": [
+      {
+        "title": "DARPA news release on the AlphaDogfight Trials",
+        "publisher": "DARPA",
+        "url": "https://www.darpa.mil/news/2020/alphadogfight-trial",
+        "kind": "primary"
+      },
+      {
+        "title": "Heron Systems' AI defeats human pilot in US DARPA AlphaDogfight Trials",
+        "publisher": "Janes",
+        "url": "https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "waymo-driverless-phoenix",
+    "date": "2020-10-08",
+    "title": "Waymo opens fully driverless ride-hailing to the public in Phoenix",
+    "category": "robotics",
+    "field": "Autonomous driving",
+    "system": "Waymo Driver (Waymo / Alphabet)",
+    "summary": "Waymo began offering rides with no safety driver on board to its Waymo One customers in suburban Phoenix, and said it would soon open to new riders through its app. Before this, only a few hundred early riders under NDA had taken driverless trips, which were about 5-10% of rides. The service area covered roughly 50 square miles and used a fleet of Chrysler Pacifica minivans.",
+    "significance": "This was the first time a company opened a fully driverless robotaxi service to members of the public, taking self-driving cars from test programs to everyday commercial use.",
+    "image": {
+      "file": "Waymo Chrysler Pacifica in Los Altos, 2017.jpg",
+      "alt": "A Waymo self-driving Chrysler Pacifica minivan"
+    },
+    "sources": [
+      {
+        "title": "Waymo is opening its fully driverless service to the general public in Phoenix",
+        "publisher": "Waymo",
+        "url": "https://waymo.com/blog/2020/10/waymo-is-opening-its-fully-driverless-service-in-phoenix/",
+        "kind": "primary"
+      },
+      {
+        "title": "Waymo begins fully driverless rides in Arizona",
+        "publisher": "BNN Bloomberg (Bloomberg News)",
+        "url": "https://www.bnnbloomberg.ca/waymo-begins-fully-driverless-rides-in-arizona-1.1505565",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphafold2-casp14",
+    "date": "2020-11-30",
+    "title": "AlphaFold 2 solves protein structure prediction at CASP14",
+    "category": "science",
+    "field": "Protein folding",
+    "system": "AlphaFold 2 (DeepMind)",
+    "summary": "In the CASP14 blind assessment, DeepMind's AlphaFold 2 predicted protein 3D structures with a median GDT score of 92.4 across all targets, an average error of about 1.6 Å. That is near the level of experimental methods, and far ahead of every other entrant. CASP's organizers described it as a solution to the 50-year-old protein-folding problem. The method was published in Nature in July 2021 along with open-source code.",
+    "significance": "AI solved a grand challenge in biology at experimental-grade accuracy, which changed how structural biology and drug discovery work and contributed to the 2024 Nobel Prize in Chemistry.",
+    "image": {
+      "file": "AlphaFold 2.png",
+      "alt": "AlphaFold 2"
+    },
+    "sources": [
+      {
+        "title": "AlphaFold: a solution to a 50-year-old grand challenge in biology",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
+        "kind": "primary"
+      },
+      {
+        "title": "Highly accurate protein structure prediction with AlphaFold (Jumper et al., Nature 596, 583-589)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/s41586-021-03819-2",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaFold",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaFold",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "muzero",
+    "date": "2020-12-23",
+    "title": "MuZero masters Go, chess, shogi and Atari without being told the rules",
+    "category": "games",
+    "field": "Go, chess, shogi, Atari",
+    "system": "MuZero (DeepMind)",
+    "summary": "DeepMind's MuZero learns its own internal model of a game, predicting only what matters for planning (value, best move and reward), and plans with tree search over that model. In Nature it matched AlphaZero in Go, chess and shogi without being given the rules, and set a new state of the art across 57 Atari games. A preprint had appeared in November 2019.",
+    "significance": "It extended AlphaZero-style superhuman planning to settings where the rules or environment dynamics are unknown, a step toward planning in messy real-world problems.",
+    "image": null,
+    "sources": [
+      {
+        "title": "MuZero: Mastering Go, chess, shogi and Atari without rules",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/",
+        "kind": "primary"
+      },
+      {
+        "title": "Mastering Atari, Go, chess and shogi by planning with a learned model (Schrittwieser et al., Nature 588, 604-609; doi:10.1038/s41586-020-03051-4)",
+        "publisher": "Nature (RePEc/IDEAS record)",
+        "url": "https://ideas.repec.org/a/nat/nature/v588y2020i7839d10.1038_s41586-020-03051-4.html",
+        "kind": "paper"
+      },
+      {
+        "title": "MuZero",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/MuZero",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "ai-guides-mathematical-discovery",
+    "date": "2021-12-01",
+    "title": "AI guides mathematicians to new results in knot theory and representation theory",
+    "category": "math",
+    "field": "Knot theory / representation theory",
+    "system": "DeepMind machine-learning framework, with University of Oxford and University of Sydney mathematicians",
+    "summary": "DeepMind worked with mathematicians at Oxford (Marc Lackenby, András Juhász) and Sydney (Geordie Williamson), using machine learning to spot patterns and attribution methods to highlight which quantities mattered. In knot theory this led to a proven theorem linking a knot's algebraic signature to its geometry through a new quantity, the \"natural slope\". In representation theory it pointed toward a proposed proof route for the roughly 40-year-old combinatorial invariance conjecture for Kazhdan-Lusztig polynomials, which was checked on more than 3 million examples.",
+    "significance": "This was a widely recognized case of machine learning helping professional mathematicians make new conjectures and theorems in pure mathematics, published in Nature.",
+    "image": {
+      "file": "Blue Trefoil Knot.png",
+      "alt": "A trefoil knot"
+    },
+    "sources": [
+      {
+        "title": "Exploring the beauty of pure mathematics in novel ways",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/exploring-the-beauty-of-pure-mathematics-in-novel-ways/",
+        "kind": "primary"
+      },
+      {
+        "title": "Advancing mathematics by guiding human intuition with AI (Davies et al.)",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-021-04086-x",
+        "kind": "paper"
+      },
+      {
+        "title": "Machine learning helps mathematicians make new connections",
+        "publisher": "University of Oxford",
+        "url": "https://www.ox.ac.uk/news/2021-12-01-machine-learning-helps-mathematicians-make-new-connections-0",
+        "kind": "primary"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphacode-competitive-programming",
+    "date": "2022-02-02",
+    "title": "AlphaCode performs at median-competitor level in coding contests",
+    "category": "math",
+    "field": "Competitive programming",
+    "system": "AlphaCode (DeepMind)",
+    "opponent": "Human participants in 10 Codeforces contests (simulated evaluation)",
+    "summary": "DeepMind's AlphaCode, a Transformer system pretrained on GitHub code and fine-tuned on contest problems, generates huge numbers of candidate C++ and Python programs per problem. It then filters and clusters them down to 10 submissions. In simulated entries to 10 recent Codeforces contests, held after its training data was collected, it ranked on average in the top 54.3% of participants, about the level of the median human competitor. The work appeared in Science in December 2022.",
+    "significance": "This was the first time an AI code-generation system performed at a competitive level in programming contests that require reading a problem statement and inventing an algorithm.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Competitive programming with AlphaCode",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/competitive-programming-with-alphacode/",
+        "kind": "primary"
+      },
+      {
+        "title": "Competition-Level Code Generation with AlphaCode (Li et al.)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2203.07814",
+        "kind": "paper"
+      },
+      {
+        "title": "DeepMind's AI programming tool AlphaCode tests in top 54% of human coders",
+        "publisher": "TechXplore",
+        "url": "https://techxplore.com/news/2022-02-deepmind-ai-tool-alphacode-human.amp",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "gran-turismo-sophy",
+    "date": "2022-02-09",
+    "title": "Sony's Gran Turismo Sophy outraces the world's best Gran Turismo drivers",
+    "category": "games",
+    "field": "Sim racing (Gran Turismo Sport)",
+    "system": "Gran Turismo Sophy (Sony AI, with Polyphony Digital and Sony Interactive Entertainment)",
+    "opponent": "Four of the world's top Gran Turismo esports drivers (Race Together 2021)",
+    "summary": "Sony AI, Polyphony Digital and Sony Interactive Entertainment trained GT Sophy with deep reinforcement learning to race at the limit while respecting racing etiquette. After losing the team contest 86-70 to four top human Gran Turismo drivers on 2 July 2021, the improved agent won the 21 October 2021 rematch 104-52 over three tracks, including Circuit de la Sarthe. It also beat the humans' best lap times. The work was published in Nature in February 2022.",
+    "significance": "An AI beat champion-level humans at high-speed, wheel-to-wheel racing, where it had to control the car precisely and also make tactical, sportsmanlike decisions in real time.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Sony AI announcement of Gran Turismo Sophy",
+        "publisher": "Sony AI",
+        "url": "https://ai.sony/news/sonyai009",
+        "kind": "primary"
+      },
+      {
+        "title": "Outracing champion Gran Turismo drivers with deep reinforcement learning (Wurman et al., Nature 602, 223-228)",
+        "publisher": "Nature",
+        "url": "https://doi.org/10.1038/s41586-021-04357-7",
+        "kind": "paper"
+      },
+      {
+        "title": "The Race to Turn a World-class AI into a World Champion",
+        "publisher": "Sony AI",
+        "url": "https://ai.sony/blog/the-race-to-turn-a-world-class-ai-into-a-world-champion",
+        "kind": "primary"
+      },
+      {
+        "title": "Gran Turismo 7's \"Sophy\" Artificial Intelligence Driving System Revealed",
+        "publisher": "GTPlanet",
+        "url": "https://www.gtplanet.net/gran-turismo-7s-sophy-artificial-intelligence-driving-system-revealed/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "text-to-image-dall-e-2",
+    "date": "2022-04-06",
+    "title": "DALL-E 2 and Stable Diffusion bring photorealistic text-to-image AI",
+    "category": "perception",
+    "field": "Image generation",
+    "system": "DALL-E 2 (OpenAI); Stable Diffusion (Stability AI, CompVis, Runway)",
+    "summary": "OpenAI announced DALL-E 2, which generates and edits realistic images from text prompts by turning a caption into a CLIP image embedding and then decoding it with a diffusion model. It opened to everyone in September 2022. In August 2022, Stability AI, LMU Munich's CompVis group and Runway released Stable Diffusion, a latent diffusion model whose weights were made public and could run on consumer GPUs.",
+    "significance": "2022 was the year high-quality AI image generation became available to the public, starting the generative-AI boom in art and design and the debates over copyright and artists' work.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents (Ramesh et al.)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2204.06125",
+        "kind": "paper"
+      },
+      {
+        "title": "DALL-E",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/DALL-E",
+        "kind": "reference"
+      },
+      {
+        "title": "Stable Diffusion",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphatensor-matrix-multiplication",
+    "date": "2022-10-05",
+    "title": "AlphaTensor discovers faster matrix multiplication algorithms",
+    "category": "math",
+    "field": "Algorithms (matrix multiplication)",
+    "system": "AlphaTensor (DeepMind)",
+    "summary": "DeepMind recast the search for matrix multiplication algorithms as a single-player game of decomposing a 3D tensor, and trained an AlphaZero-style agent to play it. AlphaTensor found a way to multiply 4x4 matrices in mod-2 arithmetic with 47 multiplications, beating the 49 from applying Strassen's 1969 method twice, and cut 4x5-by-5x5 products from 80 to 76 multiplications. It also found hardware-tailored algorithms that ran 10-20% faster on Nvidia V100 GPUs and Google TPUs.",
+    "significance": "This was the first improvement on Strassen's two-level algorithm in a finite field in over 50 years, and it was found by an AI, showing AI could discover new provably correct algorithms in a fundamental area of math.",
+    "image": {
+      "file": "Matrix multiplication diagram 2.svg",
+      "alt": "Diagram of matrix multiplication"
+    },
+    "sources": [
+      {
+        "title": "Discovering novel algorithms with AlphaTensor",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/",
+        "kind": "primary"
+      },
+      {
+        "title": "Discovering faster matrix multiplication algorithms with reinforcement learning (Fawzi et al., Nature 610, 47-53)",
+        "publisher": "Nature (via PubMed Central)",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9534758/",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaTensor",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaTensor",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "cicero-diplomacy",
+    "date": "2022-11-22",
+    "title": "Meta's Cicero reaches human-level play in Diplomacy",
+    "category": "games",
+    "field": "Diplomacy",
+    "system": "Cicero (Meta AI, FAIR Diplomacy team)",
+    "opponent": "Human players in an anonymous online webDiplomacy.net blitz league",
+    "summary": "Meta AI's Cicero combined a dialogue language model with strategic planning so it could negotiate, form alliances and coordinate with human players in natural language. Playing anonymously in 40 online blitz games on webDiplomacy.net, it scored more than double the average human player's score. It also ranked in the top 10% of participants who played more than one game.",
+    "significance": "This was the first AI to reach strong human-level play in a game that depends on persuasion, trust and cooperation through free-form conversation, not just moves on a board.",
+    "image": null,
+    "sources": [
+      {
+        "title": "CICERO: An AI agent that negotiates, persuades, and cooperates with people",
+        "publisher": "Meta AI",
+        "url": "https://ai.meta.com/blog/cicero-ai-negotiates-persuades-and-cooperates-with-people/",
+        "kind": "primary"
+      },
+      {
+        "title": "Human-level play in the game of Diplomacy by combining language models with strategic reasoning (Science, 2022; doi:10.1126/science.ade9097)",
+        "publisher": "Science (author page, Meta FAIR Diplomacy Team)",
+        "url": "https://www.mit.edu/~gfarina/2022/cicero",
+        "kind": "paper"
+      },
+      {
+        "title": "Meta's new AI can use deceit to conquer a board game world",
+        "publisher": "Popular Science",
+        "url": "https://www.popsci.com/technology/meta-ai-bot-diplomacy/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "chatgpt-launch",
+    "date": "2022-11-30",
+    "title": "ChatGPT launches and becomes the fastest-growing consumer app",
+    "category": "language",
+    "field": "Conversational AI",
+    "system": "ChatGPT (OpenAI), fine-tuned from GPT-3.5",
+    "summary": "OpenAI released ChatGPT as a free research preview: a chatbot fine-tuned from a GPT-3.5 model using reinforcement learning from human feedback (RLHF). It reportedly passed one million users within five days. A UBS analysis of Similarweb data estimated about 100 million monthly active users by January 2023, which it called the fastest ramp of any consumer internet app.",
+    "significance": "ChatGPT brought capable large language models to the general public almost overnight and started the global generative-AI race among companies and governments.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Introducing ChatGPT",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/chatgpt/",
+        "kind": "primary"
+      },
+      {
+        "title": "ChatGPT",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ChatGPT",
+        "kind": "reference"
+      },
+      {
+        "title": "Euronews report on ChatGPT's estimated 100 million users",
+        "publisher": "Euronews",
+        "url": "https://www.euronews.com/2023/02/02/openai-chatgpt",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "gpt-4-bar-exam",
+    "date": "2023-03-14",
+    "title": "GPT-4 scores around the top 10% on a simulated bar exam",
+    "category": "language",
+    "field": "Professional exams (law)",
+    "system": "GPT-4 (OpenAI)",
+    "summary": "OpenAI released GPT-4 on 14 March 2023 with a technical report saying the model passed a simulated Uniform Bar Exam with a score around the top 10% of test takers (a reported scaled score of 298), alongside strong results on many other academic and professional exams. The bar exam evaluation was run with OpenAI's collaborators Casetext and Stanford CodeX. A 2024 peer-reviewed re-analysis by MIT's Eric Martínez concluded the 90th-percentile figure was inflated: it rested on February Illinois data skewed toward repeat takers. Against a July exam the estimate fell below the 69th percentile overall, to about the 62nd among first-time takers and about the 48th among those who passed, with essays weaker still.",
+    "significance": "The moment a general-purpose chatbot was credibly reported to pass a professional licensing exam, which made \"AI vs. human professionals\" a mainstream question, even though the headline percentile was later shown to be overstated.",
+    "image": null,
+    "sources": [
+      {
+        "title": "GPT-4 Technical Report (arXiv:2303.08774)",
+        "publisher": "OpenAI / arXiv",
+        "url": "https://arxiv.org/abs/2303.08774",
+        "kind": "paper"
+      },
+      {
+        "title": "Re-evaluating GPT-4's bar exam performance",
+        "publisher": "Artificial Intelligence and Law (Springer), Eric Martínez",
+        "url": "https://link.springer.com/article/10.1007/s10506-024-09396-9",
+        "kind": "paper"
+      },
+      {
+        "title": "GPT-4 didn't ace the bar exam after all, MIT research suggests",
+        "publisher": "Live Science",
+        "url": "https://livescience.com/technology/artificial-intelligence/gpt-4-didnt-ace-the-bar-exam-after-all-mit-research-suggests-it-barely-passed",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphadev-faster-sorting",
+    "date": "2023-06-07",
+    "title": "AlphaDev discovers faster sorting routines merged into LLVM's libc++",
+    "category": "math",
+    "field": "Algorithms (sorting)",
+    "system": "AlphaDev (Google DeepMind)",
+    "summary": "Google DeepMind's AlphaDev treated writing low-level assembly as a single-player game and used reinforcement learning (building on AlphaZero) to search for shorter, faster routines for sorting very short sequences. The resulting routines were translated into C++ and accepted into LLVM's standard C++ library, libc++. DeepMind reported they were up to 70% faster for short sequences and about 1.7% faster for sequences over 250,000 elements, and called it the first change to that part of the library in more than a decade. AlphaDev also found a hashing routine about 30% faster for 9-16 byte inputs, released in Google's Abseil library.",
+    "significance": "An algorithm found by reinforcement learning, rather than written by people, shipped in one of the most widely used software libraries in the world.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AlphaDev discovers faster sorting algorithms",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/alphadev-discovers-faster-sorting-algorithms/",
+        "kind": "primary"
+      },
+      {
+        "title": "Faster sorting algorithms discovered using deep reinforcement learning",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-023-06004-9",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaDev",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaDev",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "swift-drone-racing-champions",
+    "date": "2023-08-30",
+    "title": "Swift autonomous drone beats human drone-racing champions",
+    "category": "robotics",
+    "field": "Drone racing",
+    "system": "Swift (University of Zurich Robotics and Perception Group, with Intel Labs)",
+    "opponent": "Alex Vanover, Thomas Bitmatta and Marvin Schaepper, champion FPV drone-racing pilots",
+    "summary": "Swift, a quadcopter from the University of Zurich's Robotics and Perception Group with Intel Labs, was trained mostly in simulation with deep reinforcement learning, then flew using only onboard sensors (camera and inertial measurements). In head-to-head races on a purpose-built track in a hangar at Dübendorf airport near Zurich, it won 5 of 9 races against Alex Vanover (2019 Drone Racing League champion), 4 of 7 against Thomas Bitmatta (2019 MultiGP champion) and 6 of 9 against three-time Swiss champion Marvin Schaepper. That is 15 of 25 races overall. It also set the fastest race time, about half a second ahead of the best human.",
+    "significance": "A rare case of a learned controller beating world-class humans in a physical, real-world sport rather than a board game or video game.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Champion-level drone racing using deep reinforcement learning (Nature 620, 982-987; DOI 10.1038/s41586-023-06419-4)",
+        "publisher": "Nature, via RePEc/IDEAS record",
+        "url": "https://ideas.repec.org/a/nat/nature/v620y2023i7976d10.1038_s41586-023-06419-4.html",
+        "kind": "paper"
+      },
+      {
+        "title": "Drone race (University of Zurich news release)",
+        "publisher": "University of Zurich",
+        "url": "https://news.uzh.ch/en/articles/media/2023/Drone-race.html",
+        "kind": "primary"
+      },
+      {
+        "title": "AI drone soars to victory in races against human champions",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/ai-drone-soars-to-victory-in-races-against-human-champions/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "graphcast-weather-forecasting",
+    "date": "2023-11-14",
+    "title": "GraphCast outperforms the leading operational 10-day weather forecast",
+    "category": "science",
+    "field": "Weather forecasting",
+    "system": "GraphCast (Google DeepMind)",
+    "summary": "Google DeepMind's GraphCast is a graph neural network trained on about four decades of ECMWF ERA5 reanalysis data. It produces 10-day global forecasts at 0.25° resolution in under a minute on a single TPU. Published in Science, it beat ECMWF's HRES, the gold-standard deterministic forecast, on more than 90% of 1,380 test variables and lead times, and on 99.7% of tropospheric targets. HRES takes hours on a supercomputer.",
+    "significance": "A landmark peer-reviewed case of a machine-learning model beating the world's best physics-based deterministic forecast across most medium-range targets.",
+    "image": null,
+    "sources": [
+      {
+        "title": "GraphCast: AI model for faster and more accurate global weather forecasting",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/",
+        "kind": "primary"
+      },
+      {
+        "title": "Learning skillful medium-range global weather forecasting (Science, DOI 10.1126/science.adi2336)",
+        "publisher": "Science",
+        "url": "https://www.science.org/stoken/author-tokens/ST-1550/full",
+        "kind": "paper"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "funsearch-cap-sets",
+    "date": "2023-12-14",
+    "title": "FunSearch: LLM-driven program search finds new, larger cap sets",
+    "category": "math",
+    "field": "Combinatorics (cap sets)",
+    "system": "FunSearch (Google DeepMind)",
+    "summary": "Google DeepMind's FunSearch pairs a pretrained code-writing language model with an automated evaluator in an evolutionary loop. The model proposes small programs, the best are kept, and they are fed back as prompts. Applied to the cap set problem, FunSearch found a cap set of size 512 in dimension 8, larger than any previously known construction. It also improved lower bounds on the asymptotic cap set capacity, and it found online bin-packing heuristics that beat standard ones. The work was published in Nature with co-author Jordan Ellenberg.",
+    "significance": "DeepMind described it as the first time a large language model was used to make a new, verifiable discovery on a challenging open problem in mathematics.",
+    "image": null,
+    "sources": [
+      {
+        "title": "FunSearch: Making new discoveries in mathematical sciences using Large Language Models",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models",
+        "kind": "primary"
+      },
+      {
+        "title": "Mathematical discoveries from program search with large language models",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-023-06924-6",
+        "kind": "paper"
+      },
+      {
+        "title": "FunSearch",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FunSearch",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphageometry-olympiad-geometry",
+    "date": "2024-01-17",
+    "title": "AlphaGeometry solves olympiad geometry near gold-medalist level",
+    "category": "math",
+    "field": "Geometry",
+    "system": "AlphaGeometry (Google DeepMind)",
+    "summary": "Google DeepMind's AlphaGeometry combines a language model, which proposes auxiliary constructions, with a symbolic deduction engine. It was trained on 100 million synthetic proofs and no human demonstrations. On a benchmark of 30 IMO geometry problems from 2000-2022 it solved 25 within competition time limits. The previous best automated method (Wu's method) solved 10, and the average human gold medalist solved about 25.9.",
+    "significance": "Machine reasoning reached roughly the level of the best high-school mathematicians in one olympiad domain, a step toward the IMO \"grand challenge.\"",
+    "image": null,
+    "sources": [
+      {
+        "title": "AlphaGeometry: An Olympiad-level AI system for geometry",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/",
+        "kind": "primary"
+      },
+      {
+        "title": "Solving olympiad geometry without human demonstrations",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-023-06747-5",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaGeometry",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaGeometry",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphaproof-imo-2024-silver",
+    "date": "2024-07-25",
+    "title": "AlphaProof and AlphaGeometry 2 reach silver-medal standard at IMO 2024",
+    "category": "math",
+    "field": "Olympiad mathematics",
+    "system": "AlphaProof and AlphaGeometry 2 (Google DeepMind)",
+    "opponent": "Human contestants at the 65th IMO (Bath, UK)",
+    "summary": "Google DeepMind's AlphaProof, a reinforcement-learning system that proves statements in the Lean proof assistant, worked alongside AlphaGeometry 2 on the six problems of the 2024 International Mathematical Olympiad in Bath, UK. Together they fully solved 4 of 6 problems, including the hardest, which only five human contestants solved, for 28 of 42 points. That is the top of the silver range, one point below the gold cutoff of 29 that 58 of 609 human contestants reached. Fields Medalist Timothy Gowers and Joseph Myers scored the solutions under IMO rules.",
+    "significance": "The first time an AI system reached medal standard on the actual problems of a live IMO.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/discover/blog/ai-achieves-silver-medal-standard-solving-international-mathematical-olympiad-problems/",
+        "kind": "primary"
+      },
+      {
+        "title": "AI Reaches Silver-Medal Level at This Year's Math Olympiad",
+        "publisher": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/ai-reaches-silver-medal-level-at-this-years-math-olympiad/",
+        "kind": "news"
+      },
+      {
+        "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
+        "publisher": "Nature (2025)",
+        "url": "https://www.nature.com/articles/s41586-025-09833-y",
+        "kind": "paper"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-o1-reasoning-models",
+    "date": "2024-09-12",
+    "title": "OpenAI o1 introduces LLMs trained to reason at length before answering",
+    "category": "math",
+    "field": "Mathematical and scientific reasoning",
+    "system": "OpenAI o1 (OpenAI)",
+    "summary": "OpenAI previewed o1, a model trained with reinforcement learning to produce a long internal chain of thought before answering. Performance kept improving with both more training and more \"thinking\" time at inference. OpenAI reported that o1 averaged 74% on the 2024 AIME with one sample (83% with 64-sample consensus), against about 12% for GPT-4o. It was the first model to beat recruited PhD experts on the GPQA Diamond science benchmark, and it reached the 89th percentile on Codeforces. A variant entered under IOI 2024 contest rules scored at the 49th percentile.",
+    "significance": "Launched the \"reasoning model\" paradigm and test-time compute scaling, which drove the jumps in AI competition math and programming results through 2025.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Learning to reason with LLMs",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/learning-to-reason-with-llms/",
+        "kind": "primary"
+      },
+      {
+        "title": "OpenAI o1",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI_o1",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "nobel-physics-2024-hopfield-hinton",
+    "date": "2024-10-08",
+    "title": "Nobel Prize in Physics honors Hopfield and Hinton for neural networks",
+    "category": "science",
+    "field": "Machine learning (recognition)",
+    "system": "Hopfield network; Boltzmann machine",
+    "summary": "The Royal Swedish Academy of Sciences awarded the 2024 Nobel Prize in Physics jointly to John Hopfield (Princeton) and Geoffrey Hinton (Toronto) \"for foundational discoveries and inventions that enable machine learning with artificial neural networks.\" The committee cited Hopfield's associative-memory network, which stores and reconstructs patterns using ideas from the physics of atomic spins, and Hinton's Boltzmann machine, built on it, which learns to recognize characteristic features in data.",
+    "significance": "Science's most prestigious prize recognized artificial neural networks, the basis of modern AI, as foundational science.",
+    "image": {
+      "file": "Geoffrey Hinton in 2026.jpg",
+      "alt": "Geoffrey Hinton"
+    },
+    "sources": [
+      {
+        "title": "Press release: The Nobel Prize in Physics 2024",
+        "publisher": "Nobel Prize Outreach / Royal Swedish Academy of Sciences",
+        "url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+        "kind": "primary"
+      },
+      {
+        "title": "The discovery of tools key to machine learning wins the 2024 physics Nobel",
+        "publisher": "Science News",
+        "url": "https://sciencenews.org/article/nobel-physics-2024-machine-learning",
+        "kind": "news"
+      },
+      {
+        "title": "Geoffrey Hinton Awarded the 2024 Nobel Prize in Physics",
+        "publisher": "ACM",
+        "url": "https://www.acm.org/articles/bulletins/2024/october/geoffrey-hinton-nobel-prize",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "nobel-chemistry-2024-alphafold",
+    "date": "2024-10-09",
+    "title": "Nobel Prize in Chemistry honors AlphaFold's Hassabis and Jumper, with Baker",
+    "category": "science",
+    "field": "Protein structure prediction",
+    "system": "AlphaFold 2 (Google DeepMind); computational protein design (Baker lab, University of Washington)",
+    "summary": "The 2024 Nobel Prize in Chemistry went half to David Baker \"for computational protein design\" and half jointly to Google DeepMind's Demis Hassabis and John Jumper \"for protein structure prediction.\" The Academy highlighted AlphaFold2 (2020), which has been used to predict the structures of nearly all of the roughly 200 million proteins researchers have identified, and has been used by more than two million people in 190 countries.",
+    "significance": "The first Nobel Prize awarded for building an AI system, which confirmed that AlphaFold had solved a decades-old scientific problem.",
+    "image": {
+      "file": "Demis Hassabis Royal Society.jpg",
+      "alt": "Demis Hassabis"
+    },
+    "sources": [
+      {
+        "title": "The Nobel Prize in Chemistry 2024 (press release, PDF)",
+        "publisher": "Royal Swedish Academy of Sciences",
+        "url": "https://kva.se/app/uploads/2024/11/press_ke_en_24.pdf",
+        "kind": "primary"
+      },
+      {
+        "title": "Press release: The Nobel Prize in Chemistry 2024",
+        "publisher": "Nobel Prize Outreach",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+        "kind": "primary"
+      },
+      {
+        "title": "Work on protein structure and design wins the 2024 chemistry Nobel",
+        "publisher": "Science News",
+        "url": "https://sciencenews.org/article/nobel-prize-chemistry-2024-proteins",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-o3-arc-agi",
+    "date": "2024-12-20",
+    "title": "OpenAI o3 scores 75.7% to 87.5% on the ARC-AGI-1 reasoning benchmark",
+    "category": "math",
+    "field": "Abstract reasoning (ARC-AGI)",
+    "system": "OpenAI o3 (pre-release version, OpenAI)",
+    "summary": "On 20 December 2024 the ARC Prize Foundation verified that a pre-release OpenAI o3 scored 75.7% on the 100-task ARC-AGI-1 semi-private evaluation at a compute budget within the public leaderboard's limits, and 87.5% with about 172 times more compute. The larger run cost roughly $4,560 per task. ARC-AGI was built by François Chollet as grid puzzles that are easy for people but had long resisted LLMs.",
+    "significance": "A benchmark designed to resist memorization and scale fell sharply to a reasoning model, though its creators stressed that this was not AGI.",
+    "image": null,
+    "sources": [
+      {
+        "title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
+        "publisher": "ARC Prize Foundation",
+        "url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+        "kind": "primary"
+      },
+      {
+        "title": "OpenAI o3",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "gpt-4-5-turing-test",
+    "date": "2025-03-31",
+    "title": "GPT-4.5 judged human more often than real humans in a Turing test",
+    "category": "language",
+    "field": "Turing test",
+    "system": "GPT-4.5 (OpenAI), tested by Jones and Bergen (UC San Diego)",
+    "opponent": "Human witnesses and interrogators in a randomized three-party Turing test",
+    "summary": "UC San Diego researchers Cameron Jones and Benjamin Bergen ran randomized, pre-registered three-party Turing tests. Each interrogator chatted for five minutes at once with a real person and an AI, then chose which was human. Prompted to adopt a humanlike persona, GPT-4.5 was picked as the human 73% of the time, significantly more often than the real humans it was paired with. LLaMa-3.1-405B was picked 56% of the time (not significantly different from humans), while the baselines ELIZA and GPT-4o were picked 23% and 21%.",
+    "significance": "The authors presented it as the first empirical evidence that an AI system passes a standard three-party version of Turing's imitation game.",
+    "image": {
+      "file": "Alan Turing (1912-1954) in 1936 at Princeton University.jpg",
+      "alt": "Alan Turing at Princeton in 1936"
+    },
+    "sources": [
+      {
+        "title": "Large Language Models Pass the Turing Test (arXiv:2503.23674)",
+        "publisher": "arXiv (Jones and Bergen)",
+        "url": "https://arxiv.org/abs/2503.23674",
+        "kind": "paper"
+      },
+      {
+        "title": "Turing test",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Turing_test",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphaevolve-matrix-multiplication",
+    "date": "2025-05-14",
+    "title": "AlphaEvolve beats Strassen for 4x4 complex matrices, advances open problems",
+    "category": "math",
+    "field": "Algorithms and combinatorics",
+    "system": "AlphaEvolve (Google DeepMind), powered by Gemini",
+    "summary": "Google DeepMind's AlphaEvolve is an evolutionary coding agent: Gemini models propose code changes and automated evaluators score them. It found a way to multiply two 4x4 complex-valued matrices with 48 scalar multiplications, the first improvement in that setting over the 49 from applying Strassen's 1969 algorithm recursively. On more than 50 open problems in analysis, geometry, combinatorics and number theory, it matched the best known results in about 75% of cases and improved them in about 20%. One example is a new lower bound of 593 for the kissing number in 11 dimensions. Inside Google, it found a data-center scheduling heuristic that recovers about 0.7% of fleet-wide compute.",
+    "significance": "An LLM-driven discovery system improved results that had stood for decades, including a 56-year-old benchmark in fast matrix multiplication.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+        "kind": "primary"
+      },
+      {
+        "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery (arXiv:2506.13131)",
+        "publisher": "arXiv (Novikov et al.)",
+        "url": "https://arxiv.org/abs/2506.13131",
+        "kind": "paper"
+      },
+      {
+        "title": "AlphaEvolve",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AlphaEvolve",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "atcoder-world-tour-finals-heuristic-2025",
+    "date": "2025-07-16",
+    "title": "OpenAI model takes 2nd at AtCoder World Tour Finals Heuristic, behind Psyho",
+    "category": "math",
+    "field": "Competitive programming (heuristic optimization)",
+    "system": "Unreleased OpenAI model/agent (OpenAI also sponsored the event)",
+    "opponent": "Przemysław \"Psyho\" Dębiak and the other human finalists",
+    "summary": "At the AtCoder World Tour Finals 2025 Heuristic contest in Tokyo, a ten-hour optimization contest on 16 July 2025, an OpenAI system competed alongside the world's top heuristic programmers. It finished second. Polish programmer Przemysław \"Psyho\" Dębiak won, with a lead that grew from about 5.5% to a final margin of about 9.5% in score. Afterwards he posted \"Humanity has won (so far)!\"",
+    "significance": "AI placed ahead of all but one of the world's elite humans in a long-horizon optimization contest, and it was widely seen as one of the last times a human would win such a duel.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AtCoder World Tour Finals 2025 Heuristic (contest page)",
+        "publisher": "AtCoder",
+        "url": "https://atcoder.jp/contests/awtf2025heuristic",
+        "kind": "primary"
+      },
+      {
+        "title": "'Humanity has won (so far)': Meet the world's best programmer who beat AI and ChatGPT",
+        "publisher": "Euronews",
+        "url": "https://euronews.com/next/2025/07/22/humanity-has-won-so-far-meet-the-worlds-best-programmer-who-beat-ai-and-chatgpt",
+        "kind": "news"
+      },
+      {
+        "title": "AI loses in coding duel: humans win after ten hours",
+        "publisher": "heise online",
+        "url": "https://heise.de/-10497998",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "imo-2025-gold-medal-ai",
+    "date": "2025-07-21",
+    "title": "Google DeepMind and OpenAI models reach gold-medal level at IMO 2025",
+    "category": "math",
+    "field": "Olympiad mathematics",
+    "system": "Gemini Deep Think, advanced version (Google DeepMind); experimental reasoning model (OpenAI)",
+    "opponent": "Human contestants at the 66th IMO",
+    "summary": "At the 66th International Mathematical Olympiad in Queensland, Australia, an advanced version of Google DeepMind's Gemini Deep Think fully solved 5 of 6 problems for 35 of 42 points. It wrote natural-language proofs directly from the official problems within the 4.5-hour session limits. IMO coordinators graded and certified the result, and IMO President Gregor Dolinar confirmed the \"much-desired milestone.\" An experimental OpenAI reasoning model also scored 35 under contest conditions, graded by three former IMO medalists rather than by the IMO. For comparison, 67 of about 630 human contestants earned gold and five scored a perfect 42.",
+    "significance": "General-purpose language models, working in plain English without formal tools, crossed the IMO gold threshold a year after the formal-methods silver.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+        "kind": "primary"
+      },
+      {
+        "title": "Google and OpenAI's AI models win milestone gold at global math competition (Reuters)",
+        "publisher": "Reuters, via CP24",
+        "url": "https://www.cp24.com/news/world/2025/07/21/google-and-openais-ai-models-win-milestone-gold-at-global-math-competition/",
+        "kind": "news"
+      },
+      {
+        "title": "Humans beat AI gold-level score at top maths contest (AFP)",
+        "publisher": "AFP, via Citizen Digital",
+        "url": "https://citizen.digital/article/humans-beat-ai-gold-level-score-at-top-maths-contest",
+        "kind": "news"
+      },
+      {
+        "title": "OpenAI claims a breakthrough in LLM reasoning on complex math problems",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/openai-claims-a-breakthrough-in-llm-reasoning-on-complex-math-problems/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "ioi-2025-openai-gold",
+    "date": "2025-08",
+    "title": "OpenAI reasoning models achieve gold-medal score at IOI 2025",
+    "category": "math",
+    "field": "Competitive programming (olympiad)",
+    "status": "self-reported",
+    "system": "Ensemble of OpenAI general-purpose reasoning models",
+    "opponent": "About 330 human contestants at IOI 2025",
+    "summary": "At the 2025 International Olympiad in Informatics, hosted in Sucre, Bolivia (27 July to 3 August), OpenAI entered an ensemble of general-purpose reasoning models in the online AI track. The track had the same rules as the students: five hours per contest day, at most 50 submissions per problem and no internet. Its score was at gold-medal level and would have ranked sixth among about 330 human contestants, the best of any AI entry. That was the 98th percentile, up from the 49th a year earlier. No model was trained specifically for the IOI, and the strongest one was the model behind OpenAI's IMO gold.",
+    "significance": "AI moved from mid-pack to near the very top of the world's premier high-school programming olympiad in one year.",
+    "image": null,
+    "sources": [
+      {
+        "title": "OpenAI's AI system wins a gold medal-level score at the International Olympiad in Informatics 2025",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/openais-ai-system-wins-a-gold-medal-level-score-at-the-international-olympiad-in-informatics-2025/",
+        "kind": "news"
+      },
+      {
+        "title": "OpenAI KI: Goldmedaille - Logikmodell erzielt Spitzenplatz beim IOI 2025",
+        "publisher": "Notebookcheck",
+        "url": "https://www.notebookcheck.com/OpenAI-KI-Goldmedaille-Logikmodell-erzielt-Spitzenplatz-beim-IOI-2025.1086200.0.html",
+        "kind": "news"
+      },
+      {
+        "title": "International Olympiad in Informatics",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "icpc-2025-world-finals-ai",
+    "date": "2025-09-04",
+    "title": "AI solves 12/12 (OpenAI) and 10/12 (Gemini) at the ICPC World Finals",
+    "category": "math",
+    "field": "Competitive programming (collegiate)",
+    "system": "OpenAI (GPT-5 + experimental reasoning model); Google DeepMind (Gemini 2.5 Deep Think)",
+    "opponent": "139 university teams at the 2025 ICPC World Finals",
+    "summary": "At the 2025 ICPC World Finals in Baku, Azerbaijan, AI systems tackled the same 12 problems as 139 university teams in a supervised AI track under the same five-hour rules. OpenAI's ensemble, GPT-5 plus an experimental reasoning model, solved all 12: 11 on the first submission, and the hardest after nine attempts. That would have placed first, ahead of the best human team's 11. Google DeepMind's Gemini 2.5 Deep Think solved 10, which would have ranked second. It also cracked one problem that no university team solved.",
+    "significance": "AI outscored every human team at the world's most prestigious university programming contest.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
+        "publisher": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+        "kind": "primary"
+      },
+      {
+        "title": "OpenAI and DeepMind Top World's Biggest Coding Contest",
+        "publisher": "TechRepublic",
+        "url": "https://www.techrepublic.com/article/openai-deepmind-icpc-2025-results/",
+        "kind": "news"
+      },
+      {
+        "title": "OpenAI outperforms humans and Google at the world's top collegiate programming contest",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/openai-outperforms-humans-and-google-at-the-worlds-top-collegiate-programming-contest/",
+        "kind": "news"
+      },
+      {
+        "title": "ICPC World Finals 2025 standings",
+        "publisher": "Competitive Programming Hall of Fame",
+        "url": "https://www.cphof.org/standings/icpc/2025",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "erdos-problem-124-aristotle",
+    "date": "2025-11",
+    "title": "Harmonic's Aristotle autonomously proves a version of Erdős problem #124",
+    "category": "math",
+    "field": "Number theory (Erdős problems)",
+    "system": "Aristotle (Harmonic), run by Boris Alexeev",
+    "summary": "In late November 2025, mathematician Boris Alexeev ran Harmonic's Aristotle prover in autonomous mode on formal statements of open problems from Thomas Bloom's erdosproblems.com database. Aristotle returned a Lean-verified proof of problem #124 as Erdős had posed it in two 1997 papers. It was a short proof, and the problem had sat on the site as open. The episode came a month after an overclaim: in October, OpenAI staff said GPT-5 had \"found solutions to 10 previously unsolved Erdős problems,\" but it had actually found existing papers that already solved them. Bloom called the claim \"a dramatic misrepresentation.\"",
+    "significance": "Among the first cases of an AI system independently producing a new, machine-checked solution to a problem listed as open on the Erdős database, but on an easier variant rather than a celebrated hard problem.",
+    "image": {
+      "file": "Erdos budapest fall 1992.jpg",
+      "alt": "Paul Erdős in Budapest, 1992"
+    },
+    "sources": [
+      {
+        "title": "Erdős Problem #124",
+        "publisher": "erdosproblems.com (Thomas Bloom)",
+        "url": "https://www.erdosproblems.com/124",
+        "kind": "primary"
+      },
+      {
+        "title": "Formalization of Erdős problems (guest post by Boris Alexeev)",
+        "publisher": "Xena Project blog (Kevin Buzzard)",
+        "url": "https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems",
+        "kind": "primary"
+      },
+      {
+        "title": "OpenAI's 'embarrassing' math",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2025/10/19/openais-embarrassing-math/",
+        "kind": "news"
+      },
+      {
+        "title": "Why the Legendary Erdős Problems Are Falling to AI",
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "erdos-728-gpt52-aristotle",
+    "date": "2026-01",
+    "title": "GPT-5.2 Pro and Aristotle resolve Erdős problem #728 almost autonomously",
+    "category": "math",
+    "field": "Number theory",
+    "system": "GPT-5.2 Pro (OpenAI) with Aristotle (Harmonic) for Lean formalization",
+    "summary": "In early January 2026 amateur Kevin Barreto prompted OpenAI's GPT-5.2 Pro to attack Erdős problem #728, a question about when products of factorials divide other factorials. The model produced an argument that was then formalized and machine-checked in Lean using Harmonic's Aristotle system, and no prior solution was found in the literature. Terence Tao described the problem as solved \"more or less autonomously\" by AI, and a write-up of the Lean proof was posted to arXiv on 12 January.",
+    "significance": "Widely regarded as the first open Erdős problem resolved essentially autonomously by AI with a formally verified proof, kicking off a year in which AI systems resolved dozens of such problems.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof",
+        "publisher": "arXiv (Nat Sothanaphan)",
+        "url": "https://arxiv.org/abs/2601.07421",
+        "kind": "paper"
+      },
+      {
+        "title": "Terence Tao on Erdős problem #728 (Mathstodon post)",
+        "publisher": "Mathstodon (Terence Tao)",
+        "url": "https://mathstodon.xyz/@tao/115855845720777387",
+        "kind": "primary"
+      },
+      {
+        "title": "Terence Tao says GPT-5.2 Pro cracked an Erdős problem, but warns the win says more about speed than difficulty",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/terence-tao-says-gpt-5-2-pro-cracked-an-erdos-problem-but-warns-the-win-says-more-about-speed-than-difficulty/",
+        "kind": "news"
+      },
+      {
+        "title": "Why the Legendary Erdős Problems Are Falling to AI",
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+        "kind": "news"
+      },
+      {
+        "title": "AI contributions to Erdős problems (wiki)",
+        "publisher": "GitHub (teorth/erdosproblems)",
+        "url": "https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "humanoid-robot-half-marathon-record",
+    "date": "2026-04-19",
+    "title": "Humanoid robot runs a half marathon faster than the human world record",
+    "category": "robotics",
+    "field": "Humanoid locomotion",
+    "system": "Lightning humanoid robot (Honor)",
+    "summary": "At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal humanoid called Lightning, built by smartphone maker Honor, won the 21 km race in 50 minutes 26 seconds. That was roughly seven minutes quicker than the men's human world record for the distance, while the winning robot in the inaugural 2025 race had needed more than two hours. Robots ran on a course parallel to the human runners, and several fell or veered off course. Race rules allowed both autonomous and remote-controlled robots, and Honor did not say which mode Lightning used.",
+    "significance": "The first time a humanoid robot beat the best human time over a long-distance running event, marking a dramatic one-year jump in legged-robot speed and endurance.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Humanoid robot beats human half-marathon world record in Beijing",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/humanoid-robot-half-marathon-beijing-human-world-record/",
+        "kind": "news"
+      },
+      {
+        "title": "'New era': Humanoid robot outruns humans in Beijing half-marathon, beats world record",
+        "publisher": "France 24 (AFP)",
+        "url": "https://www.france24.com/en/technology/20260419-new-era-humanoid-robot-outruns-humans-in-beijing-half-marathon-beats-world-record",
+        "kind": "news"
+      },
+      {
+        "title": "A Robot Broke the Half-Marathon World Record. What Comes Next?",
+        "publisher": "Syracuse University News",
+        "url": "https://news.syr.edu/2026/04/22/humanoid-robot-half-marathon-world-record/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-unit-distance-disproof",
+    "date": "2026-05-20",
+    "title": "OpenAI model disproves Erdős's 80-year-old unit distance conjecture",
+    "category": "math",
+    "field": "Discrete geometry",
+    "system": "Unnamed internal general-purpose reasoning model (OpenAI)",
+    "summary": "OpenAI announced that an unreleased general-purpose reasoning model had refuted Erdős's 1946 conjecture that n points in the plane can have only slightly more than linearly many pairs at distance exactly one. Using ideas from algebraic number theory, it built point sets from a higher-dimensional lattice projected into the plane that achieve at least n^(1+δ) unit distances for a fixed δ > 0. Nine outside mathematicians, including Noga Alon, Tim Gowers and Melanie Matchett Wood, checked the argument and wrote a companion paper, and Will Sawin quickly made the exponent explicit (δ = 0.014, later improved).",
+    "significance": "Experts called it the first AI-generated proof to come close to top-journal standard, and the first time AI autonomously settled a famous, long-studied conjecture rather than an obscure one.",
+    "image": {
+      "file": "Moser spindle.svg",
+      "alt": "The Moser spindle, a unit distance graph"
+    },
+    "sources": [
+      {
+        "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+        "kind": "primary"
+      },
+      {
+        "title": "Remarks on the disproof of the unit distance conjecture",
+        "publisher": "OpenAI (Alon, Bloom, Gowers, Litt, Sawin, Shankar, Tsimerman, Wang, Wood)",
+        "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf",
+        "kind": "paper"
+      },
+      {
+        "title": "AI just solved an 80-year-old 'Erdős problem,' and mathematicians are amazed",
+        "publisher": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/ai-just-solved-an-80-year-old-erdos-problem-and-mathematicians-are-amazed/",
+        "kind": "news"
+      },
+      {
+        "title": "Amazing: Erdős' Unit Distance Problem was Disproved! It was achieved by AI!",
+        "publisher": "Combinatorics and more (Gil Kalai's blog)",
+        "url": "https://gilkalai.wordpress.com/2026/05/21/amazing-erdos-unit-distance-problem-was-disproved-it-was-achieved-by-ai/",
+        "kind": "primary"
+      },
+      {
+        "title": "Why the Legendary Erdős Problems Are Falling to AI",
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "imo-2026-ai-perfect-score",
+    "date": "2026-07",
+    "title": "AI systems earn perfect 42/42 scores at the 2026 Math Olympiad",
+    "category": "math",
+    "field": "Math olympiad (IMO)",
+    "status": "self-reported",
+    "system": "Celia (Huawei); dots-note-3.0 (Xiaohongshu/RedNote)",
+    "summary": "At the 67th International Mathematical Olympiad in Shanghai (papers sat 15-16 July 2026), Huawei's Celia and Xiaohongshu's dots-note-3.0 were reported to score a full 42 out of 42. Labs received the problems only after the human exam ended, had to submit within a time limit, and Xiaohongshu says its solutions were graded by IMO organizers with no human intervention allowed. Only 7 of the 666 human contestants achieved full marks; several other frontier models also reached 42/42 in unofficial tests.",
+    "significance": "One year after AI first reached IMO gold level, AI matched the very best human performance with reportedly the first perfect scores under the olympiad's official grading channel.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AI catches up with humans to score 100% at top maths contest",
+        "publisher": "France 24 (AFP)",
+        "url": "https://www.france24.com/en/live-news/20260723-ai-catches-up-with-humans-to-score-100-at-top-maths-contest",
+        "kind": "news"
+      },
+      {
+        "title": "Xiaohongshu achieves significant AI milestone",
+        "publisher": "China Daily",
+        "url": "https://global.chinadaily.com.cn/a/202607/24/WS6a62b7eda310986e2b4670a1.html",
+        "kind": "news"
+      },
+      {
+        "title": "AI catches up with humans to score 100% at top math contest",
+        "publisher": "Tech Xplore (AFP)",
+        "url": "https://techxplore.com/news/2026-07-ai-humans-score-math-contest.html",
+        "kind": "news"
+      },
+      {
+        "title": "IMO 2026 results",
+        "publisher": "UK Mathematics Trust",
+        "url": "https://bmos.ukmt.org.uk/news/20260719-00-imoresults.shtml",
+        "kind": "primary"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-astra-ten-open-problems",
+    "date": "2026-08-01",
+    "title": "OpenAI's Astra model claims ten long-open math results, incl. a non-sofic group",
+    "category": "math",
+    "field": "Group theory / combinatorics / TCS",
+    "status": "self-reported",
+    "system": "Astra, internal pre-release model (OpenAI); later released as GPT-6 Astra",
+    "summary": "OpenAI announced that an internal version of its next model, Astra, had produced ten new results on problems each open for at least a decade, released with a 249-page manuscript and a Lean 4 certificate for every proof. The headline item was the first construction of a non-sofic group, settling the question of whether all groups are sofic (open since soficity was introduced around 1999). Others included a disproof of Connes's rigidity conjecture, Ehrhart's volume conjecture, improved sphere-packing and code bounds, and three more Erdős problems (#146, #180, #183). Some mathematicians questioned how much the work owed to earlier papers and to their own ChatGPT conversations; as of October 2026 no one had publicly challenged the proofs' correctness.",
+    "significance": "The largest batch of machine-checked AI solutions to long-open problems announced at once, headlined by the first known non-sofic group.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/",
+        "kind": "primary"
+      },
+      {
+        "title": "Ten proofs manuscript",
+        "publisher": "OpenAI",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+        "kind": "paper"
+      },
+      {
+        "title": "openai/ten-proofs (Lean certificates)",
+        "publisher": "GitHub",
+        "url": "https://github.com/openai/ten-proofs",
+        "kind": "primary"
+      },
+      {
+        "title": "OpenAI says its next model, Astra, has solved ten open problems in mathematics",
+        "publisher": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups",
+        "kind": "news"
+      },
+      {
+        "title": "Mathematician Andreas Thom Questions If OpenAI Used His ChatGPT Chat Data For Its Non-Sofic Groups Proof",
+        "publisher": "OfficeChai",
+        "url": "https://officechai.com/ai/mathematician-andreas-thom-questions-if-openai-used-his-chatgpt-chat-data-for-its-non-sofic-groups-proof/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-navier-stokes-blowup-claim",
+    "date": "2026-09-08",
+    "title": "OpenAI claims an AI proof of Navier–Stokes blowup, a Millennium Prize problem",
+    "category": "math",
+    "field": "Fluid dynamics / PDE",
+    "status": "under-review",
+    "system": "Unnamed internal model running ~10,000 agents (OpenAI)",
+    "summary": "On 8 September 2026 OpenAI announced that an unreleased internal model, running many agents in parallel, had produced a proof that the 3D incompressible Navier–Stokes equations can develop a singularity in finite time from smooth initial data, in the version of the problem with a smooth external force that the official Clay statement allows. A second model formalized the argument in Lean in about 17 hours, and OpenAI said it would not claim the US$1 million prize. The Clay Mathematics Institute called the announcement exciting but said its evaluation would be slow and rigorous, and it still lists the problem as open. An October 2026 arXiv paper argued the Lean code does not faithfully match the written proof, and the announcement set off a priority dispute with researchers working on related blowup results.",
+    "significance": "If it holds up, it is the first Millennium Prize problem resolved since Perelman's proof of the Poincaré conjecture, and the first resolved by a machine.",
+    "image": null,
+    "sources": [
+      {
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/navier-stokes-solution/",
+        "kind": "primary"
+      },
+      {
+        "title": "Navier–Stokes Equation (Millennium Prize problem page)",
+        "publisher": "Clay Mathematics Institute",
+        "url": "https://www.claymath.org/millennium/navier-stokes-equation/",
+        "kind": "reference"
+      },
+      {
+        "title": "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+        "kind": "news"
+      },
+      {
+        "title": "OpenAI's historic math solution overshadowed by credit controversy",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit",
+        "kind": "news"
+      },
+      {
+        "title": "What OpenAI's latest controversy tells us about the future of math",
+        "publisher": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+        "kind": "news"
+      },
+      {
+        "title": "Navier–Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+        "publisher": "arXiv (Bastounis, Circelli, Hansen)",
+        "url": "https://arxiv.org/html/2610.08144v1",
+        "kind": "paper"
+      },
+      {
+        "title": "Navier–Stokes priority controversy",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "ataraxos-stratego-superhuman",
+    "date": "2026-09-30",
+    "title": "Ataraxos AI beats Stratego's greatest player, 15 wins to 1",
+    "category": "games",
+    "field": "Stratego",
+    "system": "Ataraxos (Carnegie Mellon, MIT, NYU, Stanford)",
+    "opponent": "Pim Niemeijer, four-time Stratego world champion",
+    "summary": "Ataraxos, built by Samuel Sokota, Gabriele Farina and colleagues at Carnegie Mellon, MIT, NYU and Stanford, played a 20-game online series against Pim Niemeijer, the most decorated Stratego player in history, winning 15, losing 1 and drawing 4. The system combines self-play reinforcement learning with test-time search over hidden information and was trained in about a week on 16 H100 GPUs, under USD 8,000, a tiny fraction of the compute of DeepMind's earlier DeepNash. The work was published in Nature on 30 September 2026.",
+    "significance": "The first superhuman result in Stratego, a long-horizon game of hidden information that had been one of the last classic board games where top humans still beat AI.",
+    "image": null,
+    "sources": [
+      {
+        "title": "Scalable decision-making for games of imperfect information",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-026-11036-y",
+        "kind": "paper"
+      },
+      {
+        "title": "Scalable Decision Making for Games of Imperfect Information (preprint)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2511.07312",
+        "kind": "paper"
+      },
+      {
+        "title": "This game-playing AI is the new champ at Stratego",
+        "publisher": "MIT News",
+        "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+        "kind": "primary"
+      },
+      {
+        "title": "AI beats Stratego's greatest player, ending one of the last human strongholds in board games",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  }
+]
