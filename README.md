@@ -1434,7 +1434,7 @@ OpenAI announced that an internal version of its next model, Astra, had produced
 <td valign="top">
 
 #### 🧮 OpenAI claims an AI proof of Navier–Stokes blowup, a Millennium Prize problem
-**September 8, 2026** · 🧮 Fluid dynamics / PDE · *Unnamed internal model running ~10,000 agents (OpenAI)*
+**September 8, 2026** · 🧮 Fluid dynamics / PDE · *Unreleased internal model (OpenAI)*
 
 On 8 September 2026 OpenAI announced that an unreleased internal model, running many agents in parallel, had produced a proof that the 3D incompressible Navier–Stokes equations can develop a singularity in finite time from smooth initial data, in the version of the problem with a smooth external force that the official Clay statement allows. A second model formalized the argument in Lean in about 17 hours, and OpenAI said it would not claim the US$1 million prize. The Clay Mathematics Institute called the announcement exciting but said its evaluation would be slow and rigorous, and it still lists the problem as open. An October 2026 arXiv paper argued the Lean code does not faithfully match the written proof, and the announcement set off a priority dispute with researchers working on related blowup results.
 
