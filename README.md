@@ -382,13 +382,13 @@ The 1994 Man vs. Machine World Checkers Championship was held at the Computer Mu
 
 **Why it matters:** This was the first time a computer program held a human world championship title in a game of skill.
 
-**Sources:** [1994 Man vs. Machine World Championship (match description)](https://webdocs.cs.ualberta.ca/~chinook/matches/1994/Boston/Tinsley/description.php) (University of Alberta, Chinook project) · [CHINOOK The World Man-Machine Checkers Champion (AI Magazine 17(1), 1996)](https://ojs.aaai.org//index.php/aimagazine/article/view/1208) (AAAI / AI Magazine) · [Marion Tinsley](https://en.wikipedia.org/wiki/Marion_Tinsley) (Wikipedia)
+**Sources:** [CHINOOK The World Man-Machine Checkers Champion (AI Magazine 17(1), 1996)](https://ojs.aaai.org//index.php/aimagazine/article/view/1208) (AAAI / AI Magazine) · [Marion Tinsley](https://en.wikipedia.org/wiki/Marion_Tinsley) (Wikipedia)
 
 </td></tr></table>
 
 <a id="eqp-robbins-conjecture"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:1966-HerbertRobbins.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/1966-HerbertRobbins.jpg?width=640" width="300" alt="Mathematician Herbert Robbins"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:1966-HerbertRobbins.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
 <td valign="top">
 
 #### 🧮 Automated prover EQP settles the 60-year-old Robbins conjecture
@@ -482,7 +482,7 @@ Jonathan Schaeffer's University of Alberta team reported in Science that 8x8 che
 
 **Why it matters:** Checkers became the most complex popular game ever solved. The result closed the story of Chinook, whose engine and databases were the foundation of the proof.
 
-**Sources:** [Checkers Is Solved (Science 317(5844):1518-1522)](https://doi.org/10.1126/science.1144079) (Science (AAAS), DOI) · [Chinook - World Man-Machine Checkers Champion ("Perfect Play: Draw!")](https://webdocs.cs.ualberta.ca/~chinook/) (University of Alberta) · [Checkers Solved](https://spectrum.ieee.org/amp/checkers-solved-2650250505) (IEEE Spectrum) · [Solved game](https://en.wikipedia.org/wiki/Solved_game) (Wikipedia)
+**Sources:** [Checkers Is Solved (Science 317(5844):1518-1522)](https://doi.org/10.1126/science.1144079) (Science (AAAS), DOI) · [Checkers Solved](https://spectrum.ieee.org/amp/checkers-solved-2650250505) (IEEE Spectrum) · [Solved game](https://en.wikipedia.org/wiki/Solved_game) (Wikipedia)
 
 </td></tr></table>
 
@@ -514,7 +514,7 @@ In the Second Man-Machine Poker Championship, the University of Alberta's Polari
 
 **Why it matters:** This was the first time a poker program beat top human professionals in a meaningful match, in a game with hidden information and bluffing.
 
-**Sources:** [Second Man-Machine Poker Competition](https://webdocs.cs.ualberta.ca/~games/poker/man-machine/) (University of Alberta Computer Poker Research Group) · [Polaris (poker bot)](https://en.wikipedia.org/wiki/Polaris_(poker_bot)) (Wikipedia) · [Humans deal computer a loss in poker challenge (2007 match)](https://www.eetimes.com/humans-deal-computer-a-loss-in-poker-challenge/) (EE Times)
+**Sources:** [Polaris 2.0 Defeats Stoxpoker Team in Man-Machine Poker Championship Rematch](https://www.pokernews.com/news/2008/07/man-machine-ii-poker-championship-polaris-defeats-stoxpoker--5357.htm) (PokerNews) · [Polaris (poker bot)](https://en.wikipedia.org/wiki/Polaris_(poker_bot)) (Wikipedia) · [First poker bot to beat human professionals in a live tournament](https://guinnessworldrecords.com/world-records/100875-first-poker-bot-to-beat-human-professionals-in-a-live-tournament) (Guinness World Records)
 
 </td></tr></table>
 

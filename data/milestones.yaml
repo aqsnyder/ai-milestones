@@ -699,10 +699,6 @@
     file: Marion Tinsley.jpg
     alt: Checkers champion Marion Tinsley
   sources:
-  - title: 1994 Man vs. Machine World Championship (match description)
-    publisher: University of Alberta, Chinook project
-    url: https://webdocs.cs.ualberta.ca/~chinook/matches/1994/Boston/Tinsley/description.php
-    kind: primary
   - title: CHINOOK The World Man-Machine Checkers Champion (AI Magazine 17(1), 1996)
     publisher: AAAI / AI Magazine
     url: https://ojs.aaai.org//index.php/aimagazine/article/view/1208
@@ -734,9 +730,7 @@
   significance: >-
     A computer program, with no human proof sketch to follow, produced the first solution to a well-known
     open problem that leading mathematicians had worked on for decades.
-  image:
-    file: 1966-HerbertRobbins.jpg
-    alt: Mathematician Herbert Robbins
+  image: null
   sources:
   - title: Robbins Algebras Are Boolean
     publisher: William McCune (Argonne National Laboratory), hosted at University of New Mexico
@@ -944,10 +938,6 @@
     publisher: Science (AAAS), DOI
     url: https://doi.org/10.1126/science.1144079
     kind: paper
-  - title: 'Chinook - World Man-Machine Checkers Champion ("Perfect Play: Draw!")'
-    publisher: University of Alberta
-    url: https://webdocs.cs.ualberta.ca/~chinook/
-    kind: primary
   - title: Checkers Solved
     publisher: IEEE Spectrum
     url: https://spectrum.ieee.org/amp/checkers-solved-2650250505
@@ -1028,18 +1018,20 @@
     file: Holdem.jpg
     alt: A Texas hold'em poker game
   sources:
-  - title: Second Man-Machine Poker Competition
-    publisher: University of Alberta Computer Poker Research Group
-    url: https://webdocs.cs.ualberta.ca/~games/poker/man-machine/
-    kind: primary
+  - title: Polaris 2.0 Defeats Stoxpoker Team in Man-Machine Poker Championship Rematch
+    publisher: PokerNews
+    url: >-
+      https://www.pokernews.com/news/2008/07/man-machine-ii-poker-championship-polaris-defeats-stoxpoker--5357.htm
+    kind: news
   - title: Polaris (poker bot)
     publisher: Wikipedia
     url: https://en.wikipedia.org/wiki/Polaris_(poker_bot)
     kind: reference
-  - title: Humans deal computer a loss in poker challenge (2007 match)
-    publisher: EE Times
-    url: https://www.eetimes.com/humans-deal-computer-a-loss-in-poker-challenge/
-    kind: news
+  - title: First poker bot to beat human professionals in a live tournament
+    publisher: Guinness World Records
+    url: >-
+      https://guinnessworldrecords.com/world-records/100875-first-poker-bot-to-beat-human-professionals-in-a-live-tournament
+    kind: reference
   notes: >-
     The sourcing is adequate but thin. No independent news story about the 2008 result was opened, because
     the search budget ran out. Wikipedia gives the 3-2-1 record and a total of +195 big blinds over 6,000
