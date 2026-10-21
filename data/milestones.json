@@ -634,7 +634,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Backgammon board.jpg",
+      "path": "assets/img/td-gammon-self-play.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg",
+      "artist": "Unknown author",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "chinook-man-machine-champion",
@@ -670,7 +678,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Marion Tinsley.jpg",
+      "path": "assets/img/chinook-man-machine-champion.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg",
+      "artist": "Foley, Mark T.",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "eqp-robbins-conjecture",
@@ -747,7 +763,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Deep Blue.jpg",
+      "path": "assets/img/deep-blue-kasparov.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+      "artist": "James the photographer",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "logistello-murakami",
@@ -783,7 +807,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Othello-Standard-Board.jpg",
+      "path": "assets/img/logistello-murakami.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg",
+      "artist": "Zen ar218",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "stanley-darpa-grand-challenge",
@@ -818,7 +850,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Stanley2.JPG",
+      "path": "assets/img/stanley-darpa-grand-challenge.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Stanley2.JPG",
+      "artist": "Unknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "hinton-deep-belief-nets",
@@ -885,7 +925,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Jonathan Schaeffer.jpg",
+      "path": "assets/img/checkers-solved.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg",
+      "artist": "Scott Mair",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "boss-darpa-urban-challenge",
@@ -959,7 +1007,15 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Holdem.jpg",
+      "path": "assets/img/polaris-limit-holdem-pros.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Holdem.jpg",
+      "artist": "Todd Klassy",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "imagenet-dataset",
@@ -994,7 +1050,15 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": {
+      "file": "Fei-Fei Li at AI for Good 2017.jpg",
+      "path": "assets/img/imagenet-dataset.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+      "artist": "ITU Pictures",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "fetched": "2026-10-21"
+    }
   },
   {
     "id": "watson-jeopardy",

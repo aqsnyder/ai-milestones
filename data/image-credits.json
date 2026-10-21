@@ -89,6 +89,24 @@
     "page_url": "https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg",
     "path": "assets/img/cepheus-limit-holdem-solved.png"
   },
+  "checkers-solved": {
+    "artist": "Scott Mair",
+    "fetched": "2026-10-21",
+    "file": "Jonathan Schaeffer.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg",
+    "path": "assets/img/checkers-solved.jpg"
+  },
+  "chinook-man-machine-champion": {
+    "artist": "Foley, Mark T.",
+    "fetched": "2026-10-21",
+    "file": "Marion Tinsley.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg",
+    "path": "assets/img/chinook-man-machine-champion.jpg"
+  },
   "dartmouth-workshop": {
     "artist": "John McCarthy et al",
     "fetched": "2026-10-21",
@@ -97,6 +115,15 @@
     "license_url": "",
     "page_url": "https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence,_by_John_McCarthy_et_al,_1955.pdf",
     "path": "assets/img/dartmouth-workshop.jpg"
+  },
+  "deep-blue-kasparov": {
+    "artist": "James the photographer",
+    "fetched": "2026-10-21",
+    "file": "Deep Blue.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+    "path": "assets/img/deep-blue-kasparov.jpg"
   },
   "dqn-atari": {
     "artist": "Evan-Amos",
@@ -143,6 +170,15 @@
     "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg",
     "path": "assets/img/gpt-4-5-turing-test.jpg"
   },
+  "imagenet-dataset": {
+    "artist": "ITU Pictures",
+    "fetched": "2026-10-21",
+    "file": "Fei-Fei Li at AI for Good 2017.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+    "path": "assets/img/imagenet-dataset.jpg"
+  },
   "lecun-convnet-zip-codes": {
     "artist": "Josef Steppan",
     "fetched": "2026-10-21",
@@ -151,6 +187,15 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page_url": "https://commons.wikimedia.org/wiki/File:MnistExamples.png",
     "path": "assets/img/lecun-convnet-zip-codes.png"
+  },
+  "logistello-murakami": {
+    "artist": "Zen ar218",
+    "fetched": "2026-10-21",
+    "file": "Othello-Standard-Board.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg",
+    "path": "assets/img/logistello-murakami.jpg"
   },
   "nobel-chemistry-2024-alphafold": {
     "artist": "Duncan.Hull",
@@ -197,6 +242,15 @@
     "page_url": "https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg",
     "path": "assets/img/pluribus-six-player-poker.jpg"
   },
+  "polaris-limit-holdem-pros": {
+    "artist": "Todd Klassy",
+    "fetched": "2026-10-21",
+    "file": "Holdem.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Holdem.jpg",
+    "path": "assets/img/polaris-limit-holdem-pros.jpg"
+  },
   "shakey-the-robot": {
     "artist": "SRI International",
     "fetched": "2026-10-21",
@@ -205,6 +259,24 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page_url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg",
     "path": "assets/img/shakey-the-robot.jpg"
+  },
+  "stanley-darpa-grand-challenge": {
+    "artist": "Unknown author",
+    "fetched": "2026-10-21",
+    "file": "Stanley2.JPG",
+    "license": "Public domain",
+    "license_url": "",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Stanley2.JPG",
+    "path": "assets/img/stanley-darpa-grand-challenge.jpg"
+  },
+  "td-gammon-self-play": {
+    "artist": "Unknown author",
+    "fetched": "2026-10-21",
+    "file": "Backgammon board.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg",
+    "path": "assets/img/td-gammon-self-play.jpg"
   },
   "transformer-attention-is-all-you-need": {
     "artist": "dvgodoy",

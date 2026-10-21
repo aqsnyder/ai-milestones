@@ -356,7 +356,7 @@ At AT&T Bell Labs, Yann LeCun and colleagues trained a convolutional neural netw
 
 <a id="td-gammon-self-play"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Backgammon_board.jpg?width=640" width="300" alt="A backgammon board"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg"><img src="assets/img/td-gammon-self-play.jpg" width="300" alt="A backgammon board"></a><br><sub>Unknown author · <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ TD-Gammon teaches itself near-world-class backgammon through self-play
@@ -372,7 +372,7 @@ Gerald Tesauro at IBM's T. J. Watson Research Center trained a neural network to
 
 <a id="chinook-man-machine-champion"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marion_Tinsley.jpg?width=640" width="300" alt="Checkers champion Marion Tinsley"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg"><img src="assets/img/chinook-man-machine-champion.jpg" width="300" alt="Checkers champion Marion Tinsley"></a><br><sub>Foley, Mark T. · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Chinook becomes Man-Machine World Checkers Champion
@@ -404,7 +404,7 @@ In the 1930s Herbert Robbins asked whether commutativity, associativity and a si
 
 <a id="deep-blue-kasparov"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Deep_Blue.jpg?width=640" width="300" alt="One of Deep Blue&#x27;s two racks at the Computer History Museum"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img src="assets/img/deep-blue-kasparov.jpg" width="300" alt="One of Deep Blue&#x27;s two racks at the Computer History Museum"></a><br><sub>James the photographer · <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ IBM's Deep Blue defeats world chess champion Garry Kasparov
@@ -420,7 +420,7 @@ In February 1996 in Philadelphia, Deep Blue beat Kasparov in game 1, the first g
 
 <a id="logistello-murakami"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Othello-Standard-Board.jpg?width=640" width="300" alt="An Othello board in the starting position"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg"><img src="assets/img/logistello-murakami.jpg" width="300" alt="An Othello board in the starting position"></a><br><sub>Zen ar218 · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Logistello sweeps Othello world champion Takeshi Murakami 6-0
@@ -440,7 +440,7 @@ From 4 to 7 August 1997, Michael Buro's Othello program Logistello played reigni
 
 <a id="stanley-darpa-grand-challenge"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stanley2.JPG?width=640" width="300" alt="Stanford&#x27;s Stanley at the 2005 DARPA Grand Challenge"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG"><img src="assets/img/stanley-darpa-grand-challenge.jpg" width="300" alt="Stanford&#x27;s Stanley at the 2005 DARPA Grand Challenge"></a><br><sub>Unknown author · Public domain · <a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🤖 Stanford's Stanley wins the DARPA Grand Challenge desert race
@@ -472,7 +472,7 @@ In "A fast learning algorithm for deep belief nets" (Neural Computation 18(7):15
 
 <a id="checkers-solved"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan_Schaeffer.jpg?width=640" width="300" alt="Jonathan Schaeffer, who led the Chinook project"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg"><img src="assets/img/checkers-solved.jpg" width="300" alt="Jonathan Schaeffer, who led the Chinook project"></a><br><sub>Scott Mair · <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Checkers is solved: perfect play by both sides ends in a draw
@@ -504,7 +504,7 @@ On 3 November 2007, 11 robot vehicles ran DARPA's Urban Challenge on a mock urba
 
 <a id="polaris-limit-holdem-pros"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Holdem.jpg?width=640" width="300" alt="A Texas hold&#x27;em poker game"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg"><img src="assets/img/polaris-limit-holdem-pros.jpg" width="300" alt="A Texas hold&#x27;em poker game"></a><br><sub>Todd Klassy · <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a> · <a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ Polaris beats a team of poker pros at heads-up limit Texas hold'em
@@ -520,7 +520,7 @@ In the Second Man-Machine Poker Championship, the University of Alberta's Polari
 
 <a id="imagenet-dataset"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fei-Fei_Li_at_AI_for_Good_2017.jpg?width=640" width="300" alt="Fei-Fei Li, who led the ImageNet project"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg"><img src="assets/img/imagenet-dataset.jpg" width="300" alt="Fei-Fei Li, who led the ImageNet project"></a><br><sub>ITU Pictures · <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🧱 ImageNet dataset introduced, setting the stage for deep learning in vision
