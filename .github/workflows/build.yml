@@ -1,0 +1,58 @@
+name: Build
+
+# Validates the data, downloads images + attribution from Wikimedia Commons,
+# regenerates README.md / CREDITS.md / data/milestones.json, and commits the result.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/milestones.yaml"
+      - "data/meta.yaml"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate data
+        run: python scripts/build.py --check
+
+      - name: Build README, credits and JSON (with images)
+        run: python scripts/build.py --fetch
+
+      - name: Commit generated files
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md CREDITS.md data/milestones.json data/image-credits.json assets/img
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Rebuild README and images from data"
+            git push
+          fi
