@@ -142,6 +142,37 @@ def strip_html(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def clean_artist(a: str) -> str:
+    """Commons sometimes repeats the author name (e.g. 'Unknown authorUnknown author')."""
+    a = (a or "").strip()
+    half = len(a) // 2
+    if len(a) % 2 == 0 and a and a[:half] == a[half:]:
+        a = a[:half]
+    return a or "Unknown author"
+
+
+def flatten_images(credits: dict) -> None:
+    """Put transparent images on a white background so line drawings stay visible in dark mode."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  (Pillow not installed; skipping transparency flattening)")
+        return
+    for c in credits.values():
+        path = ROOT / c["path"]
+        if not path.exists():
+            continue
+        with Image.open(path) as im:
+            has_alpha = im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info)
+            if not has_alpha:
+                continue
+            rgba = im.convert("RGBA")
+        bg = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
+        bg.alpha_composite(rgba)
+        bg.convert("RGB").save(path)
+        print(f"  flattened transparency: {c['path']}")
+
+
 def fetch_images(items: list[dict], credits: dict) -> list[str]:
     """Download thumbnails + attribution for every entry with an image. Returns problems."""
     import requests
@@ -193,7 +224,7 @@ def fetch_images(items: list[dict], credits: dict) -> list[str]:
         for old in IMG_DIR.glob(f"{mid}.*"):
             old.unlink()
         (ROOT / rel).write_bytes(img.content)
-        artist = strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown author"
+        artist = clean_artist(strip_html(meta.get("Artist", {}).get("value", "")))
         credits[mid] = {
             "file": filename,
             "path": rel,
@@ -211,7 +242,6 @@ def fetch_images(items: list[dict], credits: dict) -> list[str]:
             for old in IMG_DIR.glob(f"{mid}.*"):
                 old.unlink()
             credits.pop(mid)
-    CREDITS_CACHE.write_text(json.dumps(credits, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
     return problems
 
 
@@ -432,6 +462,10 @@ def main() -> int:
     problems: list[str] = []
     if args.fetch:
         problems = fetch_images(items, credits)
+    for c in credits.values():
+        c["artist"] = clean_artist(c.get("artist", ""))
+    flatten_images(credits)
+    CREDITS_CACHE.write_text(json.dumps(credits, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
     README.write_text(render_readme(items, credits, meta or {}), encoding="utf-8")
     CREDITS_MD.write_text(render_credits(items, credits), encoding="utf-8")

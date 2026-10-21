@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**74 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-20 · last reviewed for new milestones 2026-10-20
+**85 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-20 · last reviewed for new milestones 2026-10-20
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
@@ -17,11 +17,13 @@
 - [1960s](#1960s) (2)
 - [1970s](#1970s) (5)
 - [1980s](#1980s) (4)
+- [1990s](#1990s) (5)
+- [2000s](#2000s) (6)
 - [2010s](#2010s) (19)
 - [2020s](#2020s) (38)
 - [How this repo works](#how-this-repo-works)
 
-**Categories:** ♟️ Games & competitions (21) · 🧮 Mathematics, code & reasoning (22) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (7) · 🧱 Foundations (5)
+**Categories:** ♟️ Games & competitions (27) · 🧮 Mathematics, code & reasoning (23) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (9) · 🧱 Foundations (7)
 
 ## Humans vs. machines
 
@@ -33,6 +35,11 @@ Every entry where an AI system was measured directly against human experts. Most
 | 1979 | [Medical diagnosis (expert systems)](#mycin-meningitis-evaluation) | MYCIN (Edward Shortliffe, Bruce Buchanan, Stanley Cohen et al., Stanford University) | Five Stanford faculty, an infectious-disease fellow, a resident and a medical student (plus the actual therapy given) |
 | 1979 | [Backgammon](#bkg-backgammon-villa) | BKG 9.8 (Hans Berliner, Carnegie Mellon University) | Luigi Villa, newly crowned backgammon world champion |
 | 1988 | [Chess](#deep-thought-beats-grandmaster) | Deep Thought (Feng-hsiung Hsu, Thomas Anantharaman, Murray Campbell, Andreas Nowatzyk, Mike Browne; Carnegie Mellon University) | Bent Larsen, chess grandmaster and former world-championship candidate |
+| 1992 | [Backgammon](#td-gammon-self-play) | TD-Gammon (Gerald Tesauro, IBM Research) | Bill Robertie and other top backgammon players (exhibition games) |
+| 1994 | [Checkers](#chinook-man-machine-champion) | Chinook (Jonathan Schaeffer and team, University of Alberta) | Marion Tinsley, world checkers champion (withdrew after six drawn games) |
+| 1997 | [Chess](#deep-blue-kasparov) | Deep Blue (IBM Research: Feng-hsiung Hsu, Murray Campbell, Joe Hoane, Jerry Brody, C. J. Tan; GM Joel Benjamin as adviser) | Garry Kasparov, reigning world chess champion |
+| 1997 | [Othello](#logistello-murakami) | Logistello (Michael Buro, NEC Research Institute) | Takeshi Murakami, reigning Othello world champion |
+| 2008 | [Poker (heads-up limit Texas hold'em)](#polaris-limit-holdem-pros) | Polaris (University of Alberta Computer Poker Research Group) | Team of limit hold'em pros incl. Matt Hawrilenko, IJay Palansky, Nick Grudzien, Kyle Hendon |
 | 2011 | [Question answering (Jeopardy!)](#watson-jeopardy) | Watson / DeepQA (IBM Research, team led by David Ferrucci) | Ken Jennings and Brad Rutter, Jeopardy!'s two most successful champions |
 | 2016 | [Go](#alphago-lee-sedol) | AlphaGo (Google DeepMind) | Lee Sedol, 9-dan professional and 18-time world title winner |
 | 2017 | [Poker (heads-up no-limit hold'em)](#libratus-no-limit-holdem) | Libratus (Carnegie Mellon University; Tuomas Sandholm and Noam Brown) | Jason Les, Dong Kim, Daniel McAulay and Jimmy Chou, top heads-up no-limit professionals |
@@ -141,7 +148,7 @@ John McCarthy, Marvin Minsky, Nathaniel Rochester and Claude Shannon put the phr
 
 <a id="rosenblatt-perceptron"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Mark_I_perceptron.jpeg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mark_I_perceptron.jpeg?width=640" width="300" alt="The Mark I Perceptron machine"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Mark_I_perceptron.jpeg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
 <td valign="top">
 
 #### 🧱 Rosenblatt's perceptron learns to recognize patterns
@@ -171,13 +178,13 @@ Arthur Samuel's IBM checkers program improved partly by playing thousands of gam
 
 **Why it matters:** It was the first widely publicized win by a machine-learning program over a strong human player, which made "a computer that learns" a public idea.
 
-**Sources:** [The games that helped AI evolve](https://www.ibm.com/history/early-games) (IBM History) · [Arthur Samuel's Legacy](https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html) (Jonathan Schaeffer, University of Alberta (Chinook project)) · [Some Studies in Machine Learning Using the Game of Checkers (IBM J. Res. Dev. 3(3), 1959)](https://doi.org/10.1147/rd.33.0210) (IBM Journal of Research and Development)
+**Sources:** [The games that helped AI evolve](https://www.ibm.com/history/early-games) (IBM History) · [Some Studies in Machine Learning Using the Game of Checkers (IBM J. Res. Dev. 3(3), 1959)](https://doi.org/10.1147/rd.33.0210) (IBM Journal of Research and Development)
 
 </td></tr></table>
 
 <a id="eliza-chatbot"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png"><img src="assets/img/eliza-chatbot.png" width="300" alt="A typed conversation with ELIZA"></a><br><sub>Unknown authorUnknown author · Public domain · <a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png"><img src="assets/img/eliza-chatbot.png" width="300" alt="A conversation with a 2005 web re-implementation of ELIZA"></a><br><sub>Unknown author · Public domain · <a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 Weizenbaum's ELIZA becomes the first chatbot
@@ -207,7 +214,7 @@ Terry Winograd built SHRDLU at the MIT AI Lab between 1968 and 1970, running on 
 
 **Why it matters:** It was the most convincing language-understanding demonstration of its era, tying parsing, meaning and action together, though only inside a tiny closed world.
 
-**Sources:** [SHRDLU](https://hci.stanford.edu/winograd/shrdlu/) (Terry Winograd, Stanford HCI Group) · [SHRDLU](https://en.wikipedia.org/wiki/SHRDLU) (Wikipedia)
+**Sources:** [Procedures as a Representation for Data in a Computer Program for Understanding Natural Language (MIT AI TR-235)](https://dspace.mit.edu/handle/1721.1/7095) (MIT DSpace) · [SHRDLU](https://en.wikipedia.org/wiki/SHRDLU) (Wikipedia)
 
 </td></tr></table>
 
@@ -251,11 +258,11 @@ MYCIN, built at Stanford in the 1970s by Edward Shortliffe with Bruce Buchanan a
 #### 🤖 Stanford Cart crosses a chair-filled room on its own
 **1979** · 🤖 Robot navigation / stereo vision · *Stanford Cart (Hans Moravec, Stanford Artificial Intelligence Laboratory)*
 
-The Stanford Cart began in 1960-61 as a remote-driving testbed and was later taken over by the Stanford AI Lab. Hans Moravec added a sliding camera that took several views for stereo vision. In 1979 the cart crossed a room cluttered with chairs with no human help, taking about five hours: it moved roughly a meter at a time and then stopped for 10-15 minutes to process images and replan.
+The Stanford Cart began in the early 1960s as a remote-driving testbed and was later taken over by the Stanford AI Lab. Hans Moravec rebuilt it in 1977 and added stereo vision: a camera sliding on a rail took pictures from several angles, from which a computer estimated the distance to obstacles and planned a path around them. In 1979 the cart crossed a chair-filled room without human help, moving in short hops with long pauses to process images and replan.
 
 **Why it matters:** It was an early demonstration of a robot navigating unknown clutter using only computer vision, and it formed the basis of Moravec's 1980 PhD thesis.
 
-**Sources:** [Stanford Cart](https://web.stanford.edu/~learnest/sail/oldcart.html) (Les Earnest, Stanford AI Lab history pages) · [Hans Moravec](https://en.wikipedia.org/wiki/Hans_Moravec) (Wikipedia)
+**Sources:** [Stanford Cart (The Computer Museum slide series: Robots)](https://www.computerhistory.org/collections/catalog/102723520) (Computer History Museum) · [Hans Moravec](https://en.wikipedia.org/wiki/Hans_Moravec) (Wikipedia)
 
 </td></tr></table>
 
@@ -291,7 +298,7 @@ In "Learning representations by back-propagating errors" (Nature 323:533-536, 19
 
 **Why it matters:** It made gradient-trained multilayer networks practical and popular, and it underlies essentially all of modern deep learning.
 
-**Sources:** [Learning representations by back-propagating errors (Nature 323(6088):533-536)](https://doi.org/10.1038/323533a0) (Nature) · [1986Natur.323..533R](https://ui.adsabs.harvard.edu/abs/1986Natur.323..533R) (NASA ADS) · [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (Wikipedia)
+**Sources:** [Learning representations by back-propagating errors (Nature 323(6088):533-536)](https://doi.org/10.1038/323533a0) (Nature) · [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (Wikipedia)
 
 </td></tr></table>
 
@@ -345,11 +352,195 @@ At AT&T Bell Labs, Yann LeCun and colleagues trained a convolutional neural netw
 
 <p align="right"><a href="#contents">↑ back to contents</a></p>
 
+### 1990s
+
+<a id="td-gammon-self-play"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Backgammon_board.jpg?width=640" width="300" alt="A backgammon board"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ TD-Gammon teaches itself near-world-class backgammon through self-play
+**1992** · ♟️ Backgammon · *TD-Gammon (Gerald Tesauro, IBM Research)* vs. *Bill Robertie and other top backgammon players (exhibition games)*
+
+Gerald Tesauro at IBM's T. J. Watson Research Center trained a neural network to play backgammon using temporal-difference learning, TD(lambda). It learned mostly from games against itself, plus a set of hand-designed input features. Version 2.0 had trained on about 800,000 self-play games and searched 2 ply. It made its debut at the 1992 World Cup of Backgammon, where it played 38 exhibition games against top players and lost by a net 7 points. Version 2.1, after about 1.5 million self-play games, played Bill Robertie over 40 games and finished only 1 point behind.
+
+**Why it matters:** It was the first striking evidence that reinforcement learning by self-play could reach near-expert human strength in a complex game. Its move choices changed how human experts played certain opening rolls.
+
+**Sources:** [TD-Gammon, A Self-Teaching Backgammon Program, Achieves Master-Level Play](https://research.ibm.com/publications/td-gammon-a-self-teaching-backgammon-program-achieves-master-level-play) (IBM Research (AAAI Fall Symposium 1993)) · [TD-Gammon, a Self-Teaching Backgammon Program, Achieves Master-Level Play (Neural Computation 6(2):215-219, 1994; DOI 10.1162/neco.1994.6.2.215)](https://mlanthology.org/neco/1994/tesauro1994neco-tdgammon) (ML Anthology / Neural Computation) · [Temporal Difference Learning and TD-Gammon (Communications of the ACM 38(3), March 1995)](https://bkgm.com/articles/tesauro/tdl.html) (bkgm.com (reprint of Tesauro's CACM article)) · [TD-Gammon](https://en.wikipedia.org/wiki/TD-Gammon) (Wikipedia)
+
+</td></tr></table>
+
+<a id="chinook-man-machine-champion"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marion_Tinsley.jpg?width=640" width="300" alt="Checkers champion Marion Tinsley"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ Chinook becomes Man-Machine World Checkers Champion
+**August 18, 1994** · ♟️ Checkers · *Chinook (Jonathan Schaeffer and team, University of Alberta)* vs. *Marion Tinsley, world checkers champion (withdrew after six drawn games)*
+
+The 1994 Man vs. Machine World Checkers Championship was held at the Computer Museum in Boston, starting on 15 August. It was a rematch between Marion Tinsley, who had beaten Chinook 4-2 with 33 draws in 1992, and the University of Alberta program led by Jonathan Schaeffer. The first six games were all drawn. On 18 August Tinsley resigned the match and the title for health reasons, and the organizers declared Chinook champion. Chinook then drew a 20-game match with Don Lafferty 1-1, and it defended the title again in 1995.
+
+**Why it matters:** This was the first time a computer program held a human world championship title in a game of skill.
+
+**Sources:** [1994 Man vs. Machine World Championship (match description)](https://webdocs.cs.ualberta.ca/~chinook/matches/1994/Boston/Tinsley/description.php) (University of Alberta, Chinook project) · [CHINOOK The World Man-Machine Checkers Champion (AI Magazine 17(1), 1996)](https://ojs.aaai.org//index.php/aimagazine/article/view/1208) (AAAI / AI Magazine) · [Marion Tinsley](https://en.wikipedia.org/wiki/Marion_Tinsley) (Wikipedia)
+
+</td></tr></table>
+
+<a id="eqp-robbins-conjecture"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:1966-HerbertRobbins.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/1966-HerbertRobbins.jpg?width=640" width="300" alt="Mathematician Herbert Robbins"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:1966-HerbertRobbins.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### 🧮 Automated prover EQP settles the 60-year-old Robbins conjecture
+**October 10, 1996** · 🧮 Boolean algebra · *EQP equational theorem prover (William McCune, Argonne National Laboratory)*
+
+In the 1930s Herbert Robbins asked whether commutativity, associativity and a single "Robbins equation" are enough to axiomatize Boolean algebra. Edward Huntington, Alfred Tarski and others tried and failed to settle it. On 10 October 1996, EQP, an equational theorem prover written by William McCune at Argonne National Laboratory, found a proof that the answer is yes. The successful search ran for about 8 days on an IBM RS/6000 and used about 30 MB of memory.
+
+**Why it matters:** A computer program, with no human proof sketch to follow, produced the first solution to a well-known open problem that leading mathematicians had worked on for decades.
+
+**Sources:** [Robbins Algebras Are Boolean](https://www.cs.unm.edu/~mccune/papers/robbins/) (William McCune (Argonne National Laboratory), hosted at University of New Mexico) · [Solution of the Robbins Problem (Journal of Automated Reasoning 19(3):263-276, 1997)](https://link.springer.com/article/10.1023/A:1005843212881) (Springer) · [Robbins algebra](https://en.wikipedia.org/wiki/Robbins_algebra) (Wikipedia) · [Robbins Conjecture](https://mathworld.wolfram.com/RobbinsConjecture.html) (Wolfram MathWorld)
+
+</td></tr></table>
+
+<a id="deep-blue-kasparov"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Deep_Blue.jpg?width=640" width="300" alt="One of Deep Blue&#x27;s two racks at the Computer History Museum"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ IBM's Deep Blue defeats world chess champion Garry Kasparov
+**May 11, 1997** · ♟️ Chess · *Deep Blue (IBM Research: Feng-hsiung Hsu, Murray Campbell, Joe Hoane, Jerry Brody, C. J. Tan; GM Joel Benjamin as adviser)* vs. *Garry Kasparov, reigning world chess champion*
+
+In February 1996 in Philadelphia, Deep Blue beat Kasparov in game 1, the first game a computer had won against a reigning world champion at classical time controls, but Kasparov took the match 4-2. In the May 1997 rematch at New York's Equitable Center, an upgraded Deep Blue lost game 1 and won game 2. Games 3-5 were drawn, and Deep Blue won game 6 on 11 May to take the match 3.5-2.5. The IBM team was led by Feng-hsiung Hsu and Murray Campbell. Their parallel system used custom chess chips and could examine about 200 million positions per second.
+
+**Why it matters:** This was the first time a computer defeated a reigning world chess champion in a match under standard tournament conditions, a goal AI researchers had pursued since the 1950s.
+
+**Sources:** [Deep Blue](https://www.ibm.com/history/deep-blue) (IBM (IBM History)) · [Deep Blue versus Garry Kasparov](https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov) (Wikipedia) · [IBM Deep Blue Team (Joe Hoane, Joel Benjamin, Jerry Brody, Feng-Hsiung Hsu, C.J. Tan, and Murray Campbell)](https://www.computerhistory.org/chess/stl-431e1a07a3881/) (Computer History Museum)
+
+</td></tr></table>
+
+<a id="logistello-murakami"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Othello-Standard-Board.jpg?width=640" width="300" alt="An Othello board in the starting position"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ Logistello sweeps Othello world champion Takeshi Murakami 6-0
+**August 7, 1997** · ♟️ Othello · *Logistello (Michael Buro, NEC Research Institute)* vs. *Takeshi Murakami, reigning Othello world champion*
+
+From 4 to 7 August 1997, Michael Buro's Othello program Logistello played reigning world champion Takeshi Murakami in a six-game match at the NEC Research Institute in Princeton, New Jersey. Logistello won all six games. The match was sponsored by NECI, with prizes of $3,000 and $1,000, and the games were broadcast live online with expert commentary.
+
+**Why it matters:** The shutout showed that top Othello programs had clearly passed the best human players, only three months after Deep Blue beat Kasparov at chess.
+
+**Sources:** [The Othello Match of the Year: Takeshi Murakami vs. Logistello](https://skatgame.net/mburo/event.html) (Michael Buro (event page)) · [The Othello Match of the Year: Takeshi Murakami vs. Logistello (ICCA/ICGA Journal 20(3):189-193, 1997)](https://journals.sagepub.com/doi/abs/10.3233/ICG-1997-20311) (ICGA Journal (SAGE / IOS Press)) · [Logistello](https://en.wikipedia.org/wiki/Logistello) (Wikipedia)
+
+</td></tr></table>
+
+<p align="right"><a href="#contents">↑ back to contents</a></p>
+
+### 2000s
+
+<a id="stanley-darpa-grand-challenge"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stanley2.JPG?width=640" width="300" alt="Stanford&#x27;s Stanley at the 2005 DARPA Grand Challenge"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Stanley2.JPG">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### 🤖 Stanford's Stanley wins the DARPA Grand Challenge desert race
+**October 8, 2005** · 🤖 Autonomous driving · *Stanley (Stanford Racing Team led by Sebastian Thrun, with Volkswagen Electronics Research Lab)*
+
+In the 2004 Grand Challenge no robot finished, and the best entry covered only 11.78 km (7.32 mi). In the second race on 8 October 2005, Stanley, a driverless Volkswagen Touareg from Sebastian Thrun's Stanford Racing Team, completed the 212 km (132 mi) desert course in just under 6 hours 54 minutes. Five vehicles finished in total. Stanley used five roof LIDARs, a camera, GPS and inertial sensors, and its terrain and obstacle perception relied on machine learning. The team won the $2 million prize.
+
+**Why it matters:** Fully autonomous vehicles completed a long off-road course for the first time, which kicked off the modern self-driving car industry.
+
+**Sources:** [Stanford Racing Team - Stanley](https://cs.stanford.edu/group/roadrunner/stanley.html) (Stanford University) · [DARPA Grand Challenge (2005)](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2005)) (Wikipedia) · [Robo-car enters Smithsonian collection](https://insider.si.edu/2009/11/robo-car-enters-smithsonian-collection/) (Smithsonian Insider)
+
+</td></tr></table>
+
+<a id="hinton-deep-belief-nets"></a>
+<table><tr>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td valign="top">
+
+#### 🧱 Hinton's deep belief nets show deep networks can be trained layer by layer
+**July 2006** · 🧱 Deep learning · *Deep belief network (Geoffrey Hinton, Simon Osindero, Yee-Whye Teh; University of Toronto / NUS)*
+
+In "A fast learning algorithm for deep belief nets" (Neural Computation 18(7):1527-1554, July 2006), Geoffrey Hinton, Simon Osindero and Yee-Whye Teh showed how to train a deep, many-layered generative network one layer at a time with an unsupervised greedy procedure. The resulting network could then be fine-tuned, including for classification. At the time most researchers had given up on training networks with many hidden layers.
+
+**Why it matters:** It is widely credited with reviving interest in deep neural networks and with the rise of the term "deep learning", which led to the GPU-era breakthroughs from 2009 onward.
+
+**Sources:** [A fast learning algorithm for deep belief nets (Neural Computation 18(7):1527-1554)](https://doi.org/10.1162/neco.2006.18.7.1527) (MIT Press / Neural Computation (DOI)) · [Deep belief network](https://en.wikipedia.org/wiki/Deep_belief_network) (Wikipedia)
+
+</td></tr></table>
+
+<a id="checkers-solved"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan_Schaeffer.jpg?width=640" width="300" alt="Jonathan Schaeffer, who led the Chinook project"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ Checkers is solved: perfect play by both sides ends in a draw
+**July 19, 2007** · ♟️ Checkers · *Chinook project (Jonathan Schaeffer and colleagues, University of Alberta)*
+
+Jonathan Schaeffer's University of Alberta team reported in Science that 8x8 checkers is weakly solved: from the standard opening, neither side can force a win if both play perfectly. The proof combined endgame databases covering 39 trillion positions with 10 or fewer pieces with a best-first forward search from the opening. About 10^14 of the game's roughly 5x10^20 positions were evaluated, in computations that started in 1989.
+
+**Why it matters:** Checkers became the most complex popular game ever solved. The result closed the story of Chinook, whose engine and databases were the foundation of the proof.
+
+**Sources:** [Checkers Is Solved (Science 317(5844):1518-1522)](https://doi.org/10.1126/science.1144079) (Science (AAAS), DOI) · [Chinook - World Man-Machine Checkers Champion ("Perfect Play: Draw!")](https://webdocs.cs.ualberta.ca/~chinook/) (University of Alberta) · [Checkers Solved](https://spectrum.ieee.org/amp/checkers-solved-2650250505) (IEEE Spectrum) · [Solved game](https://en.wikipedia.org/wiki/Solved_game) (Wikipedia)
+
+</td></tr></table>
+
+<a id="boss-darpa-urban-challenge"></a>
+<table><tr>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td valign="top">
+
+#### 🤖 CMU's Boss wins the DARPA Urban Challenge in city-style traffic
+**November 3, 2007** · 🤖 Autonomous driving · *Boss (Tartan Racing: Carnegie Mellon University with General Motors, led by William "Red" Whittaker)*
+
+On 3 November 2007, 11 robot vehicles ran DARPA's Urban Challenge on a mock urban road network at the former George Air Force Base in Victorville, California. Each had to complete about 55 miles (89 km) of missions among other vehicles. Six finished. Boss, a robotized 2007 Chevy Tahoe from Carnegie Mellon and General Motors' Tartan Racing team led by William "Red" Whittaker, averaged about 14 mph and finished about 20 minutes ahead of Stanford's Junior. It won the $2 million first prize. Junior took second ($1 million) and Virginia Tech's Odin third ($500,000).
+
+**Why it matters:** Driverless cars had shown they could handle intersections, merging and other traffic, not just empty desert. Many of the people involved went on to lead industry self-driving programs.
+
+**Sources:** [First-Place Finish](https://www.cmu.edu/homepage/practical/2007/fall/victory.shtml) (Carnegie Mellon University) · [MIT finishes fourth in DARPA challenge for robotic vehicles](https://news.mit.edu/2007/urban-1105) (MIT News) · [Crashes and Traffic Jams in Military Test of Robotic Vehicles](https://www.nytimes.com/2007/11/05/technology/05robot.html) (The New York Times) · [DARPA Grand Challenge (2007)](https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)) (Wikipedia)
+
+</td></tr></table>
+
+<a id="polaris-limit-holdem-pros"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Holdem.jpg?width=640" width="300" alt="A Texas hold&#x27;em poker game"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Holdem.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### ♟️ Polaris beats a team of poker pros at heads-up limit Texas hold'em
+**July 6, 2008** · ♟️ Poker (heads-up limit Texas hold'em) · *Polaris (University of Alberta Computer Poker Research Group)* vs. *Team of limit hold'em pros incl. Matt Hawrilenko, IJay Palansky, Nick Grudzien, Kyle Hendon*
+
+In the Second Man-Machine Poker Championship, the University of Alberta's Polaris played six duplicate matches against online limit hold'em professionals. The first two were played remotely and the last four took place at the Gaming Life Expo in Las Vegas from 3 to 6 July 2008. Duplicate scoring dealt the same cards to both human-machine pairings with seats reversed, which cuts down on luck. Polaris finished with 3 wins, 2 losses and 1 draw, clinching the event on 6 July by winning both sides of the final match against Matt Hawrilenko and IJay Palansky. A year earlier, Phil Laak and Ali Eslami had narrowly beaten an earlier Polaris in Vancouver.
+
+**Why it matters:** This was the first time a poker program beat top human professionals in a meaningful match, in a game with hidden information and bluffing.
+
+**Sources:** [Second Man-Machine Poker Competition](https://webdocs.cs.ualberta.ca/~games/poker/man-machine/) (University of Alberta Computer Poker Research Group) · [Polaris (poker bot)](https://en.wikipedia.org/wiki/Polaris_(poker_bot)) (Wikipedia) · [Humans deal computer a loss in poker challenge (2007 match)](https://www.eetimes.com/humans-deal-computer-a-loss-in-poker-challenge/) (EE Times)
+
+</td></tr></table>
+
+<a id="imagenet-dataset"></a>
+<table><tr>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fei-Fei_Li_at_AI_for_Good_2017.jpg?width=640" width="300" alt="Fei-Fei Li, who led the ImageNet project"></a><br><sub>see Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg">Wikimedia Commons</a></sub></td>
+<td valign="top">
+
+#### 🧱 ImageNet dataset introduced, setting the stage for deep learning in vision
+**June 2009** · 🧱 Computer vision datasets · *ImageNet (Fei-Fei Li, Kai Li and colleagues, Princeton University; later Stanford)*
+
+At CVPR 2009, Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Fei-Fei Li presented ImageNet, a large image database organized by the noun hierarchy of WordNet. Fei-Fei Li had started the project in 2006 at Princeton. Images were labeled by about 49,000 Amazon Mechanical Turk workers in 167 countries. By April 2010 it held about 14.2 million images across 21,841 categories. The annual ImageNet Large Scale Visual Recognition Challenge, with 1,000 classes, began in 2010.
+
+**Why it matters:** ImageNet supplied the scale of labeled data that deep networks needed, and its challenge became the benchmark where AlexNet's 2012 win started the deep learning era.
+
+**Sources:** [ImageNet: A Large-Scale Hierarchical Image Database (CVPR 2009, pp. 248-255)](https://doi.org/10.1109/CVPR.2009.5206848) (IEEE (DOI)) · [ImageNet](https://www.image-net.org/) (ImageNet (Stanford Vision Lab / Princeton University)) · [ImageNet](https://en.wikipedia.org/wiki/ImageNet) (Wikipedia)
+
+</td></tr></table>
+
+<p align="right"><a href="#contents">↑ back to contents</a></p>
+
 ### 2010s
 
 <a id="watson-jeopardy"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg"><img src="assets/img/watson-jeopardy.jpg" width="300" alt="IBM Watson"></a><br><sub>Raysonho @ Open Grid Scheduler / Grid Engine · <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg"><img src="assets/img/watson-jeopardy.jpg" width="300" alt="Visitors at an IBM Watson Jeopardy! demo"></a><br><sub>Raysonho @ Open Grid Scheduler / Grid Engine · <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:IBMWatson.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 💬 IBM Watson beats Jeopardy! champions Ken Jennings and Brad Rutter
@@ -391,7 +582,7 @@ Michael Bowling, Neil Burch, Michael Johanson and Oskari Tammelin of the Univers
 
 **Why it matters:** The first time a poker game that people play competitively, a game with hidden information and bluffing, was essentially solved by a computer.
 
-**Sources:** [Heads-up Limit Hold'em Poker is Solved (Science 347(6218):145-149)](https://webdocs.cs.ualberta.ca/~bowling/publications/b2hd-15science.html) (University of Alberta (Bowling et al., Science)) · [How a computer program took the gambling out of poker](https://csmonitor.com/Science/2015/0108/How-a-computer-program-took-the-gambling-out-of-poker) (The Christian Science Monitor) · [Cepheus (poker bot)](https://en.wikipedia.org/wiki/Cepheus_(poker_bot)) (Wikipedia)
+**Sources:** [Heads-up limit hold'em poker is solved](https://doi.org/10.1126/science.1259433) (Science (Bowling et al.)) · [How a computer program took the gambling out of poker](https://csmonitor.com/Science/2015/0108/How-a-computer-program-took-the-gambling-out-of-poker) (The Christian Science Monitor) · [Cepheus (poker bot)](https://en.wikipedia.org/wiki/Cepheus_(poker_bot)) (Wikipedia)
 
 </td></tr></table>
 
@@ -605,7 +796,7 @@ DeepMind revealed that in recorded matches in December 2018, a preliminary versi
 
 <a id="openai-five-beats-og"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg"><img src="assets/img/openai-five-beats-og.jpg" width="300" alt="The International Dota 2 tournament"></a><br><sub>YJ · <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg"><img src="assets/img/openai-five-beats-og.jpg" width="300" alt="Fans at a Dota 2 tournament"></a><br><sub>YJ · <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a> · <a href="https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### ♟️ OpenAI Five defeats Dota 2 world champions OG
@@ -699,7 +890,7 @@ In the final of DARPA's AlphaDogfight Trials, an AI agent from Heron Systems, a 
 
 **Why it matters:** It was a high-profile demonstration that a reinforcement-learning agent could outfly a trained fighter pilot in a close-range dogfight, at least in simulation.
 
-**Sources:** [DARPA news release on the AlphaDogfight Trials](https://www.darpa.mil/news/2020/alphadogfight-trial) (DARPA) · [Heron Systems' AI defeats human pilot in US DARPA AlphaDogfight Trials](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials) (Janes)
+**Sources:** [DARPA news release on the AlphaDogfight Trials](https://www.darpa.mil/news/2020/alphadogfight-trial) (DARPA) · [AI Slays Top F-16 Pilot In DARPA Dogfight Simulation](https://breakingdefense.com/2020/08/ai-slays-top-f-16-pilot-in-darpa-dogfight-simulation) (Breaking Defense)
 
 </td></tr></table>
 
@@ -721,7 +912,7 @@ Waymo began offering rides with no safety driver on board to its Waymo One custo
 
 <a id="alphafold2-casp14"></a>
 <table><tr>
-<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png"><img src="assets/img/alphafold2-casp14.png" width="300" alt="AlphaFold 2"></a><br><sub>John Jumper et al · <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png">Wikimedia Commons</a></sub></td>
+<td width="300" valign="top"><a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png"><img src="assets/img/alphafold2-casp14.png" width="300" alt="Figure from the AlphaFold 2 paper showing its accuracy and architecture"></a><br><sub>John Jumper et al · <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:AlphaFold_2.png">Wikimedia Commons</a></sub></td>
 <td valign="top">
 
 #### 🔬 AlphaFold 2 solves protein structure prediction at CASP14
@@ -839,7 +1030,7 @@ DeepMind recast the search for matrix multiplication algorithms as a single-play
 #### ♟️ Meta's Cicero reaches human-level play in Diplomacy
 **November 22, 2022** · ♟️ Diplomacy · *Cicero (Meta AI, FAIR Diplomacy team)* vs. *Human players in an anonymous online webDiplomacy.net blitz league*
 
-Meta AI's Cicero combined a dialogue language model with strategic planning so it could negotiate, form alliances and coordinate with human players in natural language. Playing anonymously in 40 online blitz games on webDiplomacy.net, it scored more than double the average human player's score. It also ranked in the top 10% of participants who played more than one game.
+Meta AI's Cicero combined a dialogue language model with strategic planning so it could negotiate, form alliances and coordinate with human players in natural language. Playing anonymously in an online blitz league on webDiplomacy.net, it scored more than double the average human player's score. It also ranked in the top 10% of participants who played more than one game.
 
 **Why it matters:** This was the first AI to reach strong human-level play in a game that depends on persuasion, trust and cooperation through free-form conversation, not just moves on a board.
 
