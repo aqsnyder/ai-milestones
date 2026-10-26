@@ -3288,7 +3288,7 @@
     it. The method builds on Córdoba and Martínez-Zoroa's 2023 approach. The unforced case remains open.
     No OpenAI primary announcement URL was found in searches; add one if available. On 6-7 Oct OpenAI
     also released 700+ manuscripts (~370 result families) claimed by the same line of models, three withdrawn
-    for errors; not included as a separate entry. Image suggestion: a free fluid-turbulence or vortex
+    for errors; its headline result has its own entry (openai-quasi-riemann-hypothesis). Image suggestion: a free fluid-turbulence or vortex
     image on Commons (not verified).
 
 - id: ataraxos-stratego-superhuman
@@ -3334,3 +3334,158 @@
     over three weeks; Niemeijer was paid to participate. A demo at the August 2025 Stratego World Championship
     went 38-2 per the preprint (MIT News says 39-2). Also superhuman in Barrage Stratego, Hanabi and Dou
     Dizhu per MIT. Image suggestion: a free photo of a Stratego board on Commons (not verified).
+
+- id: atcoder-world-tour-finals-2026-ai
+  date: '2026-07-09'
+  title: OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026
+  category: math
+  field: Competitive programming
+  system: OpenAI agent (a model OpenAI described as comparable to GPT-5.6, with a small test-time harness)
+  opponent: tour1st (winner) and the other 11 human finalists of the Algorithm final
+  summary: >-
+    At the AtCoder World Tour Finals 2026 Algorithm contest in Tokyo on 9 July 2026, a 420-minute onsite
+    final for the 12 top-ranked AtCoder players, an OpenAI agent took part as an unranked exhibition entry.
+    It solved all five problems for the maximum 8,300 points, almost double the 4,300 scored by the human
+    winner, tour1st; per The Decoder no human solved problems C or E. OpenAI said the system had no
+    internet access. A year earlier an OpenAI model had finished second to Psyho in the Heuristic final;
+    in the 2026 Heuristic final it was reported to beat the best human by a wide margin as well.
+  significance: >-
+    The first time an AI system beat the whole field of an elite onsite algorithmic programming final,
+    one year after humans narrowly held it off at the same event.
+  image: null
+  sources:
+  - title: AtCoder World Tour Finals 2026 Algorithm announcement (with unrated mirror)
+    publisher: Codeforces (posted by AtCoder's organiser maroonrk)
+    url: https://codeforces.com/blog/entry/155048
+    kind: primary
+  - title: World Tour Finals 2026 Algorithm (Open Contest)
+    publisher: AtCoder
+    url: https://atcoder.jp/contests/awtf2026algo-open
+    kind: primary
+  - title: Standings for AtCoder World Tour Finals 2026 Algorithm
+    publisher: Competitive Programming Hall Of Fame
+    url: https://cphof.org/standings/atcoder_wt/2026
+    kind: reference
+  - title: OpenAI's AI beats every human at AtCoder, a top competitive programming contest
+    publisher: The Decoder
+    url: https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/
+    kind: news
+  - title: An OpenAI model crushed top human programmers at a world coding competition
+    publisher: Understanding AI
+    url: https://www.understandingai.org/p/an-openai-model-crushed-top-human
+    kind: news
+  notes: >-
+    Added in the 2026-10-26 review (missed when the timeline was first built). The organiser's announcement
+    on Codeforces confirms the AI was an exhibition entrant; the human standings (cphof) list 12 humans
+    with tour1st first on 4,300 and do not list the AI. The AI's 8,300 comes from news coverage of the
+    live stream; the official atcoder.jp final page could not be opened. Not verified: an anonymous
+    Codeforces comment says a person operated the submissions for the agent and relayed test feedback.
+    Heuristic-final margin (reported as more than seven times the best human score) comes from OfficeChai
+    and Understanding AI only, so it is not stated as a number. Category math follows the 2025 AtCoder entry.
+
+- id: alphaproof-nexus-science-erdos
+  date: '2026-10-08'
+  title: DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper
+  category: math
+  field: Combinatorics / number theory (formal proof)
+  system: AlphaProof Nexus (Google DeepMind; Gemini 3.1 Pro agents writing Lean proofs, with AlphaProof)
+  summary: >-
+    In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagues, preprinted in
+    May), Google DeepMind described AlphaProof Nexus, an agent that drafts and repairs proofs in the Lean
+    proof assistant, with every proof machine-checked. Run on all 353 open Erdős problems formalized in
+    DeepMind's Formal Conjectures project, it settled 9 (an independent audit argued one was already implied
+    by an earlier theorem), including two questions within Erdős problem #12 that had been open since
+    1970, and it proved 44 of 492 conjectures taken from the OEIS. Commentators noted that Lean checks
+    the proof but not whether the formal statement matches the original problem, and the agent is not
+    publicly available.
+  significance: >-
+    Amid a flood of unrefereed AI math claims in 2026, a set of AI-solved open problems that passed peer
+    review at a leading journal, with every proof checkable in Lean.
+  image: null
+  sources:
+  - title: AlphaProof Nexus (Science, DOI 10.1126/science.aej2213)
+    publisher: Science
+    url: https://www.science.org/doi/10.1126/science.aej2213
+    kind: paper
+  - title: Advancing Mathematics Research with AI-Driven Formal Proof Search (preprint)
+    publisher: arXiv
+    url: https://arxiv.org/abs/2605.22763
+    kind: paper
+  - title: google-deepmind/alphaproof-nexus-results (Lean proofs)
+    publisher: GitHub
+    url: https://github.com/google-deepmind/alphaproof-nexus-results
+    kind: primary
+  - title: Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed
+    publisher: The Decoder
+    url: >-
+      https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/
+    kind: news
+  - title: 'AlphaProof Nexus: a new AI tool designed to tackle mathematical proofs (expert reactions)'
+    publisher: Science Media Centre Spain
+    url: https://sciencemediacentre.es/en/alphaproof-nexus-new-ai-tool-designed-tackle-mathematical-proofs
+    kind: news
+  notes: >-
+    Science page, arXiv abstract and GitHub repo were not opened directly; their URLs were taken from
+    links on The Decoder, SMC Spain, MLQ and XenoSpectrum, which agree on the date (8 Oct 2026), the DOI,
+    9 of 353 Erdős problems and 44 of 492 OEIS conjectures. The "53 open problems" headline in some outlets
+    is just 9 + 44. Erdős #846 was reportedly implied by an earlier Reiher-Rödl-Sales theorem (audit by
+    hedegreenresearch.com, not opened). Josep Curto (UOC) criticised the paper's cost reporting and noted
+    a basic agent solved the same nine Erdős problems. Erdős problems #125 and #741 needed their density
+    statements corrected during formalization. Full Science title not confirmed; it may match the arXiv
+    title. Image suggestion: a free photo of Paul Erdős on Commons (not checked).
+
+- id: openai-quasi-riemann-hypothesis
+  date: '2026-10-06'
+  title: OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way
+  category: math
+  field: Analytic number theory
+  status: under-review
+  system: Unreleased internal OpenAI model
+  summary: >-
+    On 6 October 2026 OpenAI released 722 AI-written manuscripts on GitHub, claiming progress on several
+    hundred research problems; three were withdrawn within days. The standout was a proof of the quasi-Riemann
+    hypothesis: that all nontrivial zeros of the Riemann zeta function lie in a strip a ≤ Re(s) ≤ 1 − a
+    for some fixed a > 0, narrower than the known strip between 0 and 1. A 199-page version (a = 1/8)
+    was formally verified in Lean, per Quanta, and a 49-page version edited by a person claims a = 1/12.
+    Quanta reported on 19 October that number theorists including Peter Sarnak, Maksym Radziwiłł and
+    Alexander Dunn largely agree the result is correct, though Sarnak wants humans to check every detail
+    first.
+  significance: >-
+    If confirmed, one of the most consequential results yet credited to AI: Radziwiłł says most consequences
+    of the Riemann hypothesis already follow from the quasi version, which experts had thought beyond
+    existing tools.
+  image: null
+  sources:
+  - title: The Quasi-Riemann Hypothesis (preprint, 5 October 2026 version)
+    publisher: OpenAI (GitHub)
+    url: https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf
+    kind: primary
+  - title: Sharing AI progress in mathematics
+    publisher: OpenAI
+    url: https://openai.com/index/sharing-ai-progress-in-mathematics/
+    kind: primary
+  - title: AI Proved the Quasi-Riemann Hypothesis. What Happens Now?
+    publisher: Quanta Magazine
+    url: https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/
+    kind: news
+  - title: The Quasi-Riemann Hypothesis
+    publisher: The n-Category Café (John Baez)
+    url: https://golem.ph.utexas.edu/category/2026/10/the_quasiriemann_hypothesis.html
+    kind: news
+  - title: OpenAI bulk release of mathematical papers
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers
+    kind: reference
+  notes: >-
+    Counts differ across sources: Wikipedia says 722 manuscripts in 372 topics (about 4,000 problems tried);
+    Quanta says 377 results; some outlets give 7 Oct as the date. OpenAI's own post (6 Oct, updated 15
+    Oct with US$5 million to a Simons Foundation initiative for checking AI results) does not mention the
+    quasi-RH or give counts. Radziwiłł: both papers are "horribly written" but he can sketch the argument
+    in half a page; Dunn calls it "a surprising synthesis of well-known ideas" (metaplectic forms). Lichtman:
+    "the most significant AI-for-math achievement so far, by quite a margin." Will Sawin doubts the method
+    reaches RH itself. Science (Savitsky, 13 Oct) also covered it but could not be opened. No specific
+    error reported as of 26 Oct. Who first posed "quasi-RH" as a named target was not found; the 1896
+    edge result (Hadamard, de la Vallée Poussin) is per Quanta. Other headline claims in the same release
+    (Unique Games Conjecture, rational Hodge conjecture for CM abelian varieties) are on the watchlist.
+    Upgrade the status once a refereed write-up or clear expert consensus appears. Image suggestion: a
+    free plot of the zeta function's critical strip on Commons (not checked).

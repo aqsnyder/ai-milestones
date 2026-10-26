@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**85 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-20 · last reviewed for new milestones 2026-10-20
+**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-20 · last reviewed for new milestones 2026-10-26
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
@@ -20,10 +20,10 @@
 - [1990s](#1990s) (5)
 - [2000s](#2000s) (6)
 - [2010s](#2010s) (19)
-- [2020s](#2020s) (38)
+- [2020s](#2020s) (41)
 - [How this repo works](#how-this-repo-works)
 
-**Categories:** ♟️ Games & competitions (27) · 🧮 Mathematics, code & reasoning (23) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (9) · 🧱 Foundations (7)
+**Categories:** ♟️ Games & competitions (27) · 🧮 Mathematics, code & reasoning (26) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (9) · 🧱 Foundations (7)
 
 ## Humans vs. machines
 
@@ -60,6 +60,7 @@ Every entry where an AI system was measured directly against human experts. Most
 | 2025 | [Olympiad mathematics](#imo-2025-gold-medal-ai) | Gemini Deep Think, advanced version (Google DeepMind); experimental reasoning model (OpenAI) | Human contestants at the 66th IMO |
 | 2025 | [Competitive programming (olympiad)](#ioi-2025-openai-gold) | Ensemble of OpenAI general-purpose reasoning models | About 330 human contestants at IOI 2025 |
 | 2025 | [Competitive programming (collegiate)](#icpc-2025-world-finals-ai) | OpenAI (GPT-5 + experimental reasoning model); Google DeepMind (Gemini 2.5 Deep Think) | 139 university teams at the 2025 ICPC World Finals |
+| 2026 | [Competitive programming](#atcoder-world-tour-finals-2026-ai) | OpenAI agent (a model OpenAI described as comparable to GPT-5.6, with a small test-time harness) | tour1st (winner) and the other 11 human finalists of the Algorithm final |
 | 2026 | [Stratego](#ataraxos-stratego-superhuman) | Ataraxos (Carnegie Mellon, MIT, NYU, Stanford) | Pim Niemeijer, four-time Stratego world champion |
 
 ## Timeline
@@ -1410,6 +1411,22 @@ At the 67th International Mathematical Olympiad in Shanghai (papers sat 15-16 Ju
 
 </td></tr></table>
 
+<a id="atcoder-world-tour-finals-2026-ai"></a>
+<table><tr>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td valign="top">
+
+#### 🧮 OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026
+**July 9, 2026** · 🧮 Competitive programming · *OpenAI agent (a model OpenAI described as comparable to GPT-5.6, with a small test-time harness)* vs. *tour1st (winner) and the other 11 human finalists of the Algorithm final*
+
+At the AtCoder World Tour Finals 2026 Algorithm contest in Tokyo on 9 July 2026, a 420-minute onsite final for the 12 top-ranked AtCoder players, an OpenAI agent took part as an unranked exhibition entry. It solved all five problems for the maximum 8,300 points, almost double the 4,300 scored by the human winner, tour1st; per The Decoder no human solved problems C or E. OpenAI said the system had no internet access. A year earlier an OpenAI model had finished second to Psyho in the Heuristic final; in the 2026 Heuristic final it was reported to beat the best human by a wide margin as well.
+
+**Why it matters:** The first time an AI system beat the whole field of an elite onsite algorithmic programming final, one year after humans narrowly held it off at the same event.
+
+**Sources:** [AtCoder World Tour Finals 2026 Algorithm announcement (with unrated mirror)](https://codeforces.com/blog/entry/155048) (Codeforces (posted by AtCoder's organiser maroonrk)) · [World Tour Finals 2026 Algorithm (Open Contest)](https://atcoder.jp/contests/awtf2026algo-open) (AtCoder) · [Standings for AtCoder World Tour Finals 2026 Algorithm](https://cphof.org/standings/atcoder_wt/2026) (Competitive Programming Hall Of Fame) · [OpenAI's AI beats every human at AtCoder, a top competitive programming contest](https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/) (The Decoder) · [An OpenAI model crushed top human programmers at a world coding competition](https://www.understandingai.org/p/an-openai-model-crushed-top-human) (Understanding AI)
+
+</td></tr></table>
+
 <a id="openai-astra-ten-open-problems"></a>
 <table><tr>
 <td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
@@ -1459,6 +1476,40 @@ Ataraxos, built by Samuel Sokota, Gabriele Farina and colleagues at Carnegie Mel
 **Why it matters:** The first superhuman result in Stratego, a long-horizon game of hidden information that had been one of the last classic board games where top humans still beat AI.
 
 **Sources:** [Scalable decision-making for games of imperfect information](https://www.nature.com/articles/s41586-026-11036-y) (Nature) · [Scalable Decision Making for Games of Imperfect Information (preprint)](https://arxiv.org/abs/2511.07312) (arXiv) · [This game-playing AI is the new champ at Stratego](https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930) (MIT News) · [AI beats Stratego's greatest player, ending one of the last human strongholds in board games](https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/) (The Decoder)
+
+</td></tr></table>
+
+<a id="openai-quasi-riemann-hypothesis"></a>
+<table><tr>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td valign="top">
+
+#### 🧮 OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way
+**October 6, 2026** · 🧮 Analytic number theory · *Unreleased internal OpenAI model*
+
+On 6 October 2026 OpenAI released 722 AI-written manuscripts on GitHub, claiming progress on several hundred research problems; three were withdrawn within days. The standout was a proof of the quasi-Riemann hypothesis: that all nontrivial zeros of the Riemann zeta function lie in a strip a ≤ Re(s) ≤ 1 − a for some fixed a > 0, narrower than the known strip between 0 and 1. A 199-page version (a = 1/8) was formally verified in Lean, per Quanta, and a 49-page version edited by a person claims a = 1/12. Quanta reported on 19 October that number theorists including Peter Sarnak, Maksym Radziwiłł and Alexander Dunn largely agree the result is correct, though Sarnak wants humans to check every detail first.
+
+⚠️ **Claim under review:** experts have not yet verified this result.
+
+**Why it matters:** If confirmed, one of the most consequential results yet credited to AI: Radziwiłł says most consequences of the Riemann hypothesis already follow from the quasi version, which experts had thought beyond existing tools.
+
+**Sources:** [The Quasi-Riemann Hypothesis (preprint, 5 October 2026 version)](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf) (OpenAI (GitHub)) · [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/) (OpenAI) · [AI Proved the Quasi-Riemann Hypothesis. What Happens Now?](https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/) (Quanta Magazine) · [The Quasi-Riemann Hypothesis](https://golem.ph.utexas.edu/category/2026/10/the_quasiriemann_hypothesis.html) (The n-Category Café (John Baez)) · [OpenAI bulk release of mathematical papers](https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers) (Wikipedia)
+
+</td></tr></table>
+
+<a id="alphaproof-nexus-science-erdos"></a>
+<table><tr>
+<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td valign="top">
+
+#### 🧮 DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper
+**October 8, 2026** · 🧮 Combinatorics / number theory (formal proof) · *AlphaProof Nexus (Google DeepMind; Gemini 3.1 Pro agents writing Lean proofs, with AlphaProof)*
+
+In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagues, preprinted in May), Google DeepMind described AlphaProof Nexus, an agent that drafts and repairs proofs in the Lean proof assistant, with every proof machine-checked. Run on all 353 open Erdős problems formalized in DeepMind's Formal Conjectures project, it settled 9 (an independent audit argued one was already implied by an earlier theorem), including two questions within Erdős problem #12 that had been open since 1970, and it proved 44 of 492 conjectures taken from the OEIS. Commentators noted that Lean checks the proof but not whether the formal statement matches the original problem, and the agent is not publicly available.
+
+**Why it matters:** Amid a flood of unrefereed AI math claims in 2026, a set of AI-solved open problems that passed peer review at a leading journal, with every proof checkable in Lean.
+
+**Sources:** [AlphaProof Nexus (Science, DOI 10.1126/science.aej2213)](https://www.science.org/doi/10.1126/science.aej2213) (Science) · [Advancing Mathematics Research with AI-Driven Formal Proof Search (preprint)](https://arxiv.org/abs/2605.22763) (arXiv) · [google-deepmind/alphaproof-nexus-results (Lean proofs)](https://github.com/google-deepmind/alphaproof-nexus-results) (GitHub) · [Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed](https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/) (The Decoder) · [AlphaProof Nexus: a new AI tool designed to tackle mathematical proofs (expert reactions)](https://sciencemediacentre.es/en/alphaproof-nexus-new-ai-tool-designed-tackle-mathematical-proofs) (Science Media Centre Spain)
 
 </td></tr></table>
 

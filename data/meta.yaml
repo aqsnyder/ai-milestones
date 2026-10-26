@@ -1,7 +1,7 @@
 # Read and updated by the weekly review (see MAINTAINING.md).
 
 # Date of the last completed review for new milestones (YYYY-MM-DD).
-last_reviewed: "2026-10-20"
+last_reviewed: "2026-10-26"
 
 # Candidates that are not ready to be added yet, and what would settle them.
 # Re-check each one every week; add it once it clears the bar, or drop it if it fizzles.
@@ -9,14 +9,25 @@ watchlist:
   - candidate: "NVIDIA Nemotron-3-Ultra-CC outscores every human contestant at IOI 2026 (535.4/600 vs. top human 498.27)"
     sources:
       - https://arxiv.org/abs/2609.02849
-    waiting_for: "Independent confirmation from the IOI or a major outlet; so far the only sources are NVIDIA's own paper and post."
-  - candidate: "First Proof, third batch: an ETH Zürich harness on GPT-6 Astra solves 9 of 10 unseen research problems under blind refereeing"
+    waiting_for: "Independent confirmation from the IOI or a major outlet. Re-checked 2026-10-26: still only NVIDIA's paper and posts (which say the IOI team graded it) plus minor blogs."
+  - candidate: "First Proof, third batch (results 14 Oct 2026): the IMProofBench ProofCouncil harness solves 9 of 10 unpublished research problems and OpenAI's GPT-6 Astra 7 of 10, under double-blind refereeing by ~30 mathematicians"
     sources:
       - https://1stproof.org/third-batch-press-release.html
-    waiting_for: "Coverage by a reputable outlet (Nature, Science, Quanta, a major newspaper) or a published write-up; decide whether it's a milestone or a benchmark result."
+      - https://1stproof.org/third-batch.html
+      - https://www.scientificamerican.com/article/new-first-proof-exam-reveals-how-ai-powered-math-is-a-pay-for-play-sport/
+    waiting_for: "It is a benchmark run (problems already solved by humans, solutions unpublished), so add only if the field treats it as a landmark, e.g. a refereed write-up or coverage framing it as one. Scientific American covered it (article not opened; its headline focuses on cost)."
+  - candidate: "Other headline claims in OpenAI's 6 Oct 2026 manuscript release: a proof of the Unique Games Conjecture (with Lean formalization) and the rational Hodge conjecture for CM abelian varieties"
+    sources:
+      - https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers
+    waiting_for: "Expert verification reported by a reputable outlet. Some of the release's Lean formalizations reportedly prove weaker statements than the papers claim."
+  - candidate: "TU Delft's autonomous drone beats three former Drone Champions League world champions at the A2RL race in Abu Dhabi (April 2025), on organiser-designed hardware and track with a single camera"
+    sources:
+      - https://mavlab.tudelft.nl/dronerace-defeating-champions/
+      - https://dronexl.co/2026/02/21/ai-drone-human-champions-abu-dhabi/
+    waiting_for: "A peer-reviewed paper (an October 2026 Tech Xplore story suggests one exists but could not be opened), then decide whether it adds enough beyond the 2023 Swift entry."
   - candidate: "Humanoid robots reported beating human 100 m and high-jump records at a 2026 Beijing robot games"
     waiting_for: "Primary sources (organiser results) and confirmation that the comparison to human records is like for like."
   - candidate: "ICPC World Finals 2026 (reported postponed)"
     waiting_for: "The contest to take place; add an entry if AI systems beat the top human teams."
   - candidate: "Frontier benchmark thresholds in 2026 (ARC-AGI, FrontierMath, Humanity's Last Exam)"
-    waiting_for: "Not yet researched for 2026; include only a threshold the field treats as a landmark, e.g. a prize-winning ARC Prize score."
+    waiting_for: "Include only a threshold the field treats as a landmark, e.g. a prize-winning ARC Prize score. ARC Prize 2026 (ARC-AGI-3, Kaggle) is still running; ARC Prize posted a new high score of 59.17% (Yi-Chia Chen) on X."

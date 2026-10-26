@@ -3040,6 +3040,51 @@
     "image_credit": null
   },
   {
+    "id": "atcoder-world-tour-finals-2026-ai",
+    "date": "2026-07-09",
+    "title": "OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026",
+    "category": "math",
+    "field": "Competitive programming",
+    "system": "OpenAI agent (a model OpenAI described as comparable to GPT-5.6, with a small test-time harness)",
+    "opponent": "tour1st (winner) and the other 11 human finalists of the Algorithm final",
+    "summary": "At the AtCoder World Tour Finals 2026 Algorithm contest in Tokyo on 9 July 2026, a 420-minute onsite final for the 12 top-ranked AtCoder players, an OpenAI agent took part as an unranked exhibition entry. It solved all five problems for the maximum 8,300 points, almost double the 4,300 scored by the human winner, tour1st; per The Decoder no human solved problems C or E. OpenAI said the system had no internet access. A year earlier an OpenAI model had finished second to Psyho in the Heuristic final; in the 2026 Heuristic final it was reported to beat the best human by a wide margin as well.",
+    "significance": "The first time an AI system beat the whole field of an elite onsite algorithmic programming final, one year after humans narrowly held it off at the same event.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AtCoder World Tour Finals 2026 Algorithm announcement (with unrated mirror)",
+        "publisher": "Codeforces (posted by AtCoder's organiser maroonrk)",
+        "url": "https://codeforces.com/blog/entry/155048",
+        "kind": "primary"
+      },
+      {
+        "title": "World Tour Finals 2026 Algorithm (Open Contest)",
+        "publisher": "AtCoder",
+        "url": "https://atcoder.jp/contests/awtf2026algo-open",
+        "kind": "primary"
+      },
+      {
+        "title": "Standings for AtCoder World Tour Finals 2026 Algorithm",
+        "publisher": "Competitive Programming Hall Of Fame",
+        "url": "https://cphof.org/standings/atcoder_wt/2026",
+        "kind": "reference"
+      },
+      {
+        "title": "OpenAI's AI beats every human at AtCoder, a top competitive programming contest",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/openais-ai-beats-every-human-at-atcoder-a-top-competitive-programming-contest/",
+        "kind": "news"
+      },
+      {
+        "title": "An OpenAI model crushed top human programmers at a world coding competition",
+        "publisher": "Understanding AI",
+        "url": "https://www.understandingai.org/p/an-openai-model-crushed-top-human",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
     "id": "openai-astra-ten-open-problems",
     "date": "2026-08-01",
     "title": "OpenAI's Astra model claims ten long-open math results, incl. a non-sofic group",
@@ -3175,6 +3220,95 @@
         "title": "AI beats Stratego's greatest player, ending one of the last human strongholds in board games",
         "publisher": "The Decoder",
         "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "openai-quasi-riemann-hypothesis",
+    "date": "2026-10-06",
+    "title": "OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way",
+    "category": "math",
+    "field": "Analytic number theory",
+    "status": "under-review",
+    "system": "Unreleased internal OpenAI model",
+    "summary": "On 6 October 2026 OpenAI released 722 AI-written manuscripts on GitHub, claiming progress on several hundred research problems; three were withdrawn within days. The standout was a proof of the quasi-Riemann hypothesis: that all nontrivial zeros of the Riemann zeta function lie in a strip a ≤ Re(s) ≤ 1 − a for some fixed a > 0, narrower than the known strip between 0 and 1. A 199-page version (a = 1/8) was formally verified in Lean, per Quanta, and a 49-page version edited by a person claims a = 1/12. Quanta reported on 19 October that number theorists including Peter Sarnak, Maksym Radziwiłł and Alexander Dunn largely agree the result is correct, though Sarnak wants humans to check every detail first.",
+    "significance": "If confirmed, one of the most consequential results yet credited to AI: Radziwiłł says most consequences of the Riemann hypothesis already follow from the quasi version, which experts had thought beyond existing tools.",
+    "image": null,
+    "sources": [
+      {
+        "title": "The Quasi-Riemann Hypothesis (preprint, 5 October 2026 version)",
+        "publisher": "OpenAI (GitHub)",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf",
+        "kind": "primary"
+      },
+      {
+        "title": "Sharing AI progress in mathematics",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "kind": "primary"
+      },
+      {
+        "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+        "kind": "news"
+      },
+      {
+        "title": "The Quasi-Riemann Hypothesis",
+        "publisher": "The n-Category Café (John Baez)",
+        "url": "https://golem.ph.utexas.edu/category/2026/10/the_quasiriemann_hypothesis.html",
+        "kind": "news"
+      },
+      {
+        "title": "OpenAI bulk release of mathematical papers",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null
+  },
+  {
+    "id": "alphaproof-nexus-science-erdos",
+    "date": "2026-10-08",
+    "title": "DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper",
+    "category": "math",
+    "field": "Combinatorics / number theory (formal proof)",
+    "system": "AlphaProof Nexus (Google DeepMind; Gemini 3.1 Pro agents writing Lean proofs, with AlphaProof)",
+    "summary": "In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagues, preprinted in May), Google DeepMind described AlphaProof Nexus, an agent that drafts and repairs proofs in the Lean proof assistant, with every proof machine-checked. Run on all 353 open Erdős problems formalized in DeepMind's Formal Conjectures project, it settled 9 (an independent audit argued one was already implied by an earlier theorem), including two questions within Erdős problem #12 that had been open since 1970, and it proved 44 of 492 conjectures taken from the OEIS. Commentators noted that Lean checks the proof but not whether the formal statement matches the original problem, and the agent is not publicly available.",
+    "significance": "Amid a flood of unrefereed AI math claims in 2026, a set of AI-solved open problems that passed peer review at a leading journal, with every proof checkable in Lean.",
+    "image": null,
+    "sources": [
+      {
+        "title": "AlphaProof Nexus (Science, DOI 10.1126/science.aej2213)",
+        "publisher": "Science",
+        "url": "https://www.science.org/doi/10.1126/science.aej2213",
+        "kind": "paper"
+      },
+      {
+        "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search (preprint)",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2605.22763",
+        "kind": "paper"
+      },
+      {
+        "title": "google-deepmind/alphaproof-nexus-results (Lean proofs)",
+        "publisher": "GitHub",
+        "url": "https://github.com/google-deepmind/alphaproof-nexus-results",
+        "kind": "primary"
+      },
+      {
+        "title": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+        "publisher": "The Decoder",
+        "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+        "kind": "news"
+      },
+      {
+        "title": "AlphaProof Nexus: a new AI tool designed to tackle mathematical proofs (expert reactions)",
+        "publisher": "Science Media Centre Spain",
+        "url": "https://sciencemediacentre.es/en/alphaproof-nexus-new-ai-tool-designed-tackle-mathematical-proofs",
         "kind": "news"
       }
     ],
