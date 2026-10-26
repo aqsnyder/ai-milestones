@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-20 · last reviewed for new milestones 2026-10-26
+**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-26 · last reviewed for new milestones 2026-10-26
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
