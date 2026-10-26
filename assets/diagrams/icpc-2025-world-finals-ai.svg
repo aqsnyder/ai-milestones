@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 366" width="520" height="366" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="ICPC World Finals 2025: problems solved (out of 12)">
+<rect width="520" height="366" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">ICPC World Finals 2025: problems</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">solved (out of 12)</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">OpenAI (GPT-5 + experimental model)</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#2f6fdb"/>
+<text x="430.0" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">12</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Best human team</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#f9e1d4"/>
+<rect x="22" y="190.0" width="381.3" height="30" rx="4" fill="#d9642b"/>
+<text x="395.3" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">11</text>
+<text x="22.0" y="242.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Gemini 2.5 Deep Think</text>
+<rect x="22" y="250.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="250.0" width="346.7" height="30" rx="4" fill="#2f6fdb"/>
+<text x="360.7" y="272.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">10</text>
+<rect x="22" y="295" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="308.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">AI</text>
+<rect x="85.0" y="295" width="16" height="16" rx="3" fill="#d9642b"/>
+<text x="107.0" y="308.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Humans</text>
+<text x="498.0" y="348.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

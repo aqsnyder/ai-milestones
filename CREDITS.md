@@ -40,3 +40,32 @@ All images come from [Wikimedia Commons](https://commons.wikimedia.org/) under f
 | [GPT-4.5 judged human more often than real humans in a Turing test](README.md#gpt-4-5-turing-test) | [Alan Turing (1912-1954) in 1936 at Princeton University.jpg](https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg) | Unknown photographer | Public domain |
 | [Harmonic's Aristotle autonomously proves a version of Erdős problem #124](README.md#erdos-problem-124-aristotle) | [Erdos budapest fall 1992.jpg](https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg) | Kmhkmh | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) |
 | [OpenAI model disproves Erdős's 80-year-old unit distance conjecture](README.md#openai-unit-distance-disproof) | [Moser spindle.svg](https://commons.wikimedia.org/wiki/File:Moser_spindle.svg) | Koko90 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+
+## Diagrams
+
+Entries with no freely licensed photo may show a simple chart instead. Each one plots only figures stated in the entry, which come from its cited sources. The charts are drawn by [`scripts/diagrams.py`](scripts/diagrams.py) and released under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+| Milestone | Diagram |
+|---|---|
+| [Logic Theorist proves theorems from Principia Mathematica](README.md#logic-theorist) | [assets/diagrams/logic-theorist.svg](assets/diagrams/logic-theorist.svg) |
+| [MYCIN out-prescribes Stanford experts in a blinded meningitis test](README.md#mycin-meningitis-evaluation) | [assets/diagrams/mycin-meningitis-evaluation.svg](assets/diagrams/mycin-meningitis-evaluation.svg) |
+| [AlexNet wins ImageNet challenge by a huge margin, igniting deep learning](README.md#alexnet-imagenet-2012) | [assets/diagrams/alexnet-imagenet-2012.svg](assets/diagrams/alexnet-imagenet-2012.svg) |
+| [Microsoft network edges past reported human error rate on ImageNet](README.md#he-prelu-surpasses-human-imagenet) | [assets/diagrams/he-prelu-surpasses-human-imagenet.svg](assets/diagrams/he-prelu-surpasses-human-imagenet.svg) |
+| [Microsoft claims human parity in conversational speech recognition](README.md#microsoft-speech-human-parity) | [assets/diagrams/microsoft-speech-human-parity.svg](assets/diagrams/microsoft-speech-human-parity.svg) |
+| [AlphaZero teaches itself chess, shogi and Go and beats the top programs](README.md#alphazero-chess-shogi-go) | [assets/diagrams/alphazero-chess-shogi-go.svg](assets/diagrams/alphazero-chess-shogi-go.svg) |
+| [DeepMind's AlphaStar beats StarCraft II pros TLO and MaNa 10-1](README.md#alphastar-beats-starcraft-pros) | [assets/diagrams/alphastar-beats-starcraft-pros.svg](assets/diagrams/alphastar-beats-starcraft-pros.svg) |
+| [Sony's Gran Turismo Sophy outraces the world's best Gran Turismo drivers](README.md#gran-turismo-sophy) | [assets/diagrams/gran-turismo-sophy.svg](assets/diagrams/gran-turismo-sophy.svg) |
+| [GPT-4 scores around the top 10% on a simulated bar exam](README.md#gpt-4-bar-exam) | [assets/diagrams/gpt-4-bar-exam.svg](assets/diagrams/gpt-4-bar-exam.svg) |
+| [Swift autonomous drone beats human drone-racing champions](README.md#swift-drone-racing-champions) | [assets/diagrams/swift-drone-racing-champions.svg](assets/diagrams/swift-drone-racing-champions.svg) |
+| [GraphCast outperforms the leading operational 10-day weather forecast](README.md#graphcast-weather-forecasting) | [assets/diagrams/graphcast-weather-forecasting.svg](assets/diagrams/graphcast-weather-forecasting.svg) |
+| [AlphaGeometry solves olympiad geometry near gold-medalist level](README.md#alphageometry-olympiad-geometry) | [assets/diagrams/alphageometry-olympiad-geometry.svg](assets/diagrams/alphageometry-olympiad-geometry.svg) |
+| [AlphaProof and AlphaGeometry 2 reach silver-medal standard at IMO 2024](README.md#alphaproof-imo-2024-silver) | [assets/diagrams/alphaproof-imo-2024-silver.svg](assets/diagrams/alphaproof-imo-2024-silver.svg) |
+| [OpenAI o1 introduces LLMs trained to reason at length before answering](README.md#openai-o1-reasoning-models) | [assets/diagrams/openai-o1-reasoning-models.svg](assets/diagrams/openai-o1-reasoning-models.svg) |
+| [OpenAI o3 scores 75.7% to 87.5% on the ARC-AGI-1 reasoning benchmark](README.md#openai-o3-arc-agi) | [assets/diagrams/openai-o3-arc-agi.svg](assets/diagrams/openai-o3-arc-agi.svg) |
+| [AlphaEvolve beats Strassen for 4x4 complex matrices, advances open problems](README.md#alphaevolve-matrix-multiplication) | [assets/diagrams/alphaevolve-matrix-multiplication.svg](assets/diagrams/alphaevolve-matrix-multiplication.svg) |
+| [Google DeepMind and OpenAI models reach gold-medal level at IMO 2025](README.md#imo-2025-gold-medal-ai) | [assets/diagrams/imo-2025-gold-medal-ai.svg](assets/diagrams/imo-2025-gold-medal-ai.svg) |
+| [AI solves 12/12 (OpenAI) and 10/12 (Gemini) at the ICPC World Finals](README.md#icpc-2025-world-finals-ai) | [assets/diagrams/icpc-2025-world-finals-ai.svg](assets/diagrams/icpc-2025-world-finals-ai.svg) |
+| [OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026](README.md#atcoder-world-tour-finals-2026-ai) | [assets/diagrams/atcoder-world-tour-finals-2026-ai.svg](assets/diagrams/atcoder-world-tour-finals-2026-ai.svg) |
+| [Ataraxos AI beats Stratego's greatest player, 15 wins to 1](README.md#ataraxos-stratego-superhuman) | [assets/diagrams/ataraxos-stratego-superhuman.svg](assets/diagrams/ataraxos-stratego-superhuman.svg) |
+| [OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way](README.md#openai-quasi-riemann-hypothesis) | [assets/diagrams/openai-quasi-riemann-hypothesis.svg](assets/diagrams/openai-quasi-riemann-hypothesis.svg) |
+| [DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper](README.md#alphaproof-nexus-science-erdos) | [assets/diagrams/alphaproof-nexus-science-erdos.svg](assets/diagrams/alphaproof-nexus-science-erdos.svg) |

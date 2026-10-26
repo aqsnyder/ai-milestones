@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 390" width="520" height="390" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Swift vs. champion drone pilots (races won)">
+<rect width="520" height="390" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">Swift vs. champion drone pilots</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">(races won)</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">vs. Alex Vanover</text>
+<rect x="22.0" y="130.0" width="264.4" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="154.2" y="155.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+<rect x="286.4" y="130.0" width="211.6" height="36" fill="#d9642b" stroke="#ffffff" stroke-width="2"/>
+<text x="392.2" y="155.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+<text x="22.0" y="192.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">vs. Thomas Bitmatta</text>
+<rect x="22.0" y="200.0" width="272.0" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="158.0" y="225.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+<rect x="294.0" y="200.0" width="204.0" height="36" fill="#d9642b" stroke="#ffffff" stroke-width="2"/>
+<text x="396.0" y="225.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="22.0" y="262.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">vs. Marvin Schaepper</text>
+<rect x="22.0" y="270.0" width="317.3" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="180.7" y="295.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">6</text>
+<rect x="339.3" y="270.0" width="158.7" height="36" fill="#d9642b" stroke="#ffffff" stroke-width="2"/>
+<text x="418.7" y="295.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<rect x="22" y="319" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="332.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Swift wins</text>
+<rect x="161.0" y="319" width="16" height="16" rx="3" fill="#d9642b"/>
+<text x="183.0" y="332.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Human wins</text>
+<text x="498.0" y="372.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

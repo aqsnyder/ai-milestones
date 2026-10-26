@@ -8,7 +8,9 @@ Usage:
   python scripts/build.py --check      # validate only; non-zero exit on any error
 
 Images are only ever taken from Wikimedia Commons, and every image is shown
-with its author and license, as those licenses require.
+with its author and license, as those licenses require. Entries without a free
+image can instead declare a `diagram:` — a simple chart of numbers already in the
+entry, drawn by scripts/diagrams.py into assets/diagrams/ (CC0).
 """
 from __future__ import annotations
 
@@ -24,11 +26,15 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import diagrams  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "milestones.yaml"
 META = ROOT / "data" / "meta.yaml"
 CREDITS_CACHE = ROOT / "data" / "image-credits.json"
 IMG_DIR = ROOT / "assets" / "img"
+DIAGRAM_DIR = ROOT / "assets" / "diagrams"
 README = ROOT / "README.md"
 CREDITS_MD = ROOT / "CREDITS.md"
 JSON_OUT = ROOT / "data" / "milestones.json"
@@ -118,6 +124,10 @@ def validate(items: list[dict]) -> list[str]:
                 errors.append(f"{where}: image needs 'alt' text")
             if str(img.get("file", "")).lower().startswith("file:"):
                 errors.append(f"{where}: image file must not include the 'File:' prefix")
+        if m.get("diagram"):
+            if img:
+                errors.append(f"{where}: use either a Commons image or a diagram, not both")
+            errors.extend(diagrams.validate(m["diagram"], where))
     return errors
 
 
@@ -273,8 +283,33 @@ def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9 -]", "", text.lower()).strip().replace(" ", "-")
 
 
+def diagram_path(m: dict) -> str:
+    return f"assets/diagrams/{m['id']}.svg"
+
+
+def write_diagrams(items: list[dict]) -> int:
+    DIAGRAM_DIR.mkdir(parents=True, exist_ok=True)
+    wanted = {diagram_path(m) for m in items if m.get("diagram")}
+    for old in DIAGRAM_DIR.glob("*.svg"):
+        if f"assets/diagrams/{old.name}" not in wanted:
+            old.unlink()
+    for m in items:
+        if m.get("diagram"):
+            (ROOT / diagram_path(m)).write_text(diagrams.render(m["diagram"]), encoding="utf-8")
+    return len(wanted)
+
+
 def render_image_cell(m: dict, credits: dict) -> str:
     img = m.get("image")
+    if not img and m.get("diagram"):
+        src = diagram_path(m)
+        alt = html.escape(diagrams.alt_text(m["diagram"]), quote=True)
+        return (
+            '<td width="300" valign="top">'
+            f'<a href="{src}"><img src="{src}" width="300" alt="{alt}"></a><br>'
+            '<sub>Diagram of figures from this entry\'s sources · CC0 · '
+            '<a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>'
+        )
     if not img:
         return '<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>'
     c = credits.get(m["id"])
@@ -410,12 +445,13 @@ def render_readme(items: list[dict], credits: dict, meta: dict) -> str:
     out.append("- **Data:** every milestone lives in [`data/milestones.yaml`](data/milestones.yaml) "
                "(also exported as [`data/milestones.json`](data/milestones.json)). This README is generated from it.")
     out.append("- **Images:** only freely licensed images from Wikimedia Commons, each credited with author and license. "
-               "Full list in [CREDITS.md](CREDITS.md).")
+               "Where no free photo exists, some entries show a plain chart of the figures in their own sources instead "
+               "(never an illustration or AI-generated picture). Full list in [CREDITS.md](CREDITS.md).")
     out.append("- **Automation:** a weekly scheduled review adds new milestones and fixes broken links ([MAINTAINING.md](MAINTAINING.md)); "
                "GitHub Actions rebuild this page and check every link. Changes are logged in [CHANGELOG.md](CHANGELOG.md).")
     out.append("- **Contributing:** see [CONTRIBUTING.md](CONTRIBUTING.md) for what counts as a milestone.")
     out.append("")
-    out.append("Text and data: [CC BY 4.0](LICENSE.md). Images keep their own licenses (see [CREDITS.md](CREDITS.md)).")
+    out.append("Text and data: [CC BY 4.0](LICENSE.md). Images keep their own licenses; diagrams are CC0 (see [CREDITS.md](CREDITS.md)).")
     out.append("")
     return "\n".join(out)
 
@@ -433,6 +469,17 @@ def render_credits(items: list[dict], credits: dict) -> str:
         lines.append(f"| [{md_escape(m['title'])}](README.md#{m['id']}) | [{md_escape(c['file'])}]({c['page_url']}) "
                      f"| {md_escape(c['artist'])} | {lic} |")
     lines.append("")
+    drawn = [m for m in items if m.get("diagram")]
+    if drawn:
+        lines += ["## Diagrams", "",
+                  "Entries with no freely licensed photo may show a simple chart instead. Each one plots only figures "
+                  "stated in the entry, which come from its cited sources. The charts are drawn by "
+                  "[`scripts/diagrams.py`](scripts/diagrams.py) and released under "
+                  "[CC0](https://creativecommons.org/publicdomain/zero/1.0/).", "",
+                  "| Milestone | Diagram |", "|---|---|"]
+        for m in drawn:
+            lines.append(f"| [{md_escape(m['title'])}](README.md#{m['id']}) | [{diagram_path(m)}]({diagram_path(m)}) |")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -467,11 +514,14 @@ def main() -> int:
     flatten_images(credits)
     CREDITS_CACHE.write_text(json.dumps(credits, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
+    n_diagrams = write_diagrams(items)
     README.write_text(render_readme(items, credits, meta or {}), encoding="utf-8")
     CREDITS_MD.write_text(render_credits(items, credits), encoding="utf-8")
-    export = [{k: v for k, v in dict(m, image_credit=credits.get(m["id"])).items() if k != "notes"} for m in items]
+    export = [{k: v for k, v in dict(m, image_credit=credits.get(m["id"]),
+                                      diagram_file=diagram_path(m) if m.get("diagram") else None).items()
+               if k != "notes"} for m in items]
     JSON_OUT.write_text(json.dumps(export, indent=2, ensure_ascii=False, default=str) + "\n", encoding="utf-8")
-    print("Wrote README.md, CREDITS.md, data/milestones.json")
+    print(f"Wrote README.md, CREDITS.md, data/milestones.json and {n_diagrams} diagrams")
 
     missing = [m["id"] for m in items if m.get("image") and m["id"] not in credits]
     if problems:

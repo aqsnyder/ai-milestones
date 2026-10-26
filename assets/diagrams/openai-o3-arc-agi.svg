@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 282" width="520" height="282" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="o3 on ARC-AGI-1 (semi-private evaluation, verified by ARC Prize)">
+<rect width="520" height="282" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">o3 on ARC-AGI-1 (semi-private</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">evaluation, verified by ARC Prize)</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Within public leaderboard compute limits</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="314.9" height="30" rx="4" fill="#2f6fdb"/>
+<text x="328.9" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">75.7%</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">With about 172× more compute</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="190.0" width="364.0" height="30" rx="4" fill="#2f6fdb"/>
+<text x="378.0" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">87.5%</text>
+<text x="498.0" y="264.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 278" width="520" height="278" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="IMO 2025 scores (out of 42)">
+<rect width="520" height="278" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">IMO 2025 scores (out of 42)</text>
+<text x="22.0" y="94.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Gemini Deep Think (graded by the IMO)</text>
+<rect x="22" y="102.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="102.0" width="346.7" height="30" rx="4" fill="#2f6fdb"/>
+<text x="360.7" y="124.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">35</text>
+<text x="22.0" y="154.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">OpenAI experimental model (graded by</text>
+<text x="22.0" y="178.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">ex-medalists)</text>
+<rect x="22" y="186.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="186.0" width="346.7" height="30" rx="4" fill="#2f6fdb"/>
+<text x="360.7" y="208.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">35</text>
+<text x="498.0" y="260.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

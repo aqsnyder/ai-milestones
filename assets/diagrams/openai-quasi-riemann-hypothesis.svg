@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 486" width="520" height="486" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Where the nontrivial zeros of the zeta function lie (real part)">
+<rect width="520" height="486" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">Where the nontrivial zeros of the</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">zeta function lie (real part)</text>
+<text x="32.0" y="122.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="normal">Known before: 0 &lt; Re(s) &lt; 1</text>
+<rect x="32" y="130.0" width="456" height="34" fill="#f6f8fa" stroke="#d1d9e0"/>
+<rect x="32.0" y="130.0" width="456.0" height="34" fill="#9aa4ae" opacity="0.9"/>
+<text x="32.0" y="188.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="normal">49-page, human-edited version: 1/12 to 11/12</text>
+<rect x="32" y="196.0" width="456" height="34" fill="#f6f8fa" stroke="#d1d9e0"/>
+<rect x="70.0" y="196.0" width="380.0" height="34" fill="#2f6fdb" opacity="0.9"/>
+<text x="32.0" y="254.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="normal">199-page version (Lean-checked, per Quanta):</text>
+<text x="32.0" y="277.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="normal">1/8 to 7/8</text>
+<rect x="32" y="285.0" width="456" height="34" fill="#f6f8fa" stroke="#d1d9e0"/>
+<rect x="89.0" y="285.0" width="342.0" height="34" fill="#2f6fdb" opacity="0.9"/>
+<line x1="32" y1="339" x2="488" y2="339" stroke="#1f2328" stroke-width="2"/>
+<line x1="32.0" y1="333" x2="32.0" y2="345" stroke="#1f2328" stroke-width="2"/>
+<text x="32.0" y="367.0" font-size="18" fill="#1f2328" text-anchor="middle" font-weight="normal">0</text>
+<line x1="89.0" y1="333" x2="89.0" y2="345" stroke="#1f2328" stroke-width="2"/>
+<text x="89.0" y="367.0" font-size="18" fill="#1f2328" text-anchor="middle" font-weight="normal">1/8</text>
+<line x1="260.0" y1="333" x2="260.0" y2="345" stroke="#1f2328" stroke-width="2"/>
+<text x="260.0" y="367.0" font-size="18" fill="#1f2328" text-anchor="middle" font-weight="normal">1/2</text>
+<line x1="431.0" y1="333" x2="431.0" y2="345" stroke="#1f2328" stroke-width="2"/>
+<text x="431.0" y="367.0" font-size="18" fill="#1f2328" text-anchor="middle" font-weight="normal">7/8</text>
+<line x1="488.0" y1="333" x2="488.0" y2="345" stroke="#1f2328" stroke-width="2"/>
+<text x="488.0" y="367.0" font-size="18" fill="#1f2328" text-anchor="middle" font-weight="normal">1</text>
+<line x1="260.0" y1="126.0" x2="260.0" y2="168.0" stroke="#1f2328" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="260.0" y1="192.0" x2="260.0" y2="234.0" stroke="#1f2328" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="260.0" y1="281.0" x2="260.0" y2="323.0" stroke="#1f2328" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="22.0" y="389.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Dashed line: the Riemann hypothesis puts every zero</text>
+<text x="22.0" y="411.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">on Re(s) = 1/2</text>
+<text x="22.0" y="445.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">Claim under expert review.</text>
+<text x="498.0" y="468.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 382" width="520" height="382" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="AlphaProof Nexus: open problems settled">
+<rect width="520" height="382" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">AlphaProof Nexus: open problems</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">settled</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Open Erdős problems formalized in Formal</text>
+<text x="22.0" y="146.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Conjectures (353)</text>
+<rect x="22.0" y="154.0" width="12.1" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<rect x="34.1" y="154.0" width="463.9" height="36" fill="#9aa4ae" stroke="#ffffff" stroke-width="2"/>
+<text x="266.1" y="179.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">344</text>
+<text x="22.0" y="216.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Conjectures taken from the OEIS (492)</text>
+<rect x="22.0" y="224.0" width="42.6" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="43.3" y="249.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">44</text>
+<rect x="64.6" y="224.0" width="433.4" height="36" fill="#9aa4ae" stroke="#ffffff" stroke-width="2"/>
+<text x="281.3" y="249.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">448</text>
+<rect x="22" y="273" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="286.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Settled</text>
+<rect x="132.5" y="273" width="16" height="16" rx="3" fill="#9aa4ae"/>
+<text x="154.5" y="286.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Not settled</text>
+<text x="22.0" y="322.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">An independent audit argued one of the nine Erdős results</text>
+<text x="22.0" y="341.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">already followed from an earlier theorem.</text>
+<text x="498.0" y="364.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

@@ -117,7 +117,7 @@ At IBM's New York headquarters on 7 January 1954, Georgetown University and IBM 
 
 <a id="logic-theorist"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/logic-theorist.svg"><img src="assets/diagrams/logic-theorist.svg" width="300" alt="Chart, Logic Theorist on Principia Mathematica, chapter 2. First 52 theorems: 38 proved, 14 not proved."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 Logic Theorist proves theorems from Principia Mathematica
@@ -237,7 +237,7 @@ From 1966 to 1972, SRI's Artificial Intelligence Center built Shakey, a wheeled 
 
 <a id="mycin-meningitis-evaluation"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/mycin-meningitis-evaluation.svg"><img src="assets/diagrams/mycin-meningitis-evaluation.svg" width="300" alt="Bar chart, Prescriptions rated acceptable by outside specialists (10 meningitis cases): MYCIN 65%; Stanford faculty, best 62.5%; Stanford faculty, lowest 42.5%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🔬 MYCIN out-prescribes Stanford experts in a blinded meningitis test
@@ -557,7 +557,7 @@ IBM's question-answering system Watson played two games of Jeopardy!, broadcast 
 
 <a id="alexnet-imagenet-2012"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alexnet-imagenet-2012.svg"><img src="assets/diagrams/alexnet-imagenet-2012.svg" width="300" alt="Bar chart, ImageNet 2012: top-5 error (lower is better): SuperVision (AlexNet) 15.3%; ISI (next-best team) 26.2%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 👁️ AlexNet wins ImageNet challenge by a huge margin, igniting deep learning
@@ -589,7 +589,7 @@ Michael Bowling, Neil Burch, Michael Johanson and Oskari Tammelin of the Univers
 
 <a id="he-prelu-surpasses-human-imagenet"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/he-prelu-surpasses-human-imagenet.svg"><img src="assets/diagrams/he-prelu-surpasses-human-imagenet.svg" width="300" alt="Bar chart, ImageNet classification: top-5 error (lower is better): Microsoft PReLU networks (2015) 4.94%; Trained human annotator 5.1%; GoogLeNet, 2014 winner 6.66%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 👁️ Microsoft network edges past reported human error rate on ImageNet
@@ -653,7 +653,7 @@ Marijn Heule, Oliver Kullmann and Victor Marek used a SAT solver to answer a dec
 
 <a id="microsoft-speech-human-parity"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/microsoft-speech-human-parity.svg"><img src="assets/diagrams/microsoft-speech-human-parity.svg" width="300" alt="Bar chart, Switchboard word error rate (lower is better): Microsoft system 5.9%; Professional transcribers 5.9%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 👁️ Microsoft claims human parity in conversational speech recognition
@@ -749,7 +749,7 @@ DeepMind's AlphaGo Zero learned Go entirely by playing against itself. It starte
 
 <a id="alphazero-chess-shogi-go"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphazero-chess-shogi-go.svg"><img src="assets/diagrams/alphazero-chess-shogi-go.svg" width="300" alt="Chart, AlphaZero match results. Chess vs. Stockfish 8, 2017 preprint (100 games): 28 alphazero wins, 72 draws, 0 opponent wins; Chess vs. Stockfish, 2018 Science paper (1,000 games): 155 alphazero wins, 839 draws, 6 opponent wins; Shogi vs. Elmo, 2017 preprint (100 games): 90 alphazero wins, 2 draws, 8 opponent wins."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### ♟️ AlphaZero teaches itself chess, shogi and Go and beats the top programs
@@ -781,7 +781,7 @@ Google AI researchers (Devlin, Chang, Lee and Toutanova) released BERT, a Transf
 
 <a id="alphastar-beats-starcraft-pros"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphastar-beats-starcraft-pros.svg"><img src="assets/diagrams/alphastar-beats-starcraft-pros.svg" width="300" alt="Chart, AlphaStar vs. Team Liquid pros (games won). vs. TLO, recorded December 2018: 5 alphastar wins, 0 pro wins; vs. MaNa, recorded December 2018: 5 alphastar wins, 0 pro wins; vs. MaNa, live exhibition, 24 January 2019: 0 alphastar wins, 1 pro wins."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### ♟️ DeepMind's AlphaStar beats StarCraft II pros TLO and MaNa 10-1
@@ -977,7 +977,7 @@ DeepMind's AlphaCode, a Transformer system pretrained on GitHub code and fine-tu
 
 <a id="gran-turismo-sophy"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/gran-turismo-sophy.svg"><img src="assets/diagrams/gran-turismo-sophy.svg" width="300" alt="Chart, Team points: GT Sophy vs. top Gran Turismo drivers. First event, 2 July 2021: 70 gt sophy team, 86 human team; Rematch, 21 October 2021: 104 gt sophy team, 52 human team."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### ♟️ Sony's Gran Turismo Sophy outraces the world's best Gran Turismo drivers
@@ -1057,7 +1057,7 @@ OpenAI released ChatGPT as a free research preview: a chatbot fine-tuned from a 
 
 <a id="gpt-4-bar-exam"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/gpt-4-bar-exam.svg"><img src="assets/diagrams/gpt-4-bar-exam.svg" width="300" alt="Bar chart, GPT-4&#x27;s estimated percentile on the Uniform Bar Exam: OpenAI&#x27;s claim (2023) ~90th; Re-analysis: vs. July takers below 69th; Re-analysis: first-time takers ~62nd; Re-analysis: those who passed ~48th."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 💬 GPT-4 scores around the top 10% on a simulated bar exam
@@ -1089,7 +1089,7 @@ Google DeepMind's AlphaDev treated writing low-level assembly as a single-player
 
 <a id="swift-drone-racing-champions"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/swift-drone-racing-champions.svg"><img src="assets/diagrams/swift-drone-racing-champions.svg" width="300" alt="Chart, Swift vs. champion drone pilots (races won). vs. Alex Vanover: 5 swift wins, 4 human wins; vs. Thomas Bitmatta: 4 swift wins, 3 human wins; vs. Marvin Schaepper: 6 swift wins, 3 human wins."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🤖 Swift autonomous drone beats human drone-racing champions
@@ -1105,7 +1105,7 @@ Swift, a quadcopter from the University of Zurich's Robotics and Perception Grou
 
 <a id="graphcast-weather-forecasting"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/graphcast-weather-forecasting.svg"><img src="assets/diagrams/graphcast-weather-forecasting.svg" width="300" alt="Bar chart, Share of test targets where GraphCast beat ECMWF HRES: All 1,380 variables and lead times over 90%; Tropospheric targets 99.7%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🔬 GraphCast outperforms the leading operational 10-day weather forecast
@@ -1137,7 +1137,7 @@ Google DeepMind's FunSearch pairs a pretrained code-writing language model with 
 
 <a id="alphageometry-olympiad-geometry"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphageometry-olympiad-geometry.svg"><img src="assets/diagrams/alphageometry-olympiad-geometry.svg" width="300" alt="Bar chart, IMO geometry problems solved (30 problems, 2000–2022): AlphaGeometry 25; Average human gold medalist 25.9; Wu&#x27;s method (previous best program) 10."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 AlphaGeometry solves olympiad geometry near gold-medalist level
@@ -1153,7 +1153,7 @@ Google DeepMind's AlphaGeometry combines a language model, which proposes auxili
 
 <a id="alphaproof-imo-2024-silver"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphaproof-imo-2024-silver.svg"><img src="assets/diagrams/alphaproof-imo-2024-silver.svg" width="300" alt="Bar chart, IMO 2024 score (out of 42): AlphaProof + AlphaGeometry 2 28; Gold cutoff 29."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 AlphaProof and AlphaGeometry 2 reach silver-medal standard at IMO 2024
@@ -1169,7 +1169,7 @@ Google DeepMind's AlphaProof, a reinforcement-learning system that proves statem
 
 <a id="openai-o1-reasoning-models"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/openai-o1-reasoning-models.svg"><img src="assets/diagrams/openai-o1-reasoning-models.svg" width="300" alt="Bar chart, AIME 2024 accuracy, as reported by OpenAI: o1, consensus of 64 samples 83%; o1, one sample 74%; GPT-4o 12%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 OpenAI o1 introduces LLMs trained to reason at length before answering
@@ -1217,7 +1217,7 @@ The 2024 Nobel Prize in Chemistry went half to David Baker "for computational pr
 
 <a id="openai-o3-arc-agi"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/openai-o3-arc-agi.svg"><img src="assets/diagrams/openai-o3-arc-agi.svg" width="300" alt="Bar chart, o3 on ARC-AGI-1 (semi-private evaluation, verified by ARC Prize): Within public leaderboard compute limits 75.7%; With about 172× more compute 87.5%."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 OpenAI o3 scores 75.7% to 87.5% on the ARC-AGI-1 reasoning benchmark
@@ -1249,7 +1249,7 @@ UC San Diego researchers Cameron Jones and Benjamin Bergen ran randomized, pre-r
 
 <a id="alphaevolve-matrix-multiplication"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphaevolve-matrix-multiplication.svg"><img src="assets/diagrams/alphaevolve-matrix-multiplication.svg" width="300" alt="Bar chart, Multiplications needed for two 4×4 complex matrices (fewer is better): AlphaEvolve (2025) 48; Strassen&#x27;s algorithm applied recursively (1969) 49."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 AlphaEvolve beats Strassen for 4x4 complex matrices, advances open problems
@@ -1281,7 +1281,7 @@ At the AtCoder World Tour Finals 2025 Heuristic contest in Tokyo, a ten-hour opt
 
 <a id="imo-2025-gold-medal-ai"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/imo-2025-gold-medal-ai.svg"><img src="assets/diagrams/imo-2025-gold-medal-ai.svg" width="300" alt="Bar chart, IMO 2025 scores (out of 42): Gemini Deep Think (graded by the IMO) 35; OpenAI experimental model (graded by ex-medalists) 35."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 Google DeepMind and OpenAI models reach gold-medal level at IMO 2025
@@ -1315,7 +1315,7 @@ At the 2025 International Olympiad in Informatics, hosted in Sucre, Bolivia (27 
 
 <a id="icpc-2025-world-finals-ai"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/icpc-2025-world-finals-ai.svg"><img src="assets/diagrams/icpc-2025-world-finals-ai.svg" width="300" alt="Bar chart, ICPC World Finals 2025: problems solved (out of 12): OpenAI (GPT-5 + experimental model) 12; Best human team 11; Gemini 2.5 Deep Think 10."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 AI solves 12/12 (OpenAI) and 10/12 (Gemini) at the ICPC World Finals
@@ -1413,7 +1413,7 @@ At the 67th International Mathematical Olympiad in Shanghai (papers sat 15-16 Ju
 
 <a id="atcoder-world-tour-finals-2026-ai"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/atcoder-world-tour-finals-2026-ai.svg"><img src="assets/diagrams/atcoder-world-tour-finals-2026-ai.svg" width="300" alt="Bar chart, AtCoder World Tour Finals 2026, Algorithm: points: OpenAI agent (exhibition entry) 8,300; tour1st, winner among humans 4,300."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026
@@ -1465,7 +1465,7 @@ On 8 September 2026 OpenAI announced that an unreleased internal model, running 
 
 <a id="ataraxos-stratego-superhuman"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/ataraxos-stratego-superhuman.svg"><img src="assets/diagrams/ataraxos-stratego-superhuman.svg" width="300" alt="Chart, Ataraxos vs. Pim Niemeijer (20 games). Online series, 15+3 time control: 15 ataraxos wins, 4 draws, 1 niemeijer wins."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### ♟️ Ataraxos AI beats Stratego's greatest player, 15 wins to 1
@@ -1481,7 +1481,7 @@ Ataraxos, built by Samuel Sokota, Gabriele Farina and colleagues at Carnegie Mel
 
 <a id="openai-quasi-riemann-hypothesis"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/openai-quasi-riemann-hypothesis.svg"><img src="assets/diagrams/openai-quasi-riemann-hypothesis.svg" width="300" alt="Number line, Where the nontrivial zeros of the zeta function lie (real part): Known before: 0 &lt; Re(s) &lt; 1; 49-page, human-edited version: 1/12 to 11/12; 199-page version (Lean-checked, per Quanta): 1/8 to 7/8."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way
@@ -1499,7 +1499,7 @@ On 6 October 2026 OpenAI released 722 AI-written manuscripts on GitHub, claiming
 
 <a id="alphaproof-nexus-science-erdos"></a>
 <table><tr>
-<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>
+<td width="300" valign="top"><a href="assets/diagrams/alphaproof-nexus-science-erdos.svg"><img src="assets/diagrams/alphaproof-nexus-science-erdos.svg" width="300" alt="Chart, AlphaProof Nexus: open problems settled. Open Erdős problems formalized in Formal Conjectures (353): 9 settled, 344 not settled; Conjectures taken from the OEIS (492): 44 settled, 448 not settled."></a><br><sub>Diagram of figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>
 <td valign="top">
 
 #### 🧮 DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper
@@ -1518,8 +1518,8 @@ In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagu
 ## How this repo works
 
 - **Data:** every milestone lives in [`data/milestones.yaml`](data/milestones.yaml) (also exported as [`data/milestones.json`](data/milestones.json)). This README is generated from it.
-- **Images:** only freely licensed images from Wikimedia Commons, each credited with author and license. Full list in [CREDITS.md](CREDITS.md).
+- **Images:** only freely licensed images from Wikimedia Commons, each credited with author and license. Where no free photo exists, some entries show a plain chart of the figures in their own sources instead (never an illustration or AI-generated picture). Full list in [CREDITS.md](CREDITS.md).
 - **Automation:** a weekly scheduled review adds new milestones and fixes broken links ([MAINTAINING.md](MAINTAINING.md)); GitHub Actions rebuild this page and check every link. Changes are logged in [CHANGELOG.md](CHANGELOG.md).
 - **Contributing:** see [CONTRIBUTING.md](CONTRIBUTING.md) for what counts as a milestone.
 
-Text and data: [CC BY 4.0](LICENSE.md). Images keep their own licenses (see [CREDITS.md](CREDITS.md)).
+Text and data: [CC BY 4.0](LICENSE.md). Images keep their own licenses; diagrams are CC0 (see [CREDITS.md](CREDITS.md)).

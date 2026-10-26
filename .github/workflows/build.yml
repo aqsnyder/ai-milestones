@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md CREDITS.md data/milestones.json data/image-credits.json assets/img
+          git add README.md CREDITS.md data/milestones.json data/image-credits.json assets/img assets/diagrams
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else

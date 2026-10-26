@@ -20,7 +20,52 @@ Leave out: routine model launches, small benchmark gains, product announcements,
 - **Sources:** at least two, ideally one primary (paper, DOI, arXiv, official lab or organiser page) and one reputable secondary (Nature/Science news, Quanta, major newspaper, Wikipedia, museum). Never guess a URL — only use links you have opened or seen in search results.
 - **Accuracy:** dates and numbers checked against the primary source. Contested or later-corrected claims are described honestly (see the GPT-4 bar exam and Erdős entries for the tone).
 - **Own words:** summaries are written fresh; no copied sentences.
-- **Image:** a freely licensed file on Wikimedia Commons (public domain, CC0, CC BY, CC BY-SA). No press photos, logos, screenshots or anything non-free. If there is no suitable free image, use `image: null`.
+- **Image:** a freely licensed file on Wikimedia Commons (public domain, CC0, CC BY, CC BY-SA). No press photos, logos, screenshots or anything non-free. If there is no suitable free image, use `image: null` and consider a diagram (below).
+
+## Images and diagrams
+
+The timeline's value is that everything in it is sourced and checkable, so pictures follow the same rule.
+
+1. **Prefer a real, freely licensed photo or figure from Wikimedia Commons** (`image:`).
+2. **Otherwise, a diagram of the entry's own numbers** (`diagram:`), drawn by [`scripts/diagrams.py`](scripts/diagrams.py) into `assets/diagrams/` and released under CC0. Use one only when the entry has a natural figure to chart: a score against a cutoff, a win/draw/loss record, an error rate against a human baseline, an interval. Every number in a diagram must appear in the entry's summary (and so in its sources). Keep the same caveats: if the summary says a figure is self-reported or contested, the diagram's title, labels or `note` must say so too.
+3. **Otherwise, nothing.** Leave `image: null` and no diagram. An empty cell is better than decoration.
+
+**Never** use AI-generated pictures, illustrations or "artist's impressions" of an event: they look like a record of something that didn't happen, and their licensing is unsettled.
+
+Diagram types (an entry has either `image` or `diagram`, not both):
+
+```yaml
+  diagram:
+    type: bars                      # bars | split | strip
+    title: "IMO 2024 score (out of 42)"
+    max: 42                         # optional axis maximum
+    unit: "%"                       # optional suffix for values
+    bars:
+      - {label: "AlphaProof + AlphaGeometry 2", value: 28, group: ai}   # group: ai | human | other
+    reference: {value: 29, label: "Gold cutoff"}                        # optional dashed line
+    note: "Optional fine print shown under the chart."
+
+  diagram:
+    type: split                     # each row is a 100% bar split into segments
+    title: "Ataraxos vs. Pim Niemeijer (20 games)"
+    rows:
+      - label: "Online series"
+        segments:
+          - {label: "Ataraxos wins", value: 15, group: ai}
+          - {label: "Draws", value: 4, group: other}
+          - {label: "Niemeijer wins", value: 1, group: human}
+
+  diagram:
+    type: strip                     # intervals on a number line
+    title: "Where the zeta zeros lie"
+    min: 0
+    max: 1
+    bands: [{label: "Known: 0 < Re(s) < 1", from: 0, to: 1, group: other}]
+    ticks: [{value: 0.5, label: "1/2"}]
+    lines: [{value: 0.5, label: "the Riemann hypothesis line"}]
+```
+
+Bars also accept `display` (text shown instead of the number, e.g. `"below 69th"`) and diagrams accept `subtitle`, `legend` (rename the ai/human/other legend entries) and `no_legend`. Alt text is generated from the data. Check the rendered SVG after any change.
 
 ## Status flags and the watchlist
 
@@ -72,13 +117,14 @@ Entries live in [`data/milestones.yaml`](data/milestones.yaml). Order doesn't ma
    `gh api "repos/aqsnyder/ai-milestones/issues?labels=broken-links&state=open"`.
    Replace each dead link with the moved page, an equivalent source, or a Wayback Machine snapshot, then close the issue with a short comment.
 5. **Check the last build.** `gh api "repos/aqsnyder/ai-milestones/actions/runs?per_page=5"` — if the Build workflow logged image warnings (a Commons file not found or not freely licensed), fix that entry's `image.file`.
-6. **Rebuild and commit.** Run `pip install -r scripts/requirements.txt` if needed, then `python scripts/build.py` (validates and regenerates the README; images are downloaded later by the Build action). Set `last_reviewed` in `data/meta.yaml` to today. If content changed, add a dated line to [CHANGELOG.md](CHANGELOG.md). Commit with a message like `Add: <title>` / `Fix links` / `Weekly review: no new milestones`, and push to `main`.
+6. **Picture.** For each new entry, look for a free Commons image first; if there is none and the entry has a natural figure to chart, add a `diagram:` (see [Images and diagrams](#images-and-diagrams)).
+7. **Rebuild and commit.** Run `pip install -r scripts/requirements.txt` if needed, then `python scripts/build.py` (validates and regenerates the README; images are downloaded later by the Build action). Set `last_reviewed` in `data/meta.yaml` to today. If content changed, add a dated line to [CHANGELOG.md](CHANGELOG.md). Commit with a message like `Add: <title>` / `Fix links` / `Weekly review: no new milestones`, and push to `main`.
 
 ## GitHub Actions
 
 | Workflow | When | What it does |
 |---|---|---|
-| [Build](.github/workflows/build.yml) | Every push that changes data or scripts; manual | Validates the YAML, downloads image thumbnails and attribution from Wikimedia Commons, regenerates `README.md`, `CREDITS.md` and `data/milestones.json`, and commits them. |
+| [Build](.github/workflows/build.yml) | Every push that changes data or scripts; manual | Validates the YAML, downloads image thumbnails and attribution from Wikimedia Commons, draws diagrams, regenerates `README.md`, `CREDITS.md` and `data/milestones.json`, and commits them. |
 | [Link check](.github/workflows/links.yml) | Mondays 06:17 UTC; pull requests; manual | Checks every source URL and opens or updates a `broken-links` issue for the weekly review to fix. |
 
-Generated files — `README.md`, `CREDITS.md`, `data/milestones.json`, `data/image-credits.json`, `assets/img/*` — should not be edited by hand.
+Generated files — `README.md`, `CREDITS.md`, `data/milestones.json`, `data/image-credits.json`, `assets/img/*`, `assets/diagrams/*` — should not be edited by hand.

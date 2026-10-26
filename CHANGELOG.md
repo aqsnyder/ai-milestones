@@ -3,6 +3,7 @@
 Content changes to the timeline, newest first. Routine rebuilds aren't listed.
 
 ## 2026-10-26
+- Diagrams: 22 entries without a free photo now show a simple chart of the figures in their own sources (scores, records, error rates). Never illustrations or AI-generated images; see MAINTAINING.md.
 - Added: OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way (flagged under review).
 - Added: DeepMind's AlphaProof Nexus solves open Erdős problems in a peer-reviewed Science paper.
 - Added: OpenAI agent outscores every human finalist at the AtCoder World Tour Finals 2026 (July; missed in the initial build).

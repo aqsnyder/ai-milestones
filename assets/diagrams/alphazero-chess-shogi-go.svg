@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 410" width="520" height="410" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="AlphaZero match results">
+<rect width="520" height="410" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">AlphaZero match results</text>
+<text x="22.0" y="94.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Chess vs. Stockfish 8, 2017 preprint (100</text>
+<text x="22.0" y="118.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">games)</text>
+<rect x="22.0" y="126.0" width="133.3" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="88.6" y="151.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">28</text>
+<rect x="155.3" y="126.0" width="342.7" height="36" fill="#9aa4ae" stroke="#ffffff" stroke-width="2"/>
+<text x="326.6" y="151.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">72</text>
+<text x="22.0" y="188.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Chess vs. Stockfish, 2018 Science paper</text>
+<text x="22.0" y="212.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">(1,000 games)</text>
+<rect x="22.0" y="220.0" width="73.8" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="58.9" y="245.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">155</text>
+<rect x="95.8" y="220.0" width="399.4" height="36" fill="#9aa4ae" stroke="#ffffff" stroke-width="2"/>
+<text x="295.5" y="245.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">839</text>
+<rect x="495.1" y="220.0" width="2.9" height="36" fill="#d9642b" stroke="#ffffff" stroke-width="2"/>
+<text x="22.0" y="282.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Shogi vs. Elmo, 2017 preprint (100 games)</text>
+<rect x="22.0" y="290.0" width="428.4" height="36" fill="#2f6fdb" stroke="#ffffff" stroke-width="2"/>
+<text x="236.2" y="315.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">90</text>
+<rect x="450.4" y="290.0" width="9.5" height="36" fill="#9aa4ae" stroke="#ffffff" stroke-width="2"/>
+<rect x="459.9" y="290.0" width="38.1" height="36" fill="#d9642b" stroke="#ffffff" stroke-width="2"/>
+<text x="479.0" y="315.0" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="600">8</text>
+<rect x="22" y="339" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="352.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">AlphaZero wins</text>
+<rect x="199.0" y="339" width="16" height="16" rx="3" fill="#9aa4ae"/>
+<text x="221.0" y="352.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Draws</text>
+<rect x="290.5" y="339" width="16" height="16" rx="3" fill="#d9642b"/>
+<text x="312.5" y="352.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Opponent wins</text>
+<text x="498.0" y="392.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

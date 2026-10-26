@@ -111,6 +111,18 @@
     Often called the first artificial intelligence program, it showed a machine doing work that had been
     seen as uniquely human: discovering mathematical proofs.
   image: null
+  diagram:
+    type: split
+    title: Logic Theorist on Principia Mathematica, chapter 2
+    rows:
+    - label: First 52 theorems
+      segments:
+      - label: Proved
+        value: 38
+        group: ai
+      - label: Not proved
+        value: 14
+        group: other
   sources:
   - title: 'The Logic Theory Machine: A Complex Information Processing System (RAND P-868)'
     publisher: RAND Corporation
@@ -412,6 +424,21 @@
     In a landmark blinded comparison, a rule-based program performed as well as or better than medical
     specialists, the high point of the expert-system approach that DENDRAL had started in the 1960s.
   image: null
+  diagram:
+    type: bars
+    title: Prescriptions rated acceptable by outside specialists (10 meningitis cases)
+    unit: '%'
+    max: 100
+    bars:
+    - label: MYCIN
+      value: 65
+      group: ai
+    - label: Stanford faculty, best
+      value: 62.5
+      group: human
+    - label: Stanford faculty, lowest
+      value: 42.5
+      group: human
   sources:
   - title: >-
       An Evaluation of MYCIN's Advice (Ch. 31 of Buchanan & Shortliffe, Rule-Based Expert Systems, 1984;
@@ -1132,6 +1159,21 @@
     The roughly 11-point winning margin persuaded the computer-vision field to adopt deep neural networks
     trained on GPUs, setting off the modern deep-learning boom.
   image: null
+  diagram:
+    type: bars
+    title: 'ImageNet 2012: top-5 error (lower is better)'
+    unit: '%'
+    max: 30
+    bars:
+    - label: SuperVision (AlexNet)
+      value: 15.3
+      group: ai
+    - label: ISI (next-best team)
+      value: 26.2
+      group: other
+    legend:
+      ai: Deep CNN
+      other: Other entries
   sources:
   - title: ImageNet Large Scale Visual Recognition Competition 2012 (ILSVRC2012) - Results
     publisher: ImageNet / Stanford Vision Lab
@@ -1207,6 +1249,21 @@
     The first published claim that a machine beat measured human accuracy at large-scale, 1,000-category
     image recognition.
   image: null
+  diagram:
+    type: bars
+    title: 'ImageNet classification: top-5 error (lower is better)'
+    unit: '%'
+    max: 8
+    bars:
+    - label: Microsoft PReLU networks (2015)
+      value: 4.94
+      group: ai
+    - label: Trained human annotator
+      value: 5.1
+      group: human
+    - label: GoogLeNet, 2014 winner
+      value: 6.66
+      group: other
   sources:
   - title: 'Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification'
     publisher: arXiv (He, Zhang, Ren, Sun)
@@ -1363,6 +1420,19 @@
     The first claim that a machine matched professional human transcribers on a standard benchmark of
     spontaneous conversational speech.
   image: null
+  diagram:
+    type: bars
+    title: Switchboard word error rate (lower is better)
+    subtitle: As first reported in October 2016
+    unit: '%'
+    max: 8
+    bars:
+    - label: Microsoft system
+      value: 5.9
+      group: ai
+    - label: Professional transcribers
+      value: 5.9
+      group: human
   sources:
   - title: 'Historic milestone: Microsoft researchers achieve human parity in conversational speech recognition'
     publisher: Microsoft
@@ -1605,6 +1675,43 @@
     A single general-purpose self-learning algorithm became the strongest player of three different classic
     games, beating decades of hand-tuned engines.
   image: null
+  diagram:
+    type: split
+    title: AlphaZero match results
+    rows:
+    - label: Chess vs. Stockfish 8, 2017 preprint (100 games)
+      segments:
+      - label: AlphaZero wins
+        value: 28
+        group: ai
+      - label: Draws
+        value: 72
+        group: other
+      - label: Opponent wins
+        value: 0
+        group: human
+    - label: Chess vs. Stockfish, 2018 Science paper (1,000 games)
+      segments:
+      - label: AlphaZero wins
+        value: 155
+        group: ai
+      - label: Draws
+        value: 839
+        group: other
+      - label: Opponent wins
+        value: 6
+        group: human
+    - label: Shogi vs. Elmo, 2017 preprint (100 games)
+      segments:
+      - label: AlphaZero wins
+        value: 90
+        group: ai
+      - label: Draws
+        value: 2
+        group: other
+      - label: Opponent wins
+        value: 8
+        group: human
   sources:
   - title: Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
     publisher: arXiv (Silver et al.)
@@ -1675,6 +1782,34 @@
     This was the first time an AI defeated top professional players at StarCraft II, a real-time strategy
     game with hidden information and a huge action space.
   image: null
+  diagram:
+    type: split
+    title: AlphaStar vs. Team Liquid pros (games won)
+    rows:
+    - label: vs. TLO, recorded December 2018
+      segments:
+      - label: AlphaStar wins
+        value: 5
+        group: ai
+      - label: Pro wins
+        value: 0
+        group: human
+    - label: vs. MaNa, recorded December 2018
+      segments:
+      - label: AlphaStar wins
+        value: 5
+        group: ai
+      - label: Pro wins
+        value: 0
+        group: human
+    - label: vs. MaNa, live exhibition, 24 January 2019
+      segments:
+      - label: AlphaStar wins
+        value: 0
+        group: ai
+      - label: Pro wins
+        value: 1
+        group: human
   sources:
   - title: DeepMind AI AlphaStar goes 10-1 against top 'StarCraft II' pros
     publisher: Engadget
@@ -2104,6 +2239,26 @@
     An AI beat champion-level humans at high-speed, wheel-to-wheel racing, where it had to control the
     car precisely and also make tactical, sportsmanlike decisions in real time.
   image: null
+  diagram:
+    type: split
+    title: 'Team points: GT Sophy vs. top Gran Turismo drivers'
+    rows:
+    - label: First event, 2 July 2021
+      segments:
+      - label: GT Sophy team
+        value: 70
+        group: ai
+      - label: Human team
+        value: 86
+        group: human
+    - label: Rematch, 21 October 2021
+      segments:
+      - label: GT Sophy team
+        value: 104
+        group: ai
+      - label: Human team
+        value: 52
+        group: human
   sources:
   - title: Sony AI announcement of Gran Turismo Sophy
     publisher: Sony AI
@@ -2299,6 +2454,30 @@
     which made "AI vs. human professionals" a mainstream question, even though the headline percentile
     was later shown to be overstated.
   image: null
+  diagram:
+    type: bars
+    title: GPT-4's estimated percentile on the Uniform Bar Exam
+    max: 100
+    note: The re-analysis (Martínez, 2024) found the 90th-percentile figure rested on February Illinois data skewed
+      toward repeat takers.
+    bars:
+    - label: OpenAI's claim (2023)
+      value: 90
+      group: ai
+      display: ~90th
+    - label: 'Re-analysis: vs. July takers'
+      value: 69
+      group: other
+      display: below 69th
+    - label: 'Re-analysis: first-time takers'
+      value: 62
+      group: other
+      display: ~62nd
+    - label: 'Re-analysis: those who passed'
+      value: 48
+      group: other
+      display: ~48th
+    no_legend: true
   sources:
   - title: GPT-4 Technical Report (arXiv:2303.08774)
     publisher: OpenAI / arXiv
@@ -2375,6 +2554,34 @@
     A rare case of a learned controller beating world-class humans in a physical, real-world sport rather
     than a board game or video game.
   image: null
+  diagram:
+    type: split
+    title: Swift vs. champion drone pilots (races won)
+    rows:
+    - label: vs. Alex Vanover
+      segments:
+      - label: Swift wins
+        value: 5
+        group: ai
+      - label: Human wins
+        value: 4
+        group: human
+    - label: vs. Thomas Bitmatta
+      segments:
+      - label: Swift wins
+        value: 4
+        group: ai
+      - label: Human wins
+        value: 3
+        group: human
+    - label: vs. Marvin Schaepper
+      segments:
+      - label: Swift wins
+        value: 6
+        group: ai
+      - label: Human wins
+        value: 3
+        group: human
   sources:
   - title: >-
       Champion-level drone racing using deep reinforcement learning (Nature 620, 982-987; DOI 10.1038/s41586-023-06419-4)
@@ -2412,6 +2619,19 @@
     A landmark peer-reviewed case of a machine-learning model beating the world's best physics-based deterministic
     forecast across most medium-range targets.
   image: null
+  diagram:
+    type: bars
+    title: Share of test targets where GraphCast beat ECMWF HRES
+    unit: '%'
+    max: 100
+    bars:
+    - label: All 1,380 variables and lead times
+      value: 90
+      group: ai
+      display: over 90%
+    - label: Tropospheric targets
+      value: 99.7
+      group: ai
   sources:
   - title: 'GraphCast: AI model for faster and more accurate global weather forecasting'
     publisher: Google DeepMind
@@ -2483,6 +2703,20 @@
     Machine reasoning reached roughly the level of the best high-school mathematicians in one olympiad
     domain, a step toward the IMO "grand challenge."
   image: null
+  diagram:
+    type: bars
+    title: IMO geometry problems solved (30 problems, 2000–2022)
+    max: 30
+    bars:
+    - label: AlphaGeometry
+      value: 25
+      group: ai
+    - label: Average human gold medalist
+      value: 25.9
+      group: human
+    - label: Wu's method (previous best program)
+      value: 10
+      group: other
   sources:
   - title: 'AlphaGeometry: An Olympiad-level AI system for geometry'
     publisher: Google DeepMind
@@ -2517,6 +2751,17 @@
     and Joseph Myers scored the solutions under IMO rules.
   significance: The first time an AI system reached medal standard on the actual problems of a live IMO.
   image: null
+  diagram:
+    type: bars
+    title: IMO 2024 score (out of 42)
+    max: 42
+    bars:
+    - label: AlphaProof + AlphaGeometry 2
+      value: 28
+      group: ai
+    reference:
+      value: 29
+      label: Gold cutoff
   sources:
   - title: AI achieves silver-medal standard solving International Mathematical Olympiad problems
     publisher: Google DeepMind
@@ -2556,6 +2801,24 @@
     Launched the "reasoning model" paradigm and test-time compute scaling, which drove the jumps in AI
     competition math and programming results through 2025.
   image: null
+  diagram:
+    type: bars
+    title: AIME 2024 accuracy, as reported by OpenAI
+    unit: '%'
+    max: 100
+    bars:
+    - label: o1, consensus of 64 samples
+      value: 83
+      group: ai
+    - label: o1, one sample
+      value: 74
+      group: ai
+    - label: GPT-4o
+      value: 12
+      group: other
+    legend:
+      ai: o1
+      other: Earlier model
   sources:
   - title: Learning to reason with LLMs
     publisher: OpenAI
@@ -2663,6 +2926,18 @@
     A benchmark designed to resist memorization and scale fell sharply to a reasoning model, though its
     creators stressed that this was not AGI.
   image: null
+  diagram:
+    type: bars
+    title: o3 on ARC-AGI-1 (semi-private evaluation, verified by ARC Prize)
+    unit: '%'
+    max: 100
+    bars:
+    - label: Within public leaderboard compute limits
+      value: 75.7
+      group: ai
+    - label: With about 172× more compute
+      value: 87.5
+      group: ai
   sources:
   - title: OpenAI o3 Breakthrough High Score on ARC-AGI-Pub
     publisher: ARC Prize Foundation
@@ -2733,6 +3008,20 @@
     An LLM-driven discovery system improved results that had stood for decades, including a 56-year-old
     benchmark in fast matrix multiplication.
   image: null
+  diagram:
+    type: bars
+    title: Multiplications needed for two 4×4 complex matrices (fewer is better)
+    max: 50
+    bars:
+    - label: AlphaEvolve (2025)
+      value: 48
+      group: ai
+    - label: Strassen's algorithm applied recursively (1969)
+      value: 49
+      group: other
+    legend:
+      ai: AI
+      other: Previous best
   sources:
   - title: 'AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms'
     publisher: Google DeepMind
@@ -2810,6 +3099,17 @@
     General-purpose language models, working in plain English without formal tools, crossed the IMO gold
     threshold a year after the formal-methods silver.
   image: null
+  diagram:
+    type: bars
+    title: IMO 2025 scores (out of 42)
+    max: 42
+    bars:
+    - label: Gemini Deep Think (graded by the IMO)
+      value: 35
+      group: ai
+    - label: OpenAI experimental model (graded by ex-medalists)
+      value: 35
+      group: ai
   sources:
   - title: >-
       Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International
@@ -2900,6 +3200,20 @@
     no university team solved.
   significance: AI outscored every human team at the world's most prestigious university programming contest.
   image: null
+  diagram:
+    type: bars
+    title: 'ICPC World Finals 2025: problems solved (out of 12)'
+    max: 12
+    bars:
+    - label: OpenAI (GPT-5 + experimental model)
+      value: 12
+      group: ai
+    - label: Best human team
+      value: 11
+      group: human
+    - label: Gemini 2.5 Deep Think
+      value: 10
+      group: ai
   sources:
   - title: Gemini achieves gold-medal level at the International Collegiate Programming Contest World
       Finals
@@ -3309,6 +3623,21 @@
     The first superhuman result in Stratego, a long-horizon game of hidden information that had been one
     of the last classic board games where top humans still beat AI.
   image: null
+  diagram:
+    type: split
+    title: Ataraxos vs. Pim Niemeijer (20 games)
+    rows:
+    - label: Online series, 15+3 time control
+      segments:
+      - label: Ataraxos wins
+        value: 15
+        group: ai
+      - label: Draws
+        value: 4
+        group: other
+      - label: Niemeijer wins
+        value: 1
+        group: human
   sources:
   - title: Scalable decision-making for games of imperfect information
     publisher: Nature
@@ -3353,6 +3682,18 @@
     The first time an AI system beat the whole field of an elite onsite algorithmic programming final,
     one year after humans narrowly held it off at the same event.
   image: null
+  diagram:
+    type: bars
+    title: 'AtCoder World Tour Finals 2026, Algorithm: points'
+    max: 8300
+    bars:
+    - label: OpenAI agent (exhibition entry)
+      value: 8300
+      group: ai
+    - label: tour1st, winner among humans
+      value: 4300
+      group: human
+    note: 8,300 is the maximum possible score.
   sources:
   - title: AtCoder World Tour Finals 2026 Algorithm announcement (with unrated mirror)
     publisher: Codeforces (posted by AtCoder's organiser maroonrk)
@@ -3402,6 +3743,27 @@
     Amid a flood of unrefereed AI math claims in 2026, a set of AI-solved open problems that passed peer
     review at a leading journal, with every proof checkable in Lean.
   image: null
+  diagram:
+    type: split
+    title: 'AlphaProof Nexus: open problems settled'
+    note: An independent audit argued one of the nine Erdős results already followed from an earlier theorem.
+    rows:
+    - label: Open Erdős problems formalized in Formal Conjectures (353)
+      segments:
+      - label: Settled
+        value: 9
+        group: ai
+      - label: Not settled
+        value: 344
+        group: other
+    - label: Conjectures taken from the OEIS (492)
+      segments:
+      - label: Settled
+        value: 44
+        group: ai
+      - label: Not settled
+        value: 448
+        group: other
   sources:
   - title: AlphaProof Nexus (Science, DOI 10.1126/science.aej2213)
     publisher: Science
@@ -3455,6 +3817,39 @@
     of the Riemann hypothesis already follow from the quasi version, which experts had thought beyond
     existing tools.
   image: null
+  diagram:
+    type: strip
+    title: Where the nontrivial zeros of the zeta function lie (real part)
+    min: 0
+    max: 1
+    note: Claim under expert review.
+    bands:
+    - label: 'Known before: 0 < Re(s) < 1'
+      from: 0
+      to: 1
+      group: other
+    - label: '49-page, human-edited version: 1/12 to 11/12'
+      from: 0.083333
+      to: 0.916667
+      group: ai
+    - label: '199-page version (Lean-checked, per Quanta): 1/8 to 7/8'
+      from: 0.125
+      to: 0.875
+      group: ai
+    ticks:
+    - value: 0
+      label: '0'
+    - value: 0.125
+      label: 1/8
+    - value: 0.5
+      label: 1/2
+    - value: 0.875
+      label: 7/8
+    - value: 1
+      label: '1'
+    lines:
+    - value: 0.5
+      label: the Riemann hypothesis puts every zero on Re(s) = 1/2
   sources:
   - title: The Quasi-Riemann Hypothesis (preprint, 5 October 2026 version)
     publisher: OpenAI (GitHub)

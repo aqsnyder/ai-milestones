@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 366" width="520" height="366" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="AIME 2024 accuracy, as reported by OpenAI">
+<rect width="520" height="366" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">AIME 2024 accuracy, as reported by</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">OpenAI</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">o1, consensus of 64 samples</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="345.3" height="30" rx="4" fill="#2f6fdb"/>
+<text x="359.3" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">83%</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">o1, one sample</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="190.0" width="307.8" height="30" rx="4" fill="#2f6fdb"/>
+<text x="321.8" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">74%</text>
+<text x="22.0" y="242.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">GPT-4o</text>
+<rect x="22" y="250.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="250.0" width="49.9" height="30" rx="4" fill="#9aa4ae"/>
+<text x="79.9" y="272.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="600">12%</text>
+<rect x="22" y="295" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="308.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">o1</text>
+<rect x="85.0" y="295" width="16" height="16" rx="3" fill="#9aa4ae"/>
+<text x="107.0" y="308.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Earlier model</text>
+<text x="498.0" y="348.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

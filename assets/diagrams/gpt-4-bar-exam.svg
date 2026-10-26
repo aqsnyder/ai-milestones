@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 459" width="520" height="459" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="GPT-4&#x27;s estimated percentile on the Uniform Bar Exam">
+<rect width="520" height="459" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">GPT-4&#x27;s estimated percentile on the</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">Uniform Bar Exam</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">OpenAI&#x27;s claim (2023)</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="374.4" height="30" rx="4" fill="#2f6fdb"/>
+<text x="388.4" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">~90th</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Re-analysis: vs. July takers</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="190.0" width="287.0" height="30" rx="4" fill="#9aa4ae"/>
+<text x="301.0" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">below 69th</text>
+<text x="22.0" y="242.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Re-analysis: first-time takers</text>
+<rect x="22" y="250.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="250.0" width="257.9" height="30" rx="4" fill="#9aa4ae"/>
+<text x="271.9" y="272.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">~62nd</text>
+<text x="22.0" y="302.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Re-analysis: those who passed</text>
+<rect x="22" y="310.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="310.0" width="199.7" height="30" rx="4" fill="#9aa4ae"/>
+<text x="213.7" y="332.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">~48th</text>
+<text x="22.0" y="380.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">The re-analysis (Martínez, 2024) found the 90th-percentile</text>
+<text x="22.0" y="399.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">figure rested on February Illinois data skewed toward</text>
+<text x="22.0" y="418.0" font-size="15" fill="#59636e" text-anchor="start" font-weight="normal">repeat takers.</text>
+<text x="498.0" y="441.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

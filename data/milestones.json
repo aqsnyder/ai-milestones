@@ -34,7 +34,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_Aged_16.jpg",
       "path": "assets/img/turing-computing-machinery-intelligence.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "strachey-draughts-program",
@@ -60,7 +61,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "georgetown-ibm-machine-translation",
@@ -86,7 +88,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "logic-theorist",
@@ -98,6 +101,27 @@
     "summary": "Allen Newell, Herbert Simon and Cliff Shaw at RAND built the Logic Theorist, a program that searches for proofs in propositional logic using heuristics rather than brute force. It was first hand-simulated on index cards in January 1956. It went on to prove 38 of the first 52 theorems in Chapter 2 of Whitehead and Russell's Principia Mathematica, and for theorem 2.85 it found a proof shorter than the one in the book.",
     "significance": "Often called the first artificial intelligence program, it showed a machine doing work that had been seen as uniquely human: discovering mathematical proofs.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "Logic Theorist on Principia Mathematica, chapter 2",
+      "rows": [
+        {
+          "label": "First 52 theorems",
+          "segments": [
+            {
+              "label": "Proved",
+              "value": 38,
+              "group": "ai"
+            },
+            {
+              "label": "Not proved",
+              "value": 14,
+              "group": "other"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "The Logic Theory Machine: A Complex Information Processing System (RAND P-868)",
@@ -118,7 +142,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/logic-theorist.svg"
   },
   {
     "id": "dartmouth-workshop",
@@ -155,7 +180,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:A_Proposal_for_the_Dartmouth_Summer_Research_Project_on_Artificial_Intelligence,_by_John_McCarthy_et_al,_1955.pdf",
       "path": "assets/img/dartmouth-workshop.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "rosenblatt-perceptron",
@@ -193,7 +219,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "samuel-checkers-nealey",
@@ -220,7 +247,8 @@
         "kind": "paper"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "eliza-chatbot",
@@ -263,7 +291,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png",
       "path": "assets/img/eliza-chatbot.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "shrdlu-blocks-world",
@@ -289,7 +318,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "shakey-the-robot",
@@ -338,7 +368,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_with_callouts.jpg",
       "path": "assets/img/shakey-the-robot.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "mycin-meningitis-evaluation",
@@ -351,6 +382,29 @@
     "summary": "MYCIN, built at Stanford in the 1970s by Edward Shortliffe with Bruce Buchanan and Stanley Cohen, chose antibiotics for serious infections using about 600 if-then rules and backward-chaining inference. In a study published in JAMA in 1979, it prescribed for 10 difficult meningitis cases alongside five Stanford faculty, an infectious-disease fellow, a resident and a student. Eight outside infectious-disease specialists graded every prescription without knowing its source, and rated 65% of MYCIN's acceptable, against 42.5-62.5% for the faculty.",
     "significance": "In a landmark blinded comparison, a rule-based program performed as well as or better than medical specialists, the high point of the expert-system approach that DENDRAL had started in the 1960s.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "Prescriptions rated acceptable by outside specialists (10 meningitis cases)",
+      "unit": "%",
+      "max": 100,
+      "bars": [
+        {
+          "label": "MYCIN",
+          "value": 65,
+          "group": "ai"
+        },
+        {
+          "label": "Stanford faculty, best",
+          "value": 62.5,
+          "group": "human"
+        },
+        {
+          "label": "Stanford faculty, lowest",
+          "value": 42.5,
+          "group": "human"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "An Evaluation of MYCIN's Advice (Ch. 31 of Buchanan & Shortliffe, Rule-Based Expert Systems, 1984; edited from JAMA 242:1279-1282, 1979)",
@@ -377,7 +431,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/mycin-meningitis-evaluation.svg"
   },
   {
     "id": "stanford-cart-chair-room",
@@ -403,7 +458,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "bkg-backgammon-villa",
@@ -447,7 +503,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg",
       "path": "assets/img/bkg-backgammon-villa.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "backpropagation-nature-1986",
@@ -484,7 +541,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg",
       "path": "assets/img/backpropagation-nature-1986.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "deep-thought-beats-grandmaster",
@@ -523,7 +581,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "alvinn-navlab",
@@ -555,7 +614,8 @@
         "kind": "primary"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "lecun-convnet-zip-codes",
@@ -592,7 +652,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:MnistExamples.png",
       "path": "assets/img/lecun-convnet-zip-codes.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "td-gammon-self-play",
@@ -642,7 +703,8 @@
       "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "page_url": "https://commons.wikimedia.org/wiki/File:Backgammon_board.jpg",
       "path": "assets/img/td-gammon-self-play.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "chinook-man-machine-champion",
@@ -680,7 +742,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Marion_Tinsley.jpg",
       "path": "assets/img/chinook-man-machine-champion.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "eqp-robbins-conjecture",
@@ -718,7 +781,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "deep-blue-kasparov",
@@ -762,7 +826,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
       "path": "assets/img/deep-blue-kasparov.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "logistello-murakami",
@@ -806,7 +871,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Othello-Standard-Board.jpg",
       "path": "assets/img/logistello-murakami.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "stanley-darpa-grand-challenge",
@@ -849,7 +915,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Stanley2.JPG",
       "path": "assets/img/stanley-darpa-grand-challenge.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "hinton-deep-belief-nets",
@@ -875,7 +942,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "checkers-solved",
@@ -918,7 +986,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Jonathan_Schaeffer.jpg",
       "path": "assets/img/checkers-solved.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "boss-darpa-urban-challenge",
@@ -956,7 +1025,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "polaris-limit-holdem-pros",
@@ -1000,7 +1070,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.5",
       "page_url": "https://commons.wikimedia.org/wiki/File:Holdem.jpg",
       "path": "assets/img/polaris-limit-holdem-pros.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "imagenet-dataset",
@@ -1043,7 +1114,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
       "path": "assets/img/imagenet-dataset.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "watson-jeopardy",
@@ -1087,7 +1159,8 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:IBMWatson.jpg",
       "path": "assets/img/watson-jeopardy.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alexnet-imagenet-2012",
@@ -1099,6 +1172,28 @@
     "summary": "Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton of the University of Toronto entered a deep convolutional neural network, trained on two NVIDIA GTX 580 GPUs, in the 2012 ImageNet Large Scale Visual Recognition Challenge as team \"SuperVision\". On the 1,000-category classification task its top-5 error was 15.3%, against 26.2% for the next-best team (ISI). The result was presented at the ECCV 2012 workshop in Florence, and the method was published at NIPS 2012.",
     "significance": "The roughly 11-point winning margin persuaded the computer-vision field to adopt deep neural networks trained on GPUs, setting off the modern deep-learning boom.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "ImageNet 2012: top-5 error (lower is better)",
+      "unit": "%",
+      "max": 30,
+      "bars": [
+        {
+          "label": "SuperVision (AlexNet)",
+          "value": 15.3,
+          "group": "ai"
+        },
+        {
+          "label": "ISI (next-best team)",
+          "value": 26.2,
+          "group": "other"
+        }
+      ],
+      "legend": {
+        "ai": "Deep CNN",
+        "other": "Other entries"
+      }
+    },
     "sources": [
       {
         "title": "ImageNet Large Scale Visual Recognition Competition 2012 (ILSVRC2012) - Results",
@@ -1119,7 +1214,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alexnet-imagenet-2012.svg"
   },
   {
     "id": "cepheus-limit-holdem-solved",
@@ -1162,7 +1258,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Texas_Hold%27em_Poker_Table_with_Blinds.svg",
       "path": "assets/img/cepheus-limit-holdem-solved.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "he-prelu-surpasses-human-imagenet",
@@ -1174,6 +1271,29 @@
     "summary": "Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun of Microsoft Research reported a top-5 error of 4.94% on the ImageNet 2012 classification benchmark. They used deep networks with a new learnable activation function (PReLU) and a better weight-initialization scheme. That beat the 5.1% previously measured for a trained human annotator and the 6.66% of GoogLeNet, the 2014 challenge winner.",
     "significance": "The first published claim that a machine beat measured human accuracy at large-scale, 1,000-category image recognition.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "ImageNet classification: top-5 error (lower is better)",
+      "unit": "%",
+      "max": 8,
+      "bars": [
+        {
+          "label": "Microsoft PReLU networks (2015)",
+          "value": 4.94,
+          "group": "ai"
+        },
+        {
+          "label": "Trained human annotator",
+          "value": 5.1,
+          "group": "human"
+        },
+        {
+          "label": "GoogLeNet, 2014 winner",
+          "value": 6.66,
+          "group": "other"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
@@ -1194,7 +1314,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/he-prelu-surpasses-human-imagenet.svg"
   },
   {
     "id": "dqn-atari",
@@ -1237,7 +1358,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg",
       "path": "assets/img/dqn-atari.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphago-lee-sedol",
@@ -1281,7 +1403,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Lee_Se-Dol_-_2016_(cropped).jpg",
       "path": "assets/img/alphago-lee-sedol.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "boolean-pythagorean-triples",
@@ -1313,7 +1436,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "microsoft-speech-human-parity",
@@ -1325,6 +1449,25 @@
     "summary": "A Microsoft Artificial Intelligence and Research team (Wayne Xiong, Jasha Droppo, Xuedong Huang, Frank Seide, Mike Seltzer, Andreas Stolcke, Dong Yu, Geoffrey Zweig) reported a 5.9% word error rate on the Switchboard portion of the NIST 2000 telephone-conversation benchmark. That matched the 5.9% they measured for professional transcribers. The system combined several convolutional and LSTM acoustic models with recurrent neural-network language models. The current arXiv abstract gives 5.8% on Switchboard and 11.0% on CallHome, against 5.9% and 11.3% for humans.",
     "significance": "The first claim that a machine matched professional human transcribers on a standard benchmark of spontaneous conversational speech.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "Switchboard word error rate (lower is better)",
+      "subtitle": "As first reported in October 2016",
+      "unit": "%",
+      "max": 8,
+      "bars": [
+        {
+          "label": "Microsoft system",
+          "value": 5.9,
+          "group": "ai"
+        },
+        {
+          "label": "Professional transcribers",
+          "value": 5.9,
+          "group": "human"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Historic milestone: Microsoft researchers achieve human parity in conversational speech recognition",
@@ -1345,7 +1488,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/microsoft-speech-human-parity.svg"
   },
   {
     "id": "libratus-no-limit-holdem",
@@ -1390,7 +1534,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "ponanza-beats-meijin",
@@ -1435,7 +1580,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "alphago-ke-jie",
@@ -1479,7 +1625,8 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Ke_Jie_(%E6%9F%AF%E6%B4%81)_2019_portrait.jpg",
       "path": "assets/img/alphago-ke-jie.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "transformer-attention-is-all-you-need",
@@ -1516,7 +1663,8 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png",
       "path": "assets/img/transformer-attention-is-all-you-need.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphago-zero",
@@ -1559,7 +1707,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:FloorGoban.JPG",
       "path": "assets/img/alphago-zero.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphazero-chess-shogi-go",
@@ -1571,6 +1720,72 @@
     "summary": "DeepMind's AlphaZero generalized the AlphaGo Zero method: one algorithm, given only the rules, learned chess, shogi and Go through self-play. The December 2017 preprint reports it surpassed Stockfish in chess after about four hours of training and beat Stockfish 8 by 28 wins, 72 draws and no losses over 100 games. It also beat the shogi champion program Elmo (90 wins, 8 losses, 2 draws) and a 3-day AlphaGo Zero (60-40). A peer-reviewed version in Science (7 December 2018) reported a 1,000-game chess match against Stockfish at long time controls that ended with 155 wins, 6 losses and 839 draws.",
     "significance": "A single general-purpose self-learning algorithm became the strongest player of three different classic games, beating decades of hand-tuned engines.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "AlphaZero match results",
+      "rows": [
+        {
+          "label": "Chess vs. Stockfish 8, 2017 preprint (100 games)",
+          "segments": [
+            {
+              "label": "AlphaZero wins",
+              "value": 28,
+              "group": "ai"
+            },
+            {
+              "label": "Draws",
+              "value": 72,
+              "group": "other"
+            },
+            {
+              "label": "Opponent wins",
+              "value": 0,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "Chess vs. Stockfish, 2018 Science paper (1,000 games)",
+          "segments": [
+            {
+              "label": "AlphaZero wins",
+              "value": 155,
+              "group": "ai"
+            },
+            {
+              "label": "Draws",
+              "value": 839,
+              "group": "other"
+            },
+            {
+              "label": "Opponent wins",
+              "value": 6,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "Shogi vs. Elmo, 2017 preprint (100 games)",
+          "segments": [
+            {
+              "label": "AlphaZero wins",
+              "value": 90,
+              "group": "ai"
+            },
+            {
+              "label": "Draws",
+              "value": 2,
+              "group": "other"
+            },
+            {
+              "label": "Opponent wins",
+              "value": 8,
+              "group": "human"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
@@ -1591,7 +1806,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphazero-chess-shogi-go.svg"
   },
   {
     "id": "bert-pretrained-transformers",
@@ -1617,7 +1833,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "alphastar-beats-starcraft-pros",
@@ -1630,6 +1847,57 @@
     "summary": "DeepMind revealed that in recorded matches in December 2018, a preliminary version of AlphaStar won 5-0 against Dario \"TLO\" Wünsch and 5-0 against Grzegorz \"MaNa\" Komincz, both of Team Liquid, in Protoss-vs-Protoss games on a single map. In a live exhibition on 24 January 2019, MaNa beat a new AlphaStar version that was restricted to a human-like camera view, giving AlphaStar its first loss to a pro.",
     "significance": "This was the first time an AI defeated top professional players at StarCraft II, a real-time strategy game with hidden information and a huge action space.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "AlphaStar vs. Team Liquid pros (games won)",
+      "rows": [
+        {
+          "label": "vs. TLO, recorded December 2018",
+          "segments": [
+            {
+              "label": "AlphaStar wins",
+              "value": 5,
+              "group": "ai"
+            },
+            {
+              "label": "Pro wins",
+              "value": 0,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "vs. MaNa, recorded December 2018",
+          "segments": [
+            {
+              "label": "AlphaStar wins",
+              "value": 5,
+              "group": "ai"
+            },
+            {
+              "label": "Pro wins",
+              "value": 0,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "vs. MaNa, live exhibition, 24 January 2019",
+          "segments": [
+            {
+              "label": "AlphaStar wins",
+              "value": 0,
+              "group": "ai"
+            },
+            {
+              "label": "Pro wins",
+              "value": 1,
+              "group": "human"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "DeepMind AI AlphaStar goes 10-1 against top 'StarCraft II' pros",
@@ -1650,7 +1918,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphastar-beats-starcraft-pros.svg"
   },
   {
     "id": "openai-five-beats-og",
@@ -1700,7 +1969,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:The_International_Dota_2_video_game_tournament.jpg",
       "path": "assets/img/openai-five-beats-og.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "pluribus-six-player-poker",
@@ -1744,7 +2014,8 @@
       "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "page_url": "https://commons.wikimedia.org/wiki/File:Poker-Texas-Holdem-multiplayer.jpg",
       "path": "assets/img/pluribus-six-player-poker.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphastar-grandmaster",
@@ -1777,7 +2048,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "agent57-atari",
@@ -1803,7 +2075,8 @@
         "kind": "paper"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "gpt-3",
@@ -1840,7 +2113,8 @@
       "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "page_url": "https://commons.wikimedia.org/wiki/File:Full_GPT_architecture.png",
       "path": "assets/img/gpt-3.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphadogfight-trials",
@@ -1878,7 +2152,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:F-16C_Fighting_Falcon.JPEG",
       "path": "assets/img/alphadogfight-trials.jpeg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "waymo-driverless-phoenix",
@@ -1915,7 +2190,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Waymo_Chrysler_Pacifica_in_Los_Altos,_2017.jpg",
       "path": "assets/img/waymo-driverless-phoenix.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphafold2-casp14",
@@ -1958,7 +2234,8 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:AlphaFold_2.png",
       "path": "assets/img/alphafold2-casp14.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "muzero",
@@ -1990,7 +2267,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "ai-guides-mathematical-discovery",
@@ -2033,7 +2311,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png",
       "path": "assets/img/ai-guides-mathematical-discovery.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphacode-competitive-programming",
@@ -2066,7 +2345,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "gran-turismo-sophy",
@@ -2079,6 +2359,42 @@
     "summary": "Sony AI, Polyphony Digital and Sony Interactive Entertainment trained GT Sophy with deep reinforcement learning to race at the limit while respecting racing etiquette. After losing the team contest 86-70 to four top human Gran Turismo drivers on 2 July 2021, the improved agent won the 21 October 2021 rematch 104-52 over three tracks, including Circuit de la Sarthe. It also beat the humans' best lap times. The work was published in Nature in February 2022.",
     "significance": "An AI beat champion-level humans at high-speed, wheel-to-wheel racing, where it had to control the car precisely and also make tactical, sportsmanlike decisions in real time.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "Team points: GT Sophy vs. top Gran Turismo drivers",
+      "rows": [
+        {
+          "label": "First event, 2 July 2021",
+          "segments": [
+            {
+              "label": "GT Sophy team",
+              "value": 70,
+              "group": "ai"
+            },
+            {
+              "label": "Human team",
+              "value": 86,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "Rematch, 21 October 2021",
+          "segments": [
+            {
+              "label": "GT Sophy team",
+              "value": 104,
+              "group": "ai"
+            },
+            {
+              "label": "Human team",
+              "value": 52,
+              "group": "human"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Sony AI announcement of Gran Turismo Sophy",
@@ -2105,7 +2421,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/gran-turismo-sophy.svg"
   },
   {
     "id": "text-to-image-dall-e-2",
@@ -2137,7 +2454,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "alphatensor-matrix-multiplication",
@@ -2180,7 +2498,8 @@
       "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "page_url": "https://commons.wikimedia.org/wiki/File:Matrix_multiplication_diagram_2.svg",
       "path": "assets/img/alphatensor-matrix-multiplication.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "cicero-diplomacy",
@@ -2213,7 +2532,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "chatgpt-launch",
@@ -2245,7 +2565,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "gpt-4-bar-exam",
@@ -2257,6 +2578,39 @@
     "summary": "OpenAI released GPT-4 on 14 March 2023 with a technical report saying the model passed a simulated Uniform Bar Exam with a score around the top 10% of test takers (a reported scaled score of 298), alongside strong results on many other academic and professional exams. The bar exam evaluation was run with OpenAI's collaborators Casetext and Stanford CodeX. A 2024 peer-reviewed re-analysis by MIT's Eric Martínez concluded the 90th-percentile figure was inflated: it rested on February Illinois data skewed toward repeat takers. Against a July exam the estimate fell below the 69th percentile overall, to about the 62nd among first-time takers and about the 48th among those who passed, with essays weaker still.",
     "significance": "The moment a general-purpose chatbot was credibly reported to pass a professional licensing exam, which made \"AI vs. human professionals\" a mainstream question, even though the headline percentile was later shown to be overstated.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "GPT-4's estimated percentile on the Uniform Bar Exam",
+      "max": 100,
+      "note": "The re-analysis (Martínez, 2024) found the 90th-percentile figure rested on February Illinois data skewed toward repeat takers.",
+      "bars": [
+        {
+          "label": "OpenAI's claim (2023)",
+          "value": 90,
+          "group": "ai",
+          "display": "~90th"
+        },
+        {
+          "label": "Re-analysis: vs. July takers",
+          "value": 69,
+          "group": "other",
+          "display": "below 69th"
+        },
+        {
+          "label": "Re-analysis: first-time takers",
+          "value": 62,
+          "group": "other",
+          "display": "~62nd"
+        },
+        {
+          "label": "Re-analysis: those who passed",
+          "value": 48,
+          "group": "other",
+          "display": "~48th"
+        }
+      ],
+      "no_legend": true
+    },
     "sources": [
       {
         "title": "GPT-4 Technical Report (arXiv:2303.08774)",
@@ -2277,7 +2631,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/gpt-4-bar-exam.svg"
   },
   {
     "id": "alphadev-faster-sorting",
@@ -2309,7 +2664,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "swift-drone-racing-champions",
@@ -2322,6 +2678,57 @@
     "summary": "Swift, a quadcopter from the University of Zurich's Robotics and Perception Group with Intel Labs, was trained mostly in simulation with deep reinforcement learning, then flew using only onboard sensors (camera and inertial measurements). In head-to-head races on a purpose-built track in a hangar at Dübendorf airport near Zurich, it won 5 of 9 races against Alex Vanover (2019 Drone Racing League champion), 4 of 7 against Thomas Bitmatta (2019 MultiGP champion) and 6 of 9 against three-time Swiss champion Marvin Schaepper. That is 15 of 25 races overall. It also set the fastest race time, about half a second ahead of the best human.",
     "significance": "A rare case of a learned controller beating world-class humans in a physical, real-world sport rather than a board game or video game.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "Swift vs. champion drone pilots (races won)",
+      "rows": [
+        {
+          "label": "vs. Alex Vanover",
+          "segments": [
+            {
+              "label": "Swift wins",
+              "value": 5,
+              "group": "ai"
+            },
+            {
+              "label": "Human wins",
+              "value": 4,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "vs. Thomas Bitmatta",
+          "segments": [
+            {
+              "label": "Swift wins",
+              "value": 4,
+              "group": "ai"
+            },
+            {
+              "label": "Human wins",
+              "value": 3,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "vs. Marvin Schaepper",
+          "segments": [
+            {
+              "label": "Swift wins",
+              "value": 6,
+              "group": "ai"
+            },
+            {
+              "label": "Human wins",
+              "value": 3,
+              "group": "human"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Champion-level drone racing using deep reinforcement learning (Nature 620, 982-987; DOI 10.1038/s41586-023-06419-4)",
@@ -2342,7 +2749,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/swift-drone-racing-champions.svg"
   },
   {
     "id": "graphcast-weather-forecasting",
@@ -2354,6 +2762,25 @@
     "summary": "Google DeepMind's GraphCast is a graph neural network trained on about four decades of ECMWF ERA5 reanalysis data. It produces 10-day global forecasts at 0.25° resolution in under a minute on a single TPU. Published in Science, it beat ECMWF's HRES, the gold-standard deterministic forecast, on more than 90% of 1,380 test variables and lead times, and on 99.7% of tropospheric targets. HRES takes hours on a supercomputer.",
     "significance": "A landmark peer-reviewed case of a machine-learning model beating the world's best physics-based deterministic forecast across most medium-range targets.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "Share of test targets where GraphCast beat ECMWF HRES",
+      "unit": "%",
+      "max": 100,
+      "bars": [
+        {
+          "label": "All 1,380 variables and lead times",
+          "value": 90,
+          "group": "ai",
+          "display": "over 90%"
+        },
+        {
+          "label": "Tropospheric targets",
+          "value": 99.7,
+          "group": "ai"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "GraphCast: AI model for faster and more accurate global weather forecasting",
@@ -2368,7 +2795,8 @@
         "kind": "paper"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/graphcast-weather-forecasting.svg"
   },
   {
     "id": "funsearch-cap-sets",
@@ -2400,7 +2828,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "alphageometry-olympiad-geometry",
@@ -2412,6 +2841,28 @@
     "summary": "Google DeepMind's AlphaGeometry combines a language model, which proposes auxiliary constructions, with a symbolic deduction engine. It was trained on 100 million synthetic proofs and no human demonstrations. On a benchmark of 30 IMO geometry problems from 2000-2022 it solved 25 within competition time limits. The previous best automated method (Wu's method) solved 10, and the average human gold medalist solved about 25.9.",
     "significance": "Machine reasoning reached roughly the level of the best high-school mathematicians in one olympiad domain, a step toward the IMO \"grand challenge.\"",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "IMO geometry problems solved (30 problems, 2000–2022)",
+      "max": 30,
+      "bars": [
+        {
+          "label": "AlphaGeometry",
+          "value": 25,
+          "group": "ai"
+        },
+        {
+          "label": "Average human gold medalist",
+          "value": 25.9,
+          "group": "human"
+        },
+        {
+          "label": "Wu's method (previous best program)",
+          "value": 10,
+          "group": "other"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "AlphaGeometry: An Olympiad-level AI system for geometry",
@@ -2432,7 +2883,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphageometry-olympiad-geometry.svg"
   },
   {
     "id": "alphaproof-imo-2024-silver",
@@ -2445,6 +2897,22 @@
     "summary": "Google DeepMind's AlphaProof, a reinforcement-learning system that proves statements in the Lean proof assistant, worked alongside AlphaGeometry 2 on the six problems of the 2024 International Mathematical Olympiad in Bath, UK. Together they fully solved 4 of 6 problems, including the hardest, which only five human contestants solved, for 28 of 42 points. That is the top of the silver range, one point below the gold cutoff of 29 that 58 of 609 human contestants reached. Fields Medalist Timothy Gowers and Joseph Myers scored the solutions under IMO rules.",
     "significance": "The first time an AI system reached medal standard on the actual problems of a live IMO.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "IMO 2024 score (out of 42)",
+      "max": 42,
+      "bars": [
+        {
+          "label": "AlphaProof + AlphaGeometry 2",
+          "value": 28,
+          "group": "ai"
+        }
+      ],
+      "reference": {
+        "value": 29,
+        "label": "Gold cutoff"
+      }
+    },
     "sources": [
       {
         "title": "AI achieves silver-medal standard solving International Mathematical Olympiad problems",
@@ -2465,7 +2933,8 @@
         "kind": "paper"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphaproof-imo-2024-silver.svg"
   },
   {
     "id": "openai-o1-reasoning-models",
@@ -2477,6 +2946,33 @@
     "summary": "OpenAI previewed o1, a model trained with reinforcement learning to produce a long internal chain of thought before answering. Performance kept improving with both more training and more \"thinking\" time at inference. OpenAI reported that o1 averaged 74% on the 2024 AIME with one sample (83% with 64-sample consensus), against about 12% for GPT-4o. It was the first model to beat recruited PhD experts on the GPQA Diamond science benchmark, and it reached the 89th percentile on Codeforces. A variant entered under IOI 2024 contest rules scored at the 49th percentile.",
     "significance": "Launched the \"reasoning model\" paradigm and test-time compute scaling, which drove the jumps in AI competition math and programming results through 2025.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "AIME 2024 accuracy, as reported by OpenAI",
+      "unit": "%",
+      "max": 100,
+      "bars": [
+        {
+          "label": "o1, consensus of 64 samples",
+          "value": 83,
+          "group": "ai"
+        },
+        {
+          "label": "o1, one sample",
+          "value": 74,
+          "group": "ai"
+        },
+        {
+          "label": "GPT-4o",
+          "value": 12,
+          "group": "other"
+        }
+      ],
+      "legend": {
+        "ai": "o1",
+        "other": "Earlier model"
+      }
+    },
     "sources": [
       {
         "title": "Learning to reason with LLMs",
@@ -2491,7 +2987,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/openai-o1-reasoning-models.svg"
   },
   {
     "id": "nobel-physics-2024-hopfield-hinton",
@@ -2534,7 +3031,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg",
       "path": "assets/img/nobel-physics-2024-hopfield-hinton.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "nobel-chemistry-2024-alphafold",
@@ -2577,7 +3075,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis_Royal_Society.jpg",
       "path": "assets/img/nobel-chemistry-2024-alphafold.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "openai-o3-arc-agi",
@@ -2589,6 +3088,24 @@
     "summary": "On 20 December 2024 the ARC Prize Foundation verified that a pre-release OpenAI o3 scored 75.7% on the 100-task ARC-AGI-1 semi-private evaluation at a compute budget within the public leaderboard's limits, and 87.5% with about 172 times more compute. The larger run cost roughly $4,560 per task. ARC-AGI was built by François Chollet as grid puzzles that are easy for people but had long resisted LLMs.",
     "significance": "A benchmark designed to resist memorization and scale fell sharply to a reasoning model, though its creators stressed that this was not AGI.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "o3 on ARC-AGI-1 (semi-private evaluation, verified by ARC Prize)",
+      "unit": "%",
+      "max": 100,
+      "bars": [
+        {
+          "label": "Within public leaderboard compute limits",
+          "value": 75.7,
+          "group": "ai"
+        },
+        {
+          "label": "With about 172× more compute",
+          "value": 87.5,
+          "group": "ai"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "OpenAI o3 Breakthrough High Score on ARC-AGI-Pub",
@@ -2603,7 +3120,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/openai-o3-arc-agi.svg"
   },
   {
     "id": "gpt-4-5-turing-test",
@@ -2641,7 +3159,8 @@
       "license_url": "",
       "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1912-1954)_in_1936_at_Princeton_University.jpg",
       "path": "assets/img/gpt-4-5-turing-test.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "alphaevolve-matrix-multiplication",
@@ -2653,6 +3172,27 @@
     "summary": "Google DeepMind's AlphaEvolve is an evolutionary coding agent: Gemini models propose code changes and automated evaluators score them. It found a way to multiply two 4x4 complex-valued matrices with 48 scalar multiplications, the first improvement in that setting over the 49 from applying Strassen's 1969 algorithm recursively. On more than 50 open problems in analysis, geometry, combinatorics and number theory, it matched the best known results in about 75% of cases and improved them in about 20%. One example is a new lower bound of 593 for the kissing number in 11 dimensions. Inside Google, it found a data-center scheduling heuristic that recovers about 0.7% of fleet-wide compute.",
     "significance": "An LLM-driven discovery system improved results that had stood for decades, including a 56-year-old benchmark in fast matrix multiplication.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "Multiplications needed for two 4×4 complex matrices (fewer is better)",
+      "max": 50,
+      "bars": [
+        {
+          "label": "AlphaEvolve (2025)",
+          "value": 48,
+          "group": "ai"
+        },
+        {
+          "label": "Strassen's algorithm applied recursively (1969)",
+          "value": 49,
+          "group": "other"
+        }
+      ],
+      "legend": {
+        "ai": "AI",
+        "other": "Previous best"
+      }
+    },
     "sources": [
       {
         "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
@@ -2673,7 +3213,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphaevolve-matrix-multiplication.svg"
   },
   {
     "id": "atcoder-world-tour-finals-heuristic-2025",
@@ -2706,7 +3247,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "imo-2025-gold-medal-ai",
@@ -2719,6 +3261,23 @@
     "summary": "At the 66th International Mathematical Olympiad in Queensland, Australia, an advanced version of Google DeepMind's Gemini Deep Think fully solved 5 of 6 problems for 35 of 42 points. It wrote natural-language proofs directly from the official problems within the 4.5-hour session limits. IMO coordinators graded and certified the result, and IMO President Gregor Dolinar confirmed the \"much-desired milestone.\" An experimental OpenAI reasoning model also scored 35 under contest conditions, graded by three former IMO medalists rather than by the IMO. For comparison, 67 of about 630 human contestants earned gold and five scored a perfect 42.",
     "significance": "General-purpose language models, working in plain English without formal tools, crossed the IMO gold threshold a year after the formal-methods silver.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "IMO 2025 scores (out of 42)",
+      "max": 42,
+      "bars": [
+        {
+          "label": "Gemini Deep Think (graded by the IMO)",
+          "value": 35,
+          "group": "ai"
+        },
+        {
+          "label": "OpenAI experimental model (graded by ex-medalists)",
+          "value": 35,
+          "group": "ai"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad",
@@ -2745,7 +3304,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/imo-2025-gold-medal-ai.svg"
   },
   {
     "id": "ioi-2025-openai-gold",
@@ -2779,7 +3339,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "icpc-2025-world-finals-ai",
@@ -2792,6 +3353,28 @@
     "summary": "At the 2025 ICPC World Finals in Baku, Azerbaijan, AI systems tackled the same 12 problems as 139 university teams in a supervised AI track under the same five-hour rules. OpenAI's ensemble, GPT-5 plus an experimental reasoning model, solved all 12: 11 on the first submission, and the hardest after nine attempts. That would have placed first, ahead of the best human team's 11. Google DeepMind's Gemini 2.5 Deep Think solved 10, which would have ranked second. It also cracked one problem that no university team solved.",
     "significance": "AI outscored every human team at the world's most prestigious university programming contest.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "ICPC World Finals 2025: problems solved (out of 12)",
+      "max": 12,
+      "bars": [
+        {
+          "label": "OpenAI (GPT-5 + experimental model)",
+          "value": 12,
+          "group": "ai"
+        },
+        {
+          "label": "Best human team",
+          "value": 11,
+          "group": "human"
+        },
+        {
+          "label": "Gemini 2.5 Deep Think",
+          "value": 10,
+          "group": "ai"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
@@ -2818,7 +3401,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/icpc-2025-world-finals-ai.svg"
   },
   {
     "id": "erdos-problem-124-aristotle",
@@ -2867,7 +3451,8 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Erdos_budapest_fall_1992.jpg",
       "path": "assets/img/erdos-problem-124-aristotle.jpg"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "erdos-728-gpt52-aristotle",
@@ -2911,7 +3496,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "humanoid-robot-half-marathon-record",
@@ -2943,7 +3529,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "openai-unit-distance-disproof",
@@ -2998,7 +3585,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "page_url": "https://commons.wikimedia.org/wiki/File:Moser_spindle.svg",
       "path": "assets/img/openai-unit-distance-disproof.png"
-    }
+    },
+    "diagram_file": null
   },
   {
     "id": "imo-2026-ai-perfect-score",
@@ -3037,7 +3625,8 @@
         "kind": "primary"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "atcoder-world-tour-finals-2026-ai",
@@ -3050,6 +3639,24 @@
     "summary": "At the AtCoder World Tour Finals 2026 Algorithm contest in Tokyo on 9 July 2026, a 420-minute onsite final for the 12 top-ranked AtCoder players, an OpenAI agent took part as an unranked exhibition entry. It solved all five problems for the maximum 8,300 points, almost double the 4,300 scored by the human winner, tour1st; per The Decoder no human solved problems C or E. OpenAI said the system had no internet access. A year earlier an OpenAI model had finished second to Psyho in the Heuristic final; in the 2026 Heuristic final it was reported to beat the best human by a wide margin as well.",
     "significance": "The first time an AI system beat the whole field of an elite onsite algorithmic programming final, one year after humans narrowly held it off at the same event.",
     "image": null,
+    "diagram": {
+      "type": "bars",
+      "title": "AtCoder World Tour Finals 2026, Algorithm: points",
+      "max": 8300,
+      "bars": [
+        {
+          "label": "OpenAI agent (exhibition entry)",
+          "value": 8300,
+          "group": "ai"
+        },
+        {
+          "label": "tour1st, winner among humans",
+          "value": 4300,
+          "group": "human"
+        }
+      ],
+      "note": "8,300 is the maximum possible score."
+    },
     "sources": [
       {
         "title": "AtCoder World Tour Finals 2026 Algorithm announcement (with unrated mirror)",
@@ -3082,7 +3689,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/atcoder-world-tour-finals-2026-ai.svg"
   },
   {
     "id": "openai-astra-ten-open-problems",
@@ -3127,7 +3735,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "openai-navier-stokes-blowup-claim",
@@ -3184,7 +3793,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": null
   },
   {
     "id": "ataraxos-stratego-superhuman",
@@ -3197,6 +3807,32 @@
     "summary": "Ataraxos, built by Samuel Sokota, Gabriele Farina and colleagues at Carnegie Mellon, MIT, NYU and Stanford, played a 20-game online series against Pim Niemeijer, the most decorated Stratego player in history, winning 15, losing 1 and drawing 4. The system combines self-play reinforcement learning with test-time search over hidden information and was trained in about a week on 16 H100 GPUs, under USD 8,000, a tiny fraction of the compute of DeepMind's earlier DeepNash. The work was published in Nature on 30 September 2026.",
     "significance": "The first superhuman result in Stratego, a long-horizon game of hidden information that had been one of the last classic board games where top humans still beat AI.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "Ataraxos vs. Pim Niemeijer (20 games)",
+      "rows": [
+        {
+          "label": "Online series, 15+3 time control",
+          "segments": [
+            {
+              "label": "Ataraxos wins",
+              "value": 15,
+              "group": "ai"
+            },
+            {
+              "label": "Draws",
+              "value": 4,
+              "group": "other"
+            },
+            {
+              "label": "Niemeijer wins",
+              "value": 1,
+              "group": "human"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "Scalable decision-making for games of imperfect information",
@@ -3223,7 +3859,8 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/ataraxos-stratego-superhuman.svg"
   },
   {
     "id": "openai-quasi-riemann-hypothesis",
@@ -3236,6 +3873,61 @@
     "summary": "On 6 October 2026 OpenAI released 722 AI-written manuscripts on GitHub, claiming progress on several hundred research problems; three were withdrawn within days. The standout was a proof of the quasi-Riemann hypothesis: that all nontrivial zeros of the Riemann zeta function lie in a strip a ≤ Re(s) ≤ 1 − a for some fixed a > 0, narrower than the known strip between 0 and 1. A 199-page version (a = 1/8) was formally verified in Lean, per Quanta, and a 49-page version edited by a person claims a = 1/12. Quanta reported on 19 October that number theorists including Peter Sarnak, Maksym Radziwiłł and Alexander Dunn largely agree the result is correct, though Sarnak wants humans to check every detail first.",
     "significance": "If confirmed, one of the most consequential results yet credited to AI: Radziwiłł says most consequences of the Riemann hypothesis already follow from the quasi version, which experts had thought beyond existing tools.",
     "image": null,
+    "diagram": {
+      "type": "strip",
+      "title": "Where the nontrivial zeros of the zeta function lie (real part)",
+      "min": 0,
+      "max": 1,
+      "note": "Claim under expert review.",
+      "bands": [
+        {
+          "label": "Known before: 0 < Re(s) < 1",
+          "from": 0,
+          "to": 1,
+          "group": "other"
+        },
+        {
+          "label": "49-page, human-edited version: 1/12 to 11/12",
+          "from": 0.083333,
+          "to": 0.916667,
+          "group": "ai"
+        },
+        {
+          "label": "199-page version (Lean-checked, per Quanta): 1/8 to 7/8",
+          "from": 0.125,
+          "to": 0.875,
+          "group": "ai"
+        }
+      ],
+      "ticks": [
+        {
+          "value": 0,
+          "label": "0"
+        },
+        {
+          "value": 0.125,
+          "label": "1/8"
+        },
+        {
+          "value": 0.5,
+          "label": "1/2"
+        },
+        {
+          "value": 0.875,
+          "label": "7/8"
+        },
+        {
+          "value": 1,
+          "label": "1"
+        }
+      ],
+      "lines": [
+        {
+          "value": 0.5,
+          "label": "the Riemann hypothesis puts every zero on Re(s) = 1/2"
+        }
+      ]
+    },
     "sources": [
       {
         "title": "The Quasi-Riemann Hypothesis (preprint, 5 October 2026 version)",
@@ -3268,7 +3960,8 @@
         "kind": "reference"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/openai-quasi-riemann-hypothesis.svg"
   },
   {
     "id": "alphaproof-nexus-science-erdos",
@@ -3280,6 +3973,43 @@
     "summary": "In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagues, preprinted in May), Google DeepMind described AlphaProof Nexus, an agent that drafts and repairs proofs in the Lean proof assistant, with every proof machine-checked. Run on all 353 open Erdős problems formalized in DeepMind's Formal Conjectures project, it settled 9 (an independent audit argued one was already implied by an earlier theorem), including two questions within Erdős problem #12 that had been open since 1970, and it proved 44 of 492 conjectures taken from the OEIS. Commentators noted that Lean checks the proof but not whether the formal statement matches the original problem, and the agent is not publicly available.",
     "significance": "Amid a flood of unrefereed AI math claims in 2026, a set of AI-solved open problems that passed peer review at a leading journal, with every proof checkable in Lean.",
     "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "AlphaProof Nexus: open problems settled",
+      "note": "An independent audit argued one of the nine Erdős results already followed from an earlier theorem.",
+      "rows": [
+        {
+          "label": "Open Erdős problems formalized in Formal Conjectures (353)",
+          "segments": [
+            {
+              "label": "Settled",
+              "value": 9,
+              "group": "ai"
+            },
+            {
+              "label": "Not settled",
+              "value": 344,
+              "group": "other"
+            }
+          ]
+        },
+        {
+          "label": "Conjectures taken from the OEIS (492)",
+          "segments": [
+            {
+              "label": "Settled",
+              "value": 44,
+              "group": "ai"
+            },
+            {
+              "label": "Not settled",
+              "value": 448,
+              "group": "other"
+            }
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "title": "AlphaProof Nexus (Science, DOI 10.1126/science.aej2213)",
@@ -3312,6 +4042,7 @@
         "kind": "news"
       }
     ],
-    "image_credit": null
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/alphaproof-nexus-science-erdos.svg"
   }
 ]

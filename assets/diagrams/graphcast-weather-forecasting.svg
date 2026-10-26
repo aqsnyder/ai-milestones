@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 282" width="520" height="282" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Share of test targets where GraphCast beat ECMWF HRES">
+<rect width="520" height="282" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">Share of test targets where</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">GraphCast beat ECMWF HRES</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">All 1,380 variables and lead times</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="374.4" height="30" rx="4" fill="#2f6fdb"/>
+<text x="388.4" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">over 90%</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Tropospheric targets</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="190.0" width="414.8" height="30" rx="4" fill="#2f6fdb"/>
+<text x="428.8" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">99.7%</text>
+<text x="498.0" y="264.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

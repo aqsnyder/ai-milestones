@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 306" width="520" height="306" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="ImageNet 2012: top-5 error (lower is better)">
+<rect width="520" height="306" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">ImageNet 2012: top-5 error (lower</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">is better)</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">SuperVision (AlexNet)</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="212.2" height="30" rx="4" fill="#2f6fdb"/>
+<text x="226.2" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">15.3%</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">ISI (next-best team)</text>
+<rect x="22" y="190.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="190.0" width="363.3" height="30" rx="4" fill="#9aa4ae"/>
+<text x="377.3" y="212.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">26.2%</text>
+<rect x="22" y="235" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="248.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Deep CNN</text>
+<rect x="142.0" y="235" width="16" height="16" rx="3" fill="#9aa4ae"/>
+<text x="164.0" y="248.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Other entries</text>
+<text x="498.0" y="288.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>

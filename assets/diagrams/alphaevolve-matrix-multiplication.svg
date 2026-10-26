@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" width="520" height="330" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Multiplications needed for two 4×4 complex matrices (fewer is better)">
+<rect width="520" height="330" fill="#ffffff"/>
+<text x="22.0" y="56.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">Multiplications needed for two 4×4</text>
+<text x="22.0" y="84.0" font-size="25" fill="#1f2328" text-anchor="start" font-weight="600">complex matrices (fewer is better)</text>
+<text x="22.0" y="122.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">AlphaEvolve (2025)</text>
+<rect x="22" y="130.0" width="416.0" height="30" rx="4" fill="#dbe7fb"/>
+<rect x="22" y="130.0" width="399.4" height="30" rx="4" fill="#2f6fdb"/>
+<text x="413.4" y="152.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">48</text>
+<text x="22.0" y="182.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">Strassen&#x27;s algorithm applied recursively</text>
+<text x="22.0" y="206.0" font-size="20" fill="#1f2328" text-anchor="start" font-weight="normal">(1969)</text>
+<rect x="22" y="214.0" width="416.0" height="30" rx="4" fill="#eef1f4"/>
+<rect x="22" y="214.0" width="407.7" height="30" rx="4" fill="#9aa4ae"/>
+<text x="421.7" y="236.0" font-size="20" fill="#ffffff" text-anchor="end" font-weight="600">49</text>
+<rect x="22" y="259" width="16" height="16" rx="3" fill="#2f6fdb"/>
+<text x="44.0" y="272.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">AI</text>
+<rect x="85.0" y="259" width="16" height="16" rx="3" fill="#9aa4ae"/>
+<text x="107.0" y="272.0" font-size="17" fill="#59636e" text-anchor="start" font-weight="normal">Previous best</text>
+<text x="498.0" y="312.0" font-size="13" fill="#59636e" text-anchor="end" font-weight="normal">Data: this entry&#x27;s sources · CC0 · AI Milestones</text>
+</svg>
