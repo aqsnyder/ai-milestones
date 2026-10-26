@@ -27,8 +27,8 @@ Leave out: routine model launches, small benchmark gains, product announcements,
 The timeline's value is that everything in it is sourced and checkable, so pictures follow the same rule.
 
 1. **Prefer a real, freely licensed photo or figure from Wikimedia Commons** (`image:`).
-2. **Otherwise, a diagram of the entry's own numbers** (`diagram:`), drawn by [`scripts/diagrams.py`](scripts/diagrams.py) into `assets/diagrams/` and released under CC0. Use one only when the entry has a natural figure to chart: a score against a cutoff, a win/draw/loss record, an error rate against a human baseline, an interval. Every number in a diagram must appear in the entry's summary (and so in its sources). Keep the same caveats: if the summary says a figure is self-reported or contested, the diagram's title, labels or `note` must say so too.
-3. **Otherwise, nothing.** Leave `image: null` and no diagram. An empty cell is better than decoration.
+2. **Otherwise, a diagram of the entry's own numbers** (`diagram:`), drawn by [`scripts/diagrams.py`](scripts/diagrams.py) into `assets/diagrams/` and released under CC0. It is shown as a collapsed "📊 Chart" under the entry's text, not in the photo column, which holds only real images. Use one only when the entry has a natural figure to chart: a score against a cutoff, a win/draw/loss record, an error rate against a human baseline, an interval. Every number in a diagram must appear in the entry's summary (and so in its sources). Keep the same caveats: if the summary says a figure is self-reported or contested, the diagram's title, labels or `note` must say so too.
+3. **Otherwise, nothing.** Leave `image: null` and no diagram; the entry's text then runs full width. Nothing is better than decoration.
 
 **Never** use AI-generated pictures, illustrations or "artist's impressions" of an event: they look like a record of something that didn't happen, and their licensing is unsettled.
 

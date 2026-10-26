@@ -299,19 +299,26 @@ def write_diagrams(items: list[dict]) -> int:
     return len(wanted)
 
 
+def render_chart(m: dict) -> list[str]:
+    """A collapsed chart under the text, so the photo column holds only real photos."""
+    if not m.get("diagram"):
+        return []
+    src = diagram_path(m)
+    alt = html.escape(diagrams.alt_text(m["diagram"]), quote=True)
+    return [
+        f'<details><summary>📊 Chart: {html.escape(m["diagram"]["title"])}</summary><br>',
+        f'<img src="{src}" width="460" alt="{alt}"><br>',
+        '<sub>Plots figures from this entry\'s sources · CC0 · '
+        '<a href="MAINTAINING.md#images-and-diagrams">about charts</a></sub>',
+        "</details>",
+        "",
+    ]
+
+
 def render_image_cell(m: dict, credits: dict) -> str:
     img = m.get("image")
-    if not img and m.get("diagram"):
-        src = diagram_path(m)
-        alt = html.escape(diagrams.alt_text(m["diagram"]), quote=True)
-        return (
-            '<td width="300" valign="top">'
-            f'<a href="{src}"><img src="{src}" width="300" alt="{alt}"></a><br>'
-            '<sub>Diagram of figures from this entry\'s sources · CC0 · '
-            '<a href="MAINTAINING.md#images-and-diagrams">why a diagram?</a></sub></td>'
-        )
     if not img:
-        return '<td width="300" valign="top" align="center"><sub><i>No freely licensed image yet</i></sub></td>'
+        return ""
     c = credits.get(m["id"])
     alt = html.escape(img.get("alt", ""), quote=True)
     if c:
@@ -348,7 +355,7 @@ def render_entry(m: dict, credits: dict) -> str:
     return "\n".join([
         f'<a id="{m["id"]}"></a>',
         "<table><tr>",
-        render_image_cell(m, credits),
+        *([cell] if (cell := render_image_cell(m, credits)) else []),
         '<td valign="top">',
         "",
         f"#### {emoji} {md_escape(m['title'])}",
@@ -361,6 +368,7 @@ def render_entry(m: dict, credits: dict) -> str:
         "",
         f"**Sources:** {sources}",
         "",
+        *render_chart(m),
         "</td></tr></table>",
         "",
     ])
@@ -445,7 +453,7 @@ def render_readme(items: list[dict], credits: dict, meta: dict) -> str:
     out.append("- **Data:** every milestone lives in [`data/milestones.yaml`](data/milestones.yaml) "
                "(also exported as [`data/milestones.json`](data/milestones.json)). This README is generated from it.")
     out.append("- **Images:** only freely licensed images from Wikimedia Commons, each credited with author and license. "
-               "Where no free photo exists, some entries show a plain chart of the figures in their own sources instead "
+               "Where no free photo exists, some entries include a collapsed chart of the figures in their own sources "
                "(never an illustration or AI-generated picture). Full list in [CREDITS.md](CREDITS.md).")
     out.append("- **Automation:** a weekly scheduled review adds new milestones and fixes broken links ([MAINTAINING.md](MAINTAINING.md)); "
                "GitHub Actions rebuild this page and check every link. Changes are logged in [CHANGELOG.md](CHANGELOG.md).")
