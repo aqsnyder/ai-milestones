@@ -1,15 +1,33 @@
 # Read and updated by the weekly review (see MAINTAINING.md).
 
 # Date of the last completed review for new milestones (YYYY-MM-DD).
-last_reviewed: "2026-10-26"
+last_reviewed: "2026-11-02"
 
 # Candidates that are not ready to be added yet, and what would settle them.
 # Re-check each one every week; add it once it clears the bar, or drop it if it fizzles.
 watchlist:
+  - candidate: "OpenAI and Anthropic each claim (26 Oct 2026) that an internal model refuted the Exponential Time Hypothesis with a subexponential-time 3-SAT algorithm, both with Lean formalizations; ETH's originators Impagliazzo and Paturi, with Ryan Williams, are organizing an independent examination"
+    sources:
+      - https://openai.com/index/building-scientific-understanding-with-academic-communities/
+      - https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth
+      - https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
+      - https://en.wikipedia.org/wiki/Exponential_time_hypothesis
+    waiting_for: "Strong candidate for an entry flagged under-review. Held on 2026-11-02 only because the primary pages (OpenAI post, Anthropic repo) could not be opened in that run; TNW, Interesting Engineering and Wikipedia were read. Open the primaries, confirm the exact claimed runtime (Wikipedia says OpenAI's Lean formalization proves a weaker bound than its paper claims), then add."
+  - candidate: "Same OpenAI announcement (26 Oct 2026): a proof of Sogge's local smoothing conjecture in all dimensions (which would settle the Kakeya and Stein restriction conjectures in all dimensions), with a Lean proof; and existence proofs for four-dimensional gauge theories including pure Yang-Mills and QCD (not the mass gap), held back while a physics group led by David Gross writes it up"
+    sources:
+      - https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
+      - https://interestingengineering.com/ai-robotics/openai-proofs-math-computing-physics
+      - https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says
+    waiting_for: "Open the primary OpenAI material and expert assessment (harmonic analysts for Kakeya; the Gross group for the physics). Harmonic analyst Alex Iosevich called the Kakeya result historic (Al Jazeera)."
+  - candidate: "Axiom announces (26 Oct 2026) a complete Lean formalization of the Classification of Finite Simple Groups (first-generation proof), about 43.1 million lines in 24 days, finding and patching a gap in Walter's 1986 Unbalanced Group Theorem proof and a false lemma in Aschbacher-Smith's quasithin work"
+    sources:
+      - https://axiommath.ai/research/the-enormous-theorem-formalized/
+      - https://www.tokenpost.com/news/technology/42182
+    waiting_for: "Independent audit by the Lean community or group theorists, and coverage by a reputable outlet. Then decide which bar it clears (formalization plus errors found in the published proof)."
   - candidate: "NVIDIA Nemotron-3-Ultra-CC outscores every human contestant at IOI 2026 (535.4/600 vs. top human 498.27)"
     sources:
       - https://arxiv.org/abs/2609.02849
-    waiting_for: "Independent confirmation from the IOI or a major outlet. Re-checked 2026-10-26: still only NVIDIA's paper and posts (which say the IOI team graded it) plus minor blogs."
+    waiting_for: "Independent confirmation from the IOI or a major outlet. Re-checked 2026-10-26 (not re-checked 2026-11-02: fetches blocked): still only NVIDIA's paper and posts (which say the IOI team graded it) plus minor blogs."
   - candidate: "First Proof, third batch (results 14 Oct 2026): the IMProofBench ProofCouncil harness solves 9 of 10 unpublished research problems and OpenAI's GPT-6 Astra 7 of 10, under double-blind refereeing by ~30 mathematicians"
     sources:
       - https://1stproof.org/third-batch-press-release.html

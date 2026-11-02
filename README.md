@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-26 · last reviewed for new milestones 2026-10-26
+**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-10-26 · last reviewed for new milestones 2026-11-02
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
@@ -1151,7 +1151,7 @@ Google DeepMind's FunSearch pairs a pretrained code-writing language model with 
 
 **Why it matters:** DeepMind described it as the first time a large language model was used to make a new, verifiable discovery on a challenging open problem in mathematics.
 
-**Sources:** [FunSearch: Making new discoveries in mathematical sciences using Large Language Models](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models) (Google DeepMind) · [Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6) (Nature) · [FunSearch](https://en.wikipedia.org/wiki/FunSearch) (Wikipedia)
+**Sources:** [FunSearch: Making new discoveries in mathematical sciences using Large Language Models](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models) (Google DeepMind) · [Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6) (Nature) · [AI Beats Humans on Unsolved Math Problem](https://www.scientificamerican.com/article/ai-beats-humans-on-unsolved-math-problem) (Scientific American)
 
 </td></tr></table>
 

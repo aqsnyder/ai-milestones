@@ -2676,10 +2676,10 @@
     publisher: Nature
     url: https://www.nature.com/articles/s41586-023-06924-6
     kind: paper
-  - title: FunSearch
-    publisher: Wikipedia
-    url: https://en.wikipedia.org/wiki/FunSearch
-    kind: reference
+  - title: AI Beats Humans on Unsolved Math Problem
+    publisher: Scientific American
+    url: https://www.scientificamerican.com/article/ai-beats-humans-on-unsolved-math-problem
+    kind: news
   notes: >-
     Published online 14 December 2023, in Nature vol. 625 (2024), pp. 468-475. Not re-verified in this
     session: the previous best dimension-8 cap set is believed to have been 496, so check against the

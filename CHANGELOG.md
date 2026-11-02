@@ -2,6 +2,11 @@
 
 Content changes to the timeline, newest first. Routine rebuilds aren't listed.
 
+## 2026-11-02
+- Weekly review: no new entries.
+- Fixed a broken link: the deleted Wikipedia "FunSearch" article is replaced by Scientific American's report in the FunSearch entry.
+- Watchlist: added the OpenAI and Anthropic claimed refutations of the Exponential Time Hypothesis, OpenAI's local smoothing/Kakeya and gauge-theory existence claims, and Axiom's Lean formalization of the Classification of Finite Simple Groups (all announced 26 Oct).
+
 ## 2026-10-26
 - Charts: 22 entries without a free photo now include a collapsed chart of the figures in their own sources (scores, records, error rates). Never illustrations or AI-generated images; see MAINTAINING.md.
 - Added: OpenAI model proves the quasi-Riemann hypothesis, experts' checks under way (flagged under review).
