@@ -2,6 +2,10 @@
 
 Content changes to the timeline, newest first. Routine rebuilds aren't listed.
 
+## 2026-11-09
+- Weekly review: no new entries.
+- Watchlist: updated the OpenAI and Anthropic Exponential Time Hypothesis claims with New York Times and other coverage (still held: primary pages could not be opened); ARC Prize 2026 has closed, with results due 4 December.
+
 ## 2026-11-02
 - Weekly review: no new entries.
 - Fixed a broken link: the deleted Wikipedia "FunSearch" article is replaced by Scientific American's report in the FunSearch entry.

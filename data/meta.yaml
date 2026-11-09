@@ -1,7 +1,7 @@
 # Read and updated by the weekly review (see MAINTAINING.md).
 
 # Date of the last completed review for new milestones (YYYY-MM-DD).
-last_reviewed: "2026-11-02"
+last_reviewed: "2026-11-09"
 
 # Candidates that are not ready to be added yet, and what would settle them.
 # Re-check each one every week; add it once it clears the bar, or drop it if it fizzles.
@@ -12,7 +12,9 @@ watchlist:
       - https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth
       - https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
       - https://en.wikipedia.org/wiki/Exponential_time_hypothesis
-    waiting_for: "Strong candidate for an entry flagged under-review. Held on 2026-11-02 only because the primary pages (OpenAI post, Anthropic repo) could not be opened in that run; TNW, Interesting Engineering and Wikipedia were read. Open the primaries, confirm the exact claimed runtime (Wikipedia says OpenAI's Lean formalization proves a weaker bound than its paper claims), then add."
+      - https://www.thestar.com.my/tech/tech-news/2026/11/09/how-ai-just-blew-up-a-key-tenet-of-computer-science
+      - https://dataconomy.com/2026/11/04/openai-and-anthropic-claim-ai-disproved-the-exponential
+    waiting_for: "Strong candidate for an entry flagged under-review; it now has New York Times coverage (6 Nov, Cade Metz, read via The Star's syndicated copy). Held again on 2026-11-09 only because the primary pages (OpenAI post, Anthropic repo) could not be opened in this run either. Secondary reports: OpenAI's Lean file proves a slightly weaker bound than its paper, 2^O(n (log log n)^2 / sqrt(log n)) (confirm against the primary); Anthropic's is a separate tensor-network argument, and each lab says its model found its result independently. No flaw publicly identified as of 29 Oct; NYT reports neither confirmation nor refutation. Open a primary, confirm the runtimes, then add."
   - candidate: "Same OpenAI announcement (26 Oct 2026): a proof of Sogge's local smoothing conjecture in all dimensions (which would settle the Kakeya and Stein restriction conjectures in all dimensions), with a Lean proof; and existence proofs for four-dimensional gauge theories including pure Yang-Mills and QCD (not the mass gap), held back while a physics group led by David Gross writes it up"
     sources:
       - https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
@@ -48,4 +50,4 @@ watchlist:
   - candidate: "ICPC World Finals 2026 (reported postponed)"
     waiting_for: "The contest to take place; add an entry if AI systems beat the top human teams."
   - candidate: "Frontier benchmark thresholds in 2026 (ARC-AGI, FrontierMath, Humanity's Last Exam)"
-    waiting_for: "Include only a threshold the field treats as a landmark, e.g. a prize-winning ARC Prize score. ARC Prize 2026 (ARC-AGI-3, Kaggle) is still running; ARC Prize posted a new high score of 59.17% (Yi-Chia Chen) on X."
+    waiting_for: "Include only a threshold the field treats as a landmark, e.g. a prize-winning ARC Prize score. ARC Prize 2026 closed to submissions on 2 Nov; results are due 4 Dec 2026 (arcprize.org/competitions/2026). Re-check then."
