@@ -3506,14 +3506,14 @@
     "category": "robotics",
     "field": "Humanoid locomotion",
     "system": "Lightning humanoid robot (Honor)",
-    "summary": "At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal humanoid called Lightning, built by smartphone maker Honor, won the 21 km race in 50 minutes 26 seconds. That was roughly seven minutes quicker than the men's human world record for the distance, while the winning robot in the inaugural 2025 race had needed more than two hours. Robots ran on a course parallel to the human runners, and several fell or veered off course. Race rules allowed both autonomous and remote-controlled robots, and Honor did not say which mode Lightning used.",
+    "summary": "At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal humanoid called Lightning, built by smartphone maker Honor, won the 21 km race in 50 minutes 26 seconds. That was roughly seven minutes quicker than the men's human world record for the distance, while the winning robot in the inaugural 2025 race had needed more than two hours. Robots ran on a course parallel to the human runners, and several fell or veered off course. Race rules allowed both autonomous and remote-controlled robots; the AP reported that the winner navigated autonomously, and that a remote-controlled Honor robot crossed the line first, in 48:19, but placed lower under the event's weighted scoring.",
     "significance": "The first time a humanoid robot beat the best human time over a long-distance running event, marking a dramatic one-year jump in legged-robot speed and endurance.",
     "image": null,
     "sources": [
       {
-        "title": "Humanoid robot beats human half-marathon world record in Beijing",
-        "publisher": "CBS News",
-        "url": "https://www.cbsnews.com/news/humanoid-robot-half-marathon-beijing-human-world-record/",
+        "title": "Humanoid robot sprints to victory in Beijing, beating human half-marathon record",
+        "publisher": "Associated Press (via ABC News)",
+        "url": "https://abcnews.com/International/wireStory/humanoid-robot-sprints-victory-beijing-beating-human-half-132179294",
         "kind": "news"
       },
       {
@@ -3531,6 +3531,83 @@
     ],
     "image_credit": null,
     "diagram_file": null
+  },
+  {
+    "id": "sony-ace-table-tennis-robot",
+    "date": "2026-04-22",
+    "title": "Sony AI's Ace robot outplays elite table tennis players under league rules",
+    "category": "robotics",
+    "field": "Table tennis",
+    "system": "Ace autonomous table tennis robot (Sony AI)",
+    "opponent": "Five elite amateur players and two Japanese league professionals",
+    "summary": "In a Nature paper published on 22 April 2026, Sony AI reported matches played under Japanese professional league rules between its fully autonomous robot Ace and human players. Ace won 3 of 5 best-of-three matches (7 of 13 games) against elite amateurs with more than a decade of experience, but lost both best-of-five matches against professionals Minami Ando and Kakeru Sone, taking 1 of 7 games. In a self-reported follow-up, Sony AI says that between February and April 2026 Ace won matches against seven ranked professionals, including two-time Olympic silver medallist Miu Hirano; four of those matches were internal assessments without external umpires.",
+    "significance": "The first peer-reviewed case of an autonomous robot beating highly skilled humans at a fast physical sport played to official rules, with professionals now within reach.",
+    "image": null,
+    "diagram": {
+      "type": "split",
+      "title": "Ace's games won against humans in the Nature paper",
+      "rows": [
+        {
+          "label": "Elite amateurs (5 matches)",
+          "segments": [
+            {
+              "label": "Ace wins",
+              "value": 7,
+              "group": "ai"
+            },
+            {
+              "label": "Human wins",
+              "value": 6,
+              "group": "human"
+            }
+          ]
+        },
+        {
+          "label": "Professionals (2 matches)",
+          "segments": [
+            {
+              "label": "Ace wins",
+              "value": 1,
+              "group": "ai"
+            },
+            {
+              "label": "Human wins",
+              "value": 6,
+              "group": "human"
+            }
+          ]
+        }
+      ],
+      "note": "Peer-reviewed results only; Sony AI's later wins over professionals are self-reported."
+    },
+    "sources": [
+      {
+        "title": "Outplaying elite table tennis players with an autonomous robot",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-026-10338-5",
+        "kind": "paper"
+      },
+      {
+        "title": "Robotics: Table tennis robot aces it (Nature)",
+        "publisher": "Nature Asia (Springer Nature press release)",
+        "url": "https://www.natureasia.com/en/info/press-releases/detail/9310",
+        "kind": "primary"
+      },
+      {
+        "title": "What Happened After the Nature Paper: Ace vs. Professional Players",
+        "publisher": "Sony AI",
+        "url": "https://ai.sony/archive/what-happened-after-the-nature-paper-ace-vs.-professional-players",
+        "kind": "primary"
+      },
+      {
+        "title": "Scientists Built a Robot That Can Beat Elite Human Players at Table Tennis",
+        "publisher": "ScienceAlert",
+        "url": "https://www.sciencealert.com/scientists-built-a-robot-that-can-beat-elite-human-players-at-table-tennis",
+        "kind": "news"
+      }
+    ],
+    "image_credit": null,
+    "diagram_file": "assets/diagrams/sony-ace-table-tennis-robot.svg"
   },
   {
     "id": "openai-unit-distance-disproof",
@@ -4044,5 +4121,45 @@
     ],
     "image_credit": null,
     "diagram_file": "assets/diagrams/alphaproof-nexus-science-erdos.svg"
+  },
+  {
+    "id": "ai-refutes-exponential-time-hypothesis",
+    "date": "2026-10-26",
+    "title": "OpenAI and Anthropic models claim to refute the Exponential Time Hypothesis",
+    "category": "math",
+    "field": "Computational complexity",
+    "status": "under-review",
+    "system": "Unreleased internal models from OpenAI and Anthropic (found separately)",
+    "summary": "Starting on 26 October 2026, OpenAI and then Anthropic each announced that one of their internal models had found an algorithm solving 3-SAT on n variables in time 2^o(n), which would make the Exponential Time Hypothesis, proposed by Russell Impagliazzo and Ramamohan Paturi around 1999 and assumed by many later hardness results, false. Both labs posted papers and Lean formalizations; Anthropic's README says its counting algorithm runs in time 2^O(n log log n / √log n) via tensor-network contraction, and Lance Fortnow reports a bound of the same form in OpenAI's paper, with OpenAI's Lean proof giving a slightly weaker one. Impagliazzo, Paturi and Ryan Williams are organising an independent review; as of early November no flaw had been reported and no verdict given.",
+    "significance": "If confirmed, AI will have overturned a central working assumption of complexity theory, though the speed-up is purely asymptotic and has no practical effect on solving real formulas.",
+    "image": null,
+    "sources": [
+      {
+        "title": "A 2^o(n) Time Algorithm for 3-SAT (README)",
+        "publisher": "Anthropic (GitHub, formal-math)",
+        "url": "https://github.com/anthropics/formal-math/blob/main/eth/README.md",
+        "kind": "primary"
+      },
+      {
+        "title": "The Exponential Time Refutation",
+        "publisher": "Computational Complexity blog (Lance Fortnow)",
+        "url": "https://blog.computationalcomplexity.org/2026/10/the-exponential-time-refutation.html",
+        "kind": "news"
+      },
+      {
+        "title": "'I'd rather shake a human hand': Scientist's bittersweet reaction as AI threatens to overturn his life's work",
+        "publisher": "Malay Mail (AFP)",
+        "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/31/id-rather-shake-a-human-hand-scientists-bittersweet-reaction-as-ai-threatens-to-overturn-his-lifes-work/241266",
+        "kind": "news"
+      },
+      {
+        "title": "Exponential time hypothesis",
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Exponential_time_hypothesis",
+        "kind": "reference"
+      }
+    ],
+    "image_credit": null,
+    "diagram_file": null
   }
 ]

@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**88 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-11-02 · last reviewed for new milestones 2026-11-09
+**90 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-11-02 · last reviewed for new milestones 2026-11-16
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
@@ -20,10 +20,10 @@
 - [1990s](#1990s) (5)
 - [2000s](#2000s) (6)
 - [2010s](#2010s) (19)
-- [2020s](#2020s) (41)
+- [2020s](#2020s) (43)
 - [How this repo works](#how-this-repo-works)
 
-**Categories:** ♟️ Games & competitions (27) · 🧮 Mathematics, code & reasoning (26) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (9) · 🧱 Foundations (7)
+**Categories:** ♟️ Games & competitions (27) · 🧮 Mathematics, code & reasoning (27) · 🔬 Science (5) · 👁️ Vision & speech (5) · 💬 Language (9) · 🤖 Robotics & autonomy (10) · 🧱 Foundations (7)
 
 ## Humans vs. machines
 
@@ -60,6 +60,7 @@ Every entry where an AI system was measured directly against human experts. Most
 | 2025 | [Olympiad mathematics](#imo-2025-gold-medal-ai) | Gemini Deep Think, advanced version (Google DeepMind); experimental reasoning model (OpenAI) | Human contestants at the 66th IMO |
 | 2025 | [Competitive programming (olympiad)](#ioi-2025-openai-gold) | Ensemble of OpenAI general-purpose reasoning models | About 330 human contestants at IOI 2025 |
 | 2025 | [Competitive programming (collegiate)](#icpc-2025-world-finals-ai) | OpenAI (GPT-5 + experimental reasoning model); Google DeepMind (Gemini 2.5 Deep Think) | 139 university teams at the 2025 ICPC World Finals |
+| 2026 | [Table tennis](#sony-ace-table-tennis-robot) | Ace autonomous table tennis robot (Sony AI) | Five elite amateur players and two Japanese league professionals |
 | 2026 | [Competitive programming](#atcoder-world-tour-finals-2026-ai) | OpenAI agent (a model OpenAI described as comparable to GPT-5.6, with a small test-time harness) | tour1st (winner) and the other 11 human finalists of the Algorithm final |
 | 2026 | [Stratego](#ataraxos-stratego-superhuman) | Ataraxos (Carnegie Mellon, MIT, NYU, Stanford) | Pim Niemeijer, four-time Stratego world champion |
 
@@ -1413,11 +1414,31 @@ In early January 2026 amateur Kevin Barreto prompted OpenAI's GPT-5.2 Pro to att
 #### 🤖 Humanoid robot runs a half marathon faster than the human world record
 **April 19, 2026** · 🤖 Humanoid locomotion · *Lightning humanoid robot (Honor)*
 
-At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal humanoid called Lightning, built by smartphone maker Honor, won the 21 km race in 50 minutes 26 seconds. That was roughly seven minutes quicker than the men's human world record for the distance, while the winning robot in the inaugural 2025 race had needed more than two hours. Robots ran on a course parallel to the human runners, and several fell or veered off course. Race rules allowed both autonomous and remote-controlled robots, and Honor did not say which mode Lightning used.
+At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal humanoid called Lightning, built by smartphone maker Honor, won the 21 km race in 50 minutes 26 seconds. That was roughly seven minutes quicker than the men's human world record for the distance, while the winning robot in the inaugural 2025 race had needed more than two hours. Robots ran on a course parallel to the human runners, and several fell or veered off course. Race rules allowed both autonomous and remote-controlled robots; the AP reported that the winner navigated autonomously, and that a remote-controlled Honor robot crossed the line first, in 48:19, but placed lower under the event's weighted scoring.
 
 **Why it matters:** The first time a humanoid robot beat the best human time over a long-distance running event, marking a dramatic one-year jump in legged-robot speed and endurance.
 
-**Sources:** [Humanoid robot beats human half-marathon world record in Beijing](https://www.cbsnews.com/news/humanoid-robot-half-marathon-beijing-human-world-record/) (CBS News) · ['New era': Humanoid robot outruns humans in Beijing half-marathon, beats world record](https://www.france24.com/en/technology/20260419-new-era-humanoid-robot-outruns-humans-in-beijing-half-marathon-beats-world-record) (France 24 (AFP)) · [A Robot Broke the Half-Marathon World Record. What Comes Next?](https://news.syr.edu/2026/04/22/humanoid-robot-half-marathon-world-record/) (Syracuse University News)
+**Sources:** [Humanoid robot sprints to victory in Beijing, beating human half-marathon record](https://abcnews.com/International/wireStory/humanoid-robot-sprints-victory-beijing-beating-human-half-132179294) (Associated Press (via ABC News)) · ['New era': Humanoid robot outruns humans in Beijing half-marathon, beats world record](https://www.france24.com/en/technology/20260419-new-era-humanoid-robot-outruns-humans-in-beijing-half-marathon-beats-world-record) (France 24 (AFP)) · [A Robot Broke the Half-Marathon World Record. What Comes Next?](https://news.syr.edu/2026/04/22/humanoid-robot-half-marathon-world-record/) (Syracuse University News)
+
+</td></tr></table>
+
+<a id="sony-ace-table-tennis-robot"></a>
+<table><tr>
+<td valign="top">
+
+#### 🤖 Sony AI's Ace robot outplays elite table tennis players under league rules
+**April 22, 2026** · 🤖 Table tennis · *Ace autonomous table tennis robot (Sony AI)* vs. *Five elite amateur players and two Japanese league professionals*
+
+In a Nature paper published on 22 April 2026, Sony AI reported matches played under Japanese professional league rules between its fully autonomous robot Ace and human players. Ace won 3 of 5 best-of-three matches (7 of 13 games) against elite amateurs with more than a decade of experience, but lost both best-of-five matches against professionals Minami Ando and Kakeru Sone, taking 1 of 7 games. In a self-reported follow-up, Sony AI says that between February and April 2026 Ace won matches against seven ranked professionals, including two-time Olympic silver medallist Miu Hirano; four of those matches were internal assessments without external umpires.
+
+**Why it matters:** The first peer-reviewed case of an autonomous robot beating highly skilled humans at a fast physical sport played to official rules, with professionals now within reach.
+
+**Sources:** [Outplaying elite table tennis players with an autonomous robot](https://www.nature.com/articles/s41586-026-10338-5) (Nature) · [Robotics: Table tennis robot aces it (Nature)](https://www.natureasia.com/en/info/press-releases/detail/9310) (Nature Asia (Springer Nature press release)) · [What Happened After the Nature Paper: Ace vs. Professional Players](https://ai.sony/archive/what-happened-after-the-nature-paper-ace-vs.-professional-players) (Sony AI) · [Scientists Built a Robot That Can Beat Elite Human Players at Table Tennis](https://www.sciencealert.com/scientists-built-a-robot-that-can-beat-elite-human-players-at-table-tennis) (ScienceAlert)
+
+<details><summary>📊 Chart: Ace&#x27;s games won against humans in the Nature paper</summary><br>
+<img src="assets/diagrams/sony-ace-table-tennis-robot.svg" width="460" alt="Chart, Ace&#x27;s games won against humans in the Nature paper. Elite amateurs (5 matches): 7 ace wins, 6 human wins; Professionals (2 matches): 1 ace wins, 6 human wins."><br>
+<sub>Plots figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">about charts</a></sub>
+</details>
 
 </td></tr></table>
 
@@ -1567,6 +1588,23 @@ In a paper published in Science on 8 October 2026 (George Tsoukalas and colleagu
 <img src="assets/diagrams/alphaproof-nexus-science-erdos.svg" width="460" alt="Chart, AlphaProof Nexus: open problems settled. Open Erdős problems formalized in Formal Conjectures (353): 9 settled, 344 not settled; Conjectures taken from the OEIS (492): 44 settled, 448 not settled."><br>
 <sub>Plots figures from this entry's sources · CC0 · <a href="MAINTAINING.md#images-and-diagrams">about charts</a></sub>
 </details>
+
+</td></tr></table>
+
+<a id="ai-refutes-exponential-time-hypothesis"></a>
+<table><tr>
+<td valign="top">
+
+#### 🧮 OpenAI and Anthropic models claim to refute the Exponential Time Hypothesis
+**October 26, 2026** · 🧮 Computational complexity · *Unreleased internal models from OpenAI and Anthropic (found separately)*
+
+Starting on 26 October 2026, OpenAI and then Anthropic each announced that one of their internal models had found an algorithm solving 3-SAT on n variables in time 2^o(n), which would make the Exponential Time Hypothesis, proposed by Russell Impagliazzo and Ramamohan Paturi around 1999 and assumed by many later hardness results, false. Both labs posted papers and Lean formalizations; Anthropic's README says its counting algorithm runs in time 2^O(n log log n / √log n) via tensor-network contraction, and Lance Fortnow reports a bound of the same form in OpenAI's paper, with OpenAI's Lean proof giving a slightly weaker one. Impagliazzo, Paturi and Ryan Williams are organising an independent review; as of early November no flaw had been reported and no verdict given.
+
+⚠️ **Claim under review:** experts have not yet verified this result.
+
+**Why it matters:** If confirmed, AI will have overturned a central working assumption of complexity theory, though the speed-up is purely asymptotic and has no practical effect on solving real formulas.
+
+**Sources:** [A 2^o(n) Time Algorithm for 3-SAT (README)](https://github.com/anthropics/formal-math/blob/main/eth/README.md) (Anthropic (GitHub, formal-math)) · [The Exponential Time Refutation](https://blog.computationalcomplexity.org/2026/10/the-exponential-time-refutation.html) (Computational Complexity blog (Lance Fortnow)) · ['I'd rather shake a human hand': Scientist's bittersweet reaction as AI threatens to overturn his life's work](https://www.malaymail.com/news/tech-gadgets/2026/10/31/id-rather-shake-a-human-hand-scientists-bittersweet-reaction-as-ai-threatens-to-overturn-his-lifes-work/241266) (Malay Mail (AFP)) · [Exponential time hypothesis](https://en.wikipedia.org/wiki/Exponential_time_hypothesis) (Wikipedia)
 
 </td></tr></table>
 

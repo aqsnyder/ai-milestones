@@ -2,6 +2,12 @@
 
 Content changes to the timeline, newest first. Routine rebuilds aren't listed.
 
+## 2026-11-16
+- Added: OpenAI and Anthropic models claim to refute the Exponential Time Hypothesis (flagged under review; independent review by Impagliazzo, Paturi and Williams still under way). Moved from the watchlist.
+- Added: Sony AI's Ace robot outplays elite table tennis players under league rules (Nature, April 2026; missed in the initial build).
+- Updated: the humanoid half-marathon entry now cites the AP wire story in place of a CBS News link that began failing the link check, and notes AP's report that the winner ran autonomously.
+- Watchlist: re-checked; NVIDIA's IOI 2026 paper appears to be at NeurIPS 2026 (comparison with humans still unconfirmed).
+
 ## 2026-11-09
 - Weekly review: no new entries.
 - Watchlist: updated the OpenAI and Anthropic Exponential Time Hypothesis claims with New York Times and other coverage (still held: primary pages could not be opened); ARC Prize 2026 has closed, with results due 4 December.
