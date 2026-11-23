@@ -6,7 +6,7 @@ Content changes to the timeline, newest first. Routine rebuilds aren't listed.
 - Weekly review: no new entries.
 - Watchlist: added Levent Alpöge's claimed Claude-assisted, Lean-only proof of the Riemann hypothesis and GRH (20 Nov), and the Alpöge–Buckmaster(–Coiculescu) claims of unforced Navier–Stokes and Euler blowup (20 Nov). Held until the primary papers and an independent verification report can be opened.
 - Navier–Stokes entry: noted the 20 Nov unforced-case claim in its notes.
-- Fixed a broken link: the AP half-marathon story now points to PBS News (the ABC News copy returns 404). ImageNet and n-Category Café link errors were transient (sites load).
+- Fixed a broken link: the AP half-marathon story now points to PBS News (the ABC News copy returns 404). ImageNet errors were transient (image-net.org loads again); the n-Category Café error was a timeout, left as is.
 
 ## 2026-11-16
 - Added: OpenAI and Anthropic models claim to refute the Exponential Time Hypothesis (flagged under review; independent review by Impagliazzo, Paturi and Williams still under way). Moved from the watchlist.
