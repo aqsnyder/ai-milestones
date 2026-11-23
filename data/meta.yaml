@@ -1,11 +1,26 @@
 # Read and updated by the weekly review (see MAINTAINING.md).
 
 # Date of the last completed review for new milestones (YYYY-MM-DD).
-last_reviewed: "2026-11-16"
+last_reviewed: "2026-11-23"
 
 # Candidates that are not ready to be added yet, and what would settle them.
 # Re-check each one every week; add it once it clears the bar, or drop it if it fizzles.
 watchlist:
+  - candidate: "Levent Alpöge (Anthropic) posts (20 Nov 2026) a claimed proof of the Riemann hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions, found working with Claude, released only as an enormous Lean formalization (about 175,000 files) with a four-page note, 'Remark', on his website"
+    sources:
+      - https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+      - https://officechai.com/ai/how-mathematicians-have-reacted-to-claimed-riemann-hypothesis-proof-by-anthropics-levent-alpoge/
+      - https://dataconomy.com/2026/11/23/anthropic-mathematician-claims-claude-assisted-riemann-proof/
+      - https://www.nature.com/articles/d41586-026-03812-7
+      - https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/
+    waiting_for: "Checked 2026-11-23 (too new and too big to add on secondary reports alone). The primary note (alpo.ge/remark.pdf) and Andrew Sutherland's MIT verification page (math.mit.edu/~drew/grh/) could not be opened; Nature, Science, Scientific American, NPR and the Washington Post covered it but could not be opened. Tao (blog, opened) calls it a Lean-only proof that, on very initial analysis, appears to use the full power of the Langlands program; Lean Zulip is checking the build. A CASRAI explainer (opened; casrai.org) says Sutherland's independent kernel replays accepted every module using only Lean's standard axioms against Mathlib's zeta function. Add as under-review once the primary note and an independent verification report (or reputable coverage of one) can be opened; the open question then is whether the Lean statement faithfully states RH."
+  - candidate: "Unforced blowup claims (20 Nov 2026): Alpöge (Anthropic) and Tristan Buckmaster (NYU), with heavy Claude and Codex assistance, claim finite-time blowup for the unforced 3D incompressible Navier-Stokes equations (the full Millennium Prize problem, beyond OpenAI's forced case) with a 79-page paper and Lean formalization; with Matei Coiculescu, a human-readable, Lean-formalized proof of unforced 3D Euler blowup. OpenAI reportedly also claims unforced Euler blowup"
+    sources:
+      - https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+      - https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge
+      - https://github.com/tristanbuckmaster/navier-stokes/
+      - https://cims.nyu.edu/~tristanb/cc.pdf
+    waiting_for: "Open the papers (blocked on 2026-11-23) and expert assessment. Tao: the Euler result is the most digested; the Navier-Stokes write-up is technically human-readable with a broadly clear strategy but needs a professional rewrite. TNW notes a numerical certificate checked outside the formalization. Decide then whether these are new entries or an update to openai-navier-stokes-blowup-claim."
   - candidate: "Same OpenAI announcement (26 Oct 2026): a proof of Sogge's local smoothing conjecture in all dimensions (which would settle the Kakeya and Stein restriction conjectures in all dimensions), with a Lean proof; and existence proofs for four-dimensional gauge theories including pure Yang-Mills and QCD (not the mass gap), held back while a physics group led by David Gross writes it up"
     sources:
       - https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
@@ -20,7 +35,7 @@ watchlist:
   - candidate: "NVIDIA Nemotron-3-Ultra-CC outscores every human contestant at IOI 2026 (535.4/600 vs. top human 498.27)"
     sources:
       - https://arxiv.org/abs/2609.02849
-    waiting_for: "Independent confirmation from the IOI or a major outlet. Re-checked 2026-11-16: still only NVIDIA's paper and posts (which say the IOI team graded it) plus minor blogs; search results show a NeurIPS 2026 listing for the paper (neurips.cc/virtual/2026/172380, not opened), which would make it peer reviewed but would not confirm the comparison with human contestants."
+    waiting_for: "Independent confirmation from the IOI or a major outlet. Re-checked 2026-11-16: still only NVIDIA's paper and posts (which say the IOI team graded it) plus minor blogs; search results show a NeurIPS 2026 listing for the paper (neurips.cc/virtual/2026/172380, not opened), which would make it peer reviewed but would not confirm the comparison with human contestants. Re-checked 2026-11-23: still only NVIDIA material, TechTimes and minor blogs."
   - candidate: "First Proof, third batch (results 14 Oct 2026): the IMProofBench ProofCouncil harness solves 9 of 10 unpublished research problems and OpenAI's GPT-6 Astra 7 of 10, under double-blind refereeing by ~30 mathematicians"
     sources:
       - https://1stproof.org/third-batch-press-release.html

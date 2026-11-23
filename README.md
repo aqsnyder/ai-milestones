@@ -3,7 +3,7 @@
 
 **A sourced, illustrated timeline of the moments artificial intelligence crossed a line** — from the first theorem-proving program to Deep Blue, AlphaGo, AlphaStar, protein folding and olympiad gold.
 
-**90 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-11-16 · last reviewed for new milestones 2026-11-16
+**90 milestones** · 1950–2026 · every entry cites at least two sources · data last changed 2026-11-16 · last reviewed for new milestones 2026-11-23
 
 [![Build](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/build.yml) [![Link check](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml/badge.svg)](https://github.com/aqsnyder/ai-milestones/actions/workflows/links.yml)
 
@@ -1418,7 +1418,7 @@ At the Beijing E-Town Humanoid Robot Half Marathon on 19 April 2026, a bipedal h
 
 **Why it matters:** The first time a humanoid robot beat the best human time over a long-distance running event, marking a dramatic one-year jump in legged-robot speed and endurance.
 
-**Sources:** [Humanoid robot sprints to victory in Beijing, beating human half-marathon record](https://abcnews.com/International/wireStory/humanoid-robot-sprints-victory-beijing-beating-human-half-132179294) (Associated Press (via ABC News)) · ['New era': Humanoid robot outruns humans in Beijing half-marathon, beats world record](https://www.france24.com/en/technology/20260419-new-era-humanoid-robot-outruns-humans-in-beijing-half-marathon-beats-world-record) (France 24 (AFP)) · [A Robot Broke the Half-Marathon World Record. What Comes Next?](https://news.syr.edu/2026/04/22/humanoid-robot-half-marathon-world-record/) (Syracuse University News)
+**Sources:** [Humanoid robot wins Beijing half-marathon, defeating the human world record](https://pbs.org/newshour/world/humanoid-robot-wins-beijing-half-marathon-defeating-the-human-world-record) (Associated Press (via PBS News)) · ['New era': Humanoid robot outruns humans in Beijing half-marathon, beats world record](https://www.france24.com/en/technology/20260419-new-era-humanoid-robot-outruns-humans-in-beijing-half-marathon-beats-world-record) (France 24 (AFP)) · [A Robot Broke the Half-Marathon World Record. What Comes Next?](https://news.syr.edu/2026/04/22/humanoid-robot-half-marathon-world-record/) (Syracuse University News)
 
 </td></tr></table>
 

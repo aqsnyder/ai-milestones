@@ -3362,9 +3362,9 @@
     a dramatic one-year jump in legged-robot speed and endurance.
   image: null
   sources:
-  - title: Humanoid robot sprints to victory in Beijing, beating human half-marathon record
-    publisher: Associated Press (via ABC News)
-    url: https://abcnews.com/International/wireStory/humanoid-robot-sprints-victory-beijing-beating-human-half-132179294
+  - title: Humanoid robot wins Beijing half-marathon, defeating the human world record
+    publisher: Associated Press (via PBS News)
+    url: https://pbs.org/newshour/world/humanoid-robot-wins-beijing-half-marathon-defeating-the-human-world-record
     kind: news
   - title: '''New era'': Humanoid robot outruns humans in Beijing half-marathon, beats world record'
     publisher: France 24 (AFP)
@@ -3379,7 +3379,7 @@
     Caveat: some secondary reports say Honor did not disclose which mode Lightning used, while the AP
     (checked 2026-11-16) says the 50:26 winner was autonomous and that about 40% of robots navigated
     autonomously; the AP does not name the robot. Support crews followed the robots and Lightning hit a
-    railing near the finish. The AP puts Jacob Kiplimo's human record at "about 57 minutes" (Lisbon, March
+    railing near the finish. The AP story was previously linked via ABC News, which returned 404 in November 2026; the same AP story on PBS News was checked 2026-11-23. The AP puts Jacob Kiplimo's human record at "about 57 minutes" (Lisbon, March
     2026). The CBS News report formerly cited here began returning HTTP 406 to the link checker in November
     2026 and was replaced by the AP wire story. Later in 2026 there were also reports (ESPN, NBC) of humanoids beating human 100 m and
     high jump records at a Beijing robot games; these could not be verified here. Image suggestion: a
@@ -3600,7 +3600,7 @@
     translation of the written proof (it proves a weaker lemma by a different route). Terence Tao told
     the NYT (16 Oct) that no expert he had talked to had understood the whole argument. Bitter priority/data-use
     dispute: Buckmaster and Alpöge suggest OpenAI may have drawn on their work or Codex data; OpenAI denies
-    it. The method builds on Córdoba and Martínez-Zoroa's 2023 approach. The unforced case remains open.
+    it. The method builds on Córdoba and Martínez-Zoroa's 2023 approach. On 20 November 2026 Buckmaster and Alpöge posted a heavily AI-assisted (Claude and Codex) proof of the unforced case, with a 79-page paper and a Lean formalization (github.com/tristanbuckmaster/navier-stokes), and with Coiculescu an unforced 3D Euler blowup paper; Terence Tao (blog, 20 Nov) called the Navier-Stokes write-up technically human-readable but in need of a professional rewrite. Held on the watchlist pending expert assessment.
     No OpenAI primary announcement URL was found in searches; add one if available. On 6-7 Oct OpenAI
     also released 700+ manuscripts (~370 result families) claimed by the same line of models, three withdrawn
     for errors; its headline result has its own entry (openai-quasi-riemann-hypothesis). Image suggestion: a free fluid-turbulence or vortex
